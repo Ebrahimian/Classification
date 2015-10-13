@@ -1,0 +1,14 @@
+{
+    "us_navy": [
+        "fb:en.united_states_navy"
+    ], 
+    "politicians": [
+        "!fb:military.armed_force.personnel"
+    ], 
+    "how_many": [
+        "count"
+    ],
+    "many": [        
+		"!fb:military.military_service.military_person" 
+    ]
+}

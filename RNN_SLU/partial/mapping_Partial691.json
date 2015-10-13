@@ -1,0 +1,11 @@
+{
+    "writing_systems": [
+        "!fb:language.human_language.writing_system"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "japanese": [
+        "fb:en.japanese"
+    ]
+}

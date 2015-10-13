@@ -1,0 +1,9 @@
+{
+    "designs": [
+        "!fb:fashion.designer_label_association.designer"
+    ], 
+    "bill_blass_limited": [
+        "(lambda x (fb:fashion.designer_label_association.label (var x)))", 
+        "fb:en.bill_blass_limited"
+    ]
+}

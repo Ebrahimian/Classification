@@ -1,0 +1,9 @@
+{
+    "the_soul_stirrers": [
+        "(lambda x (fb:music.group_membership.group (var x)))", 
+        "fb:en.the_soul_stirrers"
+    ], 
+    "members": [
+        "!fb:music.group_membership.member"
+    ]
+}

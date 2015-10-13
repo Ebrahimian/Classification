@@ -1,0 +1,8 @@
+{
+    "denver_spurs": [
+        "fb:en.denver_spurs"
+    ],
+    "where": [
+        "!fb:sports.sports_team.arena_stadium"
+    ]
+}

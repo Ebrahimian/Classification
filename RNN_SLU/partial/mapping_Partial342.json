@@ -1,0 +1,17 @@
+{
+    "state_bird": [
+        "(lambda x (fb:location.location_symbol_relationship.Kind_of_symbol (var x)))", 
+        "fb:en.state_bird"
+    ], 
+    "california_gull": [
+        "(lambda x (fb:location.location_symbol_relationship.symbol (var x)))", 
+        "fb:en.california_gull"
+    ], 
+    "since_when": [
+        "!fb:location.location_symbol_relationship.date_adopted"
+    ], 
+    "utah": [
+        "(lambda x (fb:location.location_symbol_relationship.administrative_division (var x)))", 
+        "fb:en.utah"
+    ]
+}

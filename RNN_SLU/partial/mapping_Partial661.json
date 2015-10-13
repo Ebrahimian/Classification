@@ -1,0 +1,8 @@
+{
+    "prostate_cancer": [
+        "fb:en.prostate_cancer"
+    ], 
+    "causes": [
+        "!fb:medicine.disease.causes"
+    ]
+}

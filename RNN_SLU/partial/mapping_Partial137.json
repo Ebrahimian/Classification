@@ -1,0 +1,8 @@
+{
+    "leukemia": [
+        "fb:en.leukemia"
+    ], 
+    "diseases_cause": [
+        "!fb:medicine.disease.causes"
+    ]
+}

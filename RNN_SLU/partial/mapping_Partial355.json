@@ -1,0 +1,9 @@
+{
+    "where": [
+        "!fb:exhibitions.exhibition_run.venue"
+    ], 
+    "armory_show": [
+        "(lambda x (fb:exhibitions.exhibition_run.exhibition (var x)))", 
+        "fb:en.armory_show"
+    ]
+}

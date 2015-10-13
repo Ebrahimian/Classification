@@ -1,0 +1,8 @@
+{
+    "fatigue": [
+        "fb:en.fatigue"
+    ], 
+    "symptom": [
+        "fb:medicine.disease.symptoms"
+    ]
+}

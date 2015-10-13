@@ -1,0 +1,9 @@
+{
+    "fedor_tyutin": [
+        "(lambda x (fb:ice_hockey.hockey_roster_position.player (var x)))", 
+        "fb:en.fedor_tyutin"
+    ], 
+    "team": [
+        "!fb:ice_hockey.hockey_roster_position.team"
+    ]
+}

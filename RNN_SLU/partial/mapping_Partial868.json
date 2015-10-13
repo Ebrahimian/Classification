@@ -1,0 +1,12 @@
+{
+    "buddhism": [ 
+        "fb:en.buddhism"
+    ], 
+    "how": [
+        "!fb:measurement_unit.dated_integer.number"
+    ],
+ 
+    "many": [
+                "!fb:religion.religion.number_of_adherents"
+    ]
+}

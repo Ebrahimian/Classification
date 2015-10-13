@@ -1,0 +1,13 @@
+{
+    "who": [
+        "!fb:tv.tv_regular_personal_appearance.person"
+    ], 
+    "cbs_evening_news": [
+        "(lambda x (fb:tv.tv_regular_personal_appearance.program (var x)))", 
+        "fb:en.cbs_evening_news"
+    ], 
+    "newscaster": [
+        "(lambda x (fb:tv.tv_regular_personal_appearance.appearance_type (var x)))", 
+        "fb:en.newscaster"
+    ]
+}

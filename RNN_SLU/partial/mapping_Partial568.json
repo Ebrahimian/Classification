@@ -1,0 +1,9 @@
+{
+    "transformers": [
+        "(lambda x (!fb:film.film.estimated_budget (var x)))", 
+        "fb:en.transformers"
+    ], 
+    "cost_to_produce": [
+        "!fb:measurement_unit.dated_money_value.amount"
+    ]
+}

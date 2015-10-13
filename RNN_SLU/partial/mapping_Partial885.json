@@ -1,0 +1,9 @@
+{
+    "german": [
+        "(lambda x (fb:olympics.olympic_athlete_affiliation.country (var x)))", 
+        "fb:en.germany"
+    ], 
+    "athletes": [
+        "!fb:olympics.olympic_athlete_affiliation.athlete"
+    ]
+}

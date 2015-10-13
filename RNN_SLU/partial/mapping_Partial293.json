@@ -1,0 +1,13 @@
+{
+    "who": [
+        "!fb:tv.regular_tv_appearance.character"
+    ], 
+    "jun_matsumoto": [
+        "(lambda x (fb:tv.regular_tv_appearance.actor (var x)))", 
+        "fb:en.jun_matsumoto"
+    ], 
+    "hana_yori_dango": [
+        "(lambda x (fb:tv.regular_tv_appearance.series (var x)))", 
+        "fb:m.05f52tw"
+    ]
+}

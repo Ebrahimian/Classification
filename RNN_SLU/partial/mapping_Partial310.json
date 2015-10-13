@@ -1,0 +1,9 @@
+{
+    "britney_spears": [
+        "(lambda x (fb:celebrities.sexual_orientation_phase.celebrity (var x)))", 
+        "fb:en.britney_spears"
+    ], 
+    "sexual_orientation": [
+        "!fb:celebrities.sexual_orientation_phase.sexual_orientation"
+    ]
+}

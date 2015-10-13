@@ -1,0 +1,11 @@
+{
+    "what": [
+        "!fb:measurement_unit.dated_money_value.amount"
+    ], 
+    "cost": [
+        "!fb:amusement_parks.ride.cost"
+    ], 
+    "magnum_xl-200": [
+        "fb:en.magnum_xl-200"
+    ]
+}

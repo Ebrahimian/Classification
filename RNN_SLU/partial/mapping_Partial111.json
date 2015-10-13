@@ -1,0 +1,8 @@
+{
+    "side_effects": [
+        "!fb:medicine.medical_treatment.side_effects"
+    ], 
+    "morphine": [
+        "fb:en.morphine"
+    ]
+}

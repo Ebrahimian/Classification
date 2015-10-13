@@ -1,0 +1,11 @@
+{
+    "australia": [
+        "fb:en.australia"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "events": [
+        "!fb:location.location.events"
+    ]
+}

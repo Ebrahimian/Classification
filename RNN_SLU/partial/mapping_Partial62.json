@@ -1,0 +1,8 @@
+{
+    "knickerbockers": [
+        "fb:en.knickerbockers"
+    ], 
+    "type_of_clothing": [
+        "!fb:fashion.garment.specialization_of"
+    ]
+}

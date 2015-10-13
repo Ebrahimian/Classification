@@ -1,0 +1,8 @@
+{
+    "coal": [
+        "fb:en.coal"
+    ], 
+    "sub-types": [
+        "!fb:geology.rock_type.sub_types"
+    ]
+}

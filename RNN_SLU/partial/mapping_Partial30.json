@@ -1,0 +1,8 @@
+{
+    "manufacturing_plants": [
+        "!fb:automotive.company.manufacturing_plants"
+    ], 
+    "bmw": [
+        "fb:en.bmw"
+    ]
+}

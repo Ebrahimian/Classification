@@ -1,0 +1,9 @@
+{
+    "company": [
+        "!fb:business.company_brand_relationship.company"
+    ], 
+    "nutter_butter": [
+        "(lambda x (fb:business.company_brand_relationship.brand (var x)))", 
+        "fb:en.nutter_butter"
+    ]
+}

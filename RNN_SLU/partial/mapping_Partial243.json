@@ -1,0 +1,8 @@
+{
+    "canasta": [
+        "fb:en.canasta"
+    ], 
+    "how_many_cards": [
+        "!fb:games.playing_card_game.number_of_cards"
+    ]
+}

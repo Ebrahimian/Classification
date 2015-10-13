@@ -1,0 +1,8 @@
+{
+    "how_thick": [
+        "!fb:geography.glacier.thickness"
+    ], 
+    "aletsch_glacier": [
+        "fb:en.aletsch_glacier"
+    ]
+}

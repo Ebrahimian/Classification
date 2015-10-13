@@ -1,0 +1,11 @@
+{
+    "religions": [
+        "!fb:religion.religious_text.religious_text_of"
+    ], 
+    "bible": [
+        "fb:en.bible"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

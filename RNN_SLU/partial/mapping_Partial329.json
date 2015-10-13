@@ -1,0 +1,8 @@
+{
+    "lowell_observatory": [
+        "fb:en.lowell_observatory"
+    ], 
+    "telescopes": [
+        "!fb:astronomy.astronomical_observatory.telescope_s"
+    ]
+}

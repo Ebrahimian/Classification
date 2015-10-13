@@ -1,0 +1,8 @@
+{
+    "treat": [
+        "!fb:medicine.medical_treatment.used_to_treat"
+    ], 
+    "aspirin": [
+        "fb:en.aspirin"
+    ]
+}

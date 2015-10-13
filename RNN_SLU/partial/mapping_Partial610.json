@@ -1,0 +1,9 @@
+{
+    "cross_of_gold_speech": [
+        "(lambda x (fb:event.speech_or_presentation.presented_work (var x)))", 
+        "fb:en.cross_of_gold_speech"
+    ], 
+    "where": [
+        "!fb:event.speech_or_presentation.event"
+    ]
+}

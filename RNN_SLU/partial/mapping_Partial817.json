@@ -1,0 +1,8 @@
+{
+    "brooklyn_bridge": [
+        "fb:en.brooklyn_bridge"
+    ], 
+    "architectural_style": [
+        "!fb:architecture.structure.architectural_style"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "games": [
+        "!fb:chess.chess_game_participation.game"
+    ], 
+    "garry_kasparov": [
+        "(lambda x (fb:chess.chess_game_participation.outcome (var x)))", 
+        "fb:m.0454vkd"
+    ]
+}

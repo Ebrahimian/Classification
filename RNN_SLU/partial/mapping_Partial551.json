@@ -1,0 +1,9 @@
+{
+    "how_much": [
+        "!fb:finance.exchange_rate.target_of_exchange"
+    ], 
+    "danish_kroner": [
+        "(lambda x (fb:finance.exchange_rate.source_of_exchange (var x)))", 
+        "fb:en.danish_krone"
+    ]
+}

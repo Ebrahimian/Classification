@@ -1,0 +1,8 @@
+{
+    "building_function": [
+        "!fb:architecture.building.building_function"
+    ], 
+    "eiffel_tower": [
+        "fb:en.eiffel_tower"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "knut": [
+        "(lambda x (fb:zoos.animal_captivity.animal (var x)))", 
+        "fb:m.02q470c"
+    ], 
+    "zoo": [
+        "!fb:zoos.animal_captivity.zoo"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "2006_fifa_world_cup_final": [
+        "fb:en.2006_fifa_world_cup_final"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "were": [
+        "!fb:soccer.football_match.attendance"
+    ]
+}

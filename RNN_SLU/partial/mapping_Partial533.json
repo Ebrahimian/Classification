@@ -1,0 +1,9 @@
+{
+    "won": [
+        "!fb:award.award_honor.honored_for"
+    ], 
+    "golden_globe_award_for_best_drama": [
+        "(lambda x (fb:award.award_honor.award (var x)))", 
+        "fb:en.golden_globe_award_for_best_motion_picture_-_drama"
+    ]
+}

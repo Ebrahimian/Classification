@@ -1,0 +1,13 @@
+{
+    "men_s_singles_tennis_at_the_1896_summer_olympics": [
+        "(lambda x (fb:olympics.olympic_medal_honor.event (var x)))", 
+        "fb:en.tennis_at_the_1896_summer_olympics_mens_singles"
+    ], 
+    "gold_medal": [
+        "(lambda x (fb:olympics.olympic_medal_honor.medal (var x)))", 
+        "fb:en.gold_medal"
+    ], 
+    "who": [
+        "!fb:olympics.olympic_medal_honor.medalist"
+    ]
+}

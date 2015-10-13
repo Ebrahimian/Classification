@@ -1,0 +1,13 @@
+{
+    "what": [
+        "!fb:location.location_symbol_relationship.symbol"
+    ], 
+    "state_flower": [
+        "(lambda x (fb:location.location_symbol_relationship.Kind_of_symbol (var x)))", 
+        "fb:en.state_flower"
+    ], 
+    "alaska": [
+        "(lambda x (fb:location.location_symbol_relationship.administrative_division (var x)))", 
+        "fb:en.alaska"
+    ]
+}

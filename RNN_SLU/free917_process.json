@@ -1,0 +1,3671 @@
+[
+    {
+        "utterance": "at_what institutions was marshall_hall a professor", 
+        "targetFormula": " !fb:education.academic_post.institution  (lambda#x#(fb:education.academic_post.person#(var#x))) fb:en.marshall_hall  (lambda#x#(fb:education.academic_post.position_or_title#(var#x))) fb:en.professor"
+    }, 
+    {
+        "utterance": "what fuel does an internal_combustion_engine use", 
+        "targetFormula": " !fb:engineering.engine.energy_source fb:en.internal_combustion_engine"
+    }, 
+    {
+        "utterance": "how_many companies are traded by the nyse", 
+        "targetFormula": " count !fb:business.stock_ticker_symbol.ticker_symbol  !fb:finance.stock_exchange.companies_traded fb:en.new_york_stock_exchange_inc"
+    }, 
+    {
+        "utterance": "what is the address of the apple_inc. headquarters", 
+        "targetFormula": " !fb:location.mailing_address.citytown ((lambda#x#(!fb:organization.organization.headquarters#(var#x))) fb:en.apple_inc"
+    }, 
+    {
+        "utterance": "what was the cover_price of the_x-men_issue_1", 
+        "targetFormula": " !fb:measurement_unit.money_value.amount  !fb:comic_books.comic_book_issue.cover_price fb:en.the_x_men_1"
+    }, 
+    {
+        "utterance": "how often does the_washington_post come_out", 
+        "targetFormula": " !fb:book.periodical_frequency.issues_per_year  !fb:book.periodical.frequency_or_issues_per_year fb:en.the_washington_post"
+    }, 
+    {
+        "utterance": "what_issue of sandman is a_dream_of_a_thousand_cats", 
+        "targetFormula": " !fb:comic_books.comic_book_issue.issue_number fb:en.a_dream_of_a_thousand_cats)"
+    }, 
+    {
+        "utterance": "how_many people_survived the sinking_of_the_titanic", 
+        "targetFormula": " count !fb:event.disaster.survivors fb:en.sinking_of_the_titanic"
+    }, 
+    {
+        "utterance": "what olympics has egypt participated in", 
+        "targetFormula": " !fb:olympics.olympic_participating_country.olympics_participated_in fb:en.egypt"
+    }, 
+    {
+        "utterance": "what celebrities have gone to the_betty_ford_center", 
+        "targetFormula": " !fb:celebrities.rehab.celebrity  (lambda#x#(fb:celebrities.rehab.rehab_facility#(var#x))) fb:en.betty_ford_center"
+    }, 
+    {
+        "utterance": "how_old do you have_to_be to play monopoly", 
+        "targetFormula": " !fb:games.game.minimum_age_years fb:en.monopoly_boardgame"
+    }, 
+    {
+        "utterance": "how_many first_generation particles are there", 
+        "targetFormula": " count !fb:physics.subatomic_particle_generation.particles fb:m.0b66f5g"
+    }, 
+    {
+        "utterance": "when was the_first_amendment ratified", 
+        "targetFormula": " !fb:law.constitutional_amendment.ratification_completed_on fb:en.first_amendment_to_the_united_states_constitution"
+    }, 
+    {
+        "utterance": "how_many teams_participate in the uefa", 
+        "targetFormula": " count !fb:sports.sports_league_participation.team  (lambda#x#(fb:sports.sports_league_participation.league#(var#x))) fb:en.uefa"
+    }, 
+    {
+        "utterance": "who are the linebackers on the_chicago_bears", 
+        "targetFormula": " !fb:american_football.football_roster_position.player  (lambda#x#(fb:american_football.football_roster_position.position#(var#x))) fb:en.linebacker  (lambda#x#(fb:american_football.football_roster_position.team#(var#x))) fb:en.chicago_bears"
+    }, 
+    {
+        "utterance": "what did bertrand_russell die of", 
+        "targetFormula": " !fb:people.deceased_person.cause_of_death fb:en.bertrand_russell"
+    }, 
+    {
+        "utterance": "how_long is the_haunted_mansion ride at disneyland", 
+        "targetFormula": " !fb:amusement_parks.ride.duration fb:en.haunted_mansion"
+    }, 
+    {
+        "utterance": "what type_of_tea is gunpowder_tea", 
+        "targetFormula": " !fb:food.tea.tea_type fb:en.gunpowder_tea"
+    }, 
+    {
+        "utterance": "what highway_system does us_route_101 belong to", 
+        "targetFormula": " !fb:transportation.road.highway_system fb:en.us_route_101"
+    }, 
+    {
+        "utterance": "what league is real_madrid a member of", 
+        "targetFormula": " !fb:soccer.football_league_participation.league  (lambda#x#(fb:soccer.football_league_participation.team#(var#x))) fb:en.real_madrid"
+    }, 
+    {
+        "utterance": "how_much did a canon_powershot_tx1 cost when it was released", 
+        "targetFormula": " !fb:measurement_unit.dated_money_value.amount  !fb:digicams.digital_camera.street_price fb:en.powershot_tx1"
+    }, 
+    {
+        "utterance": "what regions does the lse cover", 
+        "targetFormula": " !fb:finance.stock_exchange.primary_regions fb:en.london_stock_exchange"
+    }, 
+    {
+        "utterance": "how_many people does borders employ", 
+        "targetFormula": "  count !fb:business.employment_tenure.person  !fb:business.employer.employees fb:en.borders_group"
+    }, 
+    {
+        "utterance": "where did monsanto rank on the forune_500 in 2000", 
+        "targetFormula": " !fb:award.ranking.rank (lambda#x#(fb:award.ranking.year#(var#x))) date#2000 -1 -1  (lambda#x#(fb:award.ranking.list#(var#x))) fb:en.fortune_500  (lambda#x#(fb:award.ranking.item#(var#x))) fb:en.monsanto"
+    }, 
+    {
+        "utterance": "how_many prosthetic makeup_artists worked on 28_days_later", 
+        "targetFormula": "  count !fb:film.film_crew_gig.crewmember  (lambda#x#(fb:film.film_crew_gig.film_crew_role#(var#x))) fb:en.prosthetic_makeup_artist)  (lambda#x#(fb:film.film_crew_gig.film#(var#x))) fb:en.28_weeks_later"
+    }, 
+    {
+        "utterance": "how_many ships has nathanael_herreshoff designed", 
+        "targetFormula": " count  !fb:boats.ship_designer.boats_designed fb:en.nathanael_herreshoff"
+    }, 
+    {
+        "utterance": "who manages fulham_fc", 
+        "targetFormula": " !fb:soccer.football_team_management_tenure.manager  (lambda#x#(fb:soccer.football_team_management_tenure.team#(var#x))) fb:en.fulham_fc"
+    }, 
+    {
+        "utterance": "when was the_catcher_in_the_rye first_published", 
+        "targetFormula": " !fb:book.written_work.date_of_first_publication fb:en.the_catcher_in_the_rye"
+    }, 
+    {
+        "utterance": "how_many rock formations were formed_during the cretaceous period", 
+        "targetFormula": " count fb:geology.geological_formation.formed_during_period fb:en.cretaceous"
+    }, 
+    {
+        "utterance": "what are bmw's manufacturing_plants", 
+        "targetFormula": " !fb:automotive.company.manufacturing_plants fb:en.bmw"
+    }, 
+    {
+        "utterance": "who are some practitioners of judo", 
+        "targetFormula": " !fb:martial_arts.martial_art.well_known_practitioner fb:en.judo"
+    }, 
+    {
+        "utterance": "what is the average_temperature in sydney in august", 
+        "targetFormula": " !fb:travel.travel_destination_monthly_climate.average_max_temp_c  (lambda#x#(fb:travel.travel_destination_monthly_climate.travel_destination#(var#x))) fb:en.sydney  (lambda#x#(fb:travel.travel_destination_monthly_climate.month#(var#x))) fb:en.august"
+    }, 
+    {
+        "utterance": "over what_area does the court_of_chancery have jurisdiction", 
+        "targetFormula": " !fb:law.court.jurisdiction fb:en.court_of_chancery"
+    }, 
+    {
+        "utterance": "when did mount_fuji last_erupt", 
+        "targetFormula": " !fb:geography.mountain.last_eruption fb:en.mount_fuji"
+    }, 
+    {
+        "utterance": "how_tall is westminster_abbey", 
+        "targetFormula": " !fb:architecture.structure.height_meters fb:en.westminster_abbey"
+    }, 
+    {
+        "utterance": "when was wells_fargo founded", 
+        "targetFormula": " !fb:organization.organization.date_founded fb:en.wells_fargo"
+    }, 
+    {
+        "utterance": "when did hey_arnold stop_running", 
+        "targetFormula": " !fb:tv.tv_program.air_date_of_final_episode fb:en.hey_arnold"
+    }, 
+    {
+        "utterance": "when did christopher_higgins stop_playing for the montreal_canadiens", 
+        "targetFormula": " !fb:ice_hockey.hockey_previous_roster_position.to (lambda#x#(fb:ice_hockey.hockey_previous_roster_position.player#(var#x))) fb:en.christopher_higgins  (lambda#x#(fb:ice_hockey.hockey_previous_roster_position.team#(var#x))) fb:en.montreal_canadiens"
+    }, 
+    {
+        "utterance": "what is the hull made of on the_james_craig", 
+        "targetFormula": " !fb:boats.ship.hull_material fb:m.02zl93)"
+    }, 
+    {
+        "utterance": "how_many pets did john_f_kennedy own", 
+        "targetFormula": " count !fb:base.famouspets.pet_ownership.pet  (lambda#x#(fb:base.famouspets.pet_ownership.owner#(var#x))) fb:en.john_f_kennedy"
+    }, 
+    {
+        "utterance": "how_many floors does the white_house have", 
+        "targetFormula": "  count !fb:architecture.building.floors fb:en.white_house"
+    }, 
+    {
+        "utterance": "in which comic book issue did kitty_pryde first_appear", 
+        "targetFormula": " !fb:comic_books.comic_book_character.first_appearance fb:en.kitty_pryde"
+    }, 
+    {
+        "utterance": "what are the deities of hinduism", 
+        "targetFormula": " !fb:religion.religion.deities fb:en.hinduism"
+    }, 
+    {
+        "utterance": "who designed the iphone", 
+        "targetFormula": " !fb:computer.computer.key_designers fb:en.iphone"
+    }, 
+    {
+        "utterance": "how_many other_names is jerry_seinfeld known by", 
+        "targetFormula": " count !fb:common.topic.alias fb:en.jerry_seinfeld"
+    }, 
+    {
+        "utterance": "what are the latitude and longitude of the eiffel_tower", 
+        "targetFormula": " !fb:location.geocode.longitude  !fb:location.location.geolocation fb:en.eiffel_tower"
+    }, 
+    {
+        "utterance": "how_many visits does the magic_kingdom get per_year", 
+        "targetFormula": " count  !fb:measurement_unit.dated_integer.number  !fb:amusement_parks.park.annual_visits fb:en.magic_kingdom"
+    }, 
+    {
+        "utterance": "how_many film performances did beyonce do", 
+        "targetFormula": " count !fb:film.performance.film  (lambda#x#(fb:film.performance.actor#(var#x))) fb:en.beyonce"
+    }, 
+    {
+        "utterance": "who manufactures the specialized stumpjumper", 
+        "targetFormula": " !fb:bicycles.bicycle_model.manufacturer fb:en.stumpjumper"
+    }, 
+    {
+        "utterance": "what types_of_fuel does a 4_cylinder_engine take", 
+        "targetFormula": "!fb:automotive.engine.fuels_used fb:en.4_cylinder"
+    }, 
+    {
+        "utterance": "what major events in history happened in africa", 
+        "targetFormula": " !fb:location.location.events fb:en.africa"
+    }, 
+    {
+        "utterance": "what is the transmission of a 2011_honda_fit", 
+        "targetFormula": " !fb:automotive.trim_level.transmission fb:m.0h2krn6"
+    }, 
+    {
+        "utterance": "what is angelina_jolie 's net_worth", 
+        "targetFormula": " !fb:measurement_unit.dated_money_value.amount  !fb:celebrities.celebrity.net_worth fb:en.angelina_jolie"
+    }, 
+    {
+        "utterance": "what conferences does google sponsor", 
+        "targetFormula": " !fb:conferences.conference_sponsor.conferences fb:en.google"
+    }, 
+    {
+        "utterance": "what is the orbital_period of the moon", 
+        "targetFormula": " !fb:astronomy.orbital_relationship.orbital_period fb:en.moon"
+    }, 
+    {
+        "utterance": "where did barosaurus live", 
+        "targetFormula": "fb:base.dinosaur.dinosaur_location.dinosaur_s fb:en.barosaurus"
+    }, 
+    {
+        "utterance": "who wrote a_series_of_unfortunate_events", 
+        "targetFormula": "fb:book.author.series_written_or_contributed_to fb:en.a_series_of_unfortunate_events"
+    }, 
+    {
+        "utterance": "what genre is doonesbury", 
+        "targetFormula": " !fb:comic_strips.comic_strip.genre fb:en.doonesbury"
+    }, 
+    {
+        "utterance": "what religious_order belongs to kirkstall_abbey", 
+        "targetFormula": " !fb:religion.monastery.religious_order fb:en.kirkstall_abbey"
+    }, 
+    {
+        "utterance": "during_what_time_period did uluru form", 
+        "targetFormula": " !fb:geology.geological_formation.formed_during_period fb:en.uluru"
+    }, 
+    {
+        "utterance": "what blogs are in german", 
+        "targetFormula": "fb:internet.blog.language fb:en.german_language"
+    }, 
+    {
+        "utterance": "what type_of_clothing are knickerbockers", 
+        "targetFormula": " !fb:fashion.garment.specialization_of fb:en.knickerbockers"
+    }, 
+    {
+        "utterance": "what is the address of the mitchell_public_library", 
+        "targetFormula": " !fb:location.mailing_address.street_address ((lambda#x#(!fb:library.public_library.address#(var#x))) fb:m.0j9by57"
+    }, 
+    {
+        "utterance": "what genres did 8_mile consist of", 
+        "targetFormula": " !fb:film.film.genre fb:en.8_mile)"
+    }, 
+    {
+        "utterance": "how_many types of dinosaurs were there in africa", 
+        "targetFormula": " count !fb:base.dinosaur.dinosaur_location.dinosaur_s fb:en.africa"
+    }, 
+    {
+        "utterance": "who is the head_coach of the chicago_bulls", 
+        "targetFormula": " !fb:basketball.basketball_team.head_coach fb:en.chicago_bulls"
+    }, 
+    {
+        "utterance": "who did nathan_fillion voice in halo_reach", 
+        "targetFormula": " !fb:cvg.game_performance.character (lambda#x#(fb:cvg.game_performance.game#(var#x))) fb:en.halo_reach  (lambda#x#(fb:cvg.game_performance.performance_type#(var#x))) fb:m.02nsjvf  (lambda#x#(fb:cvg.game_performance.voice_actor#(var#x))) fb:en.nathan_fillion"
+    }, 
+    {
+        "utterance": "what is the motto of the_order_of_the_golden_fleece", 
+        "targetFormula": " !fb:royalty.order_of_chivalry.motto fb:en.order_of_the_golden_fleece"
+    }, 
+    {
+        "utterance": "what is the retail_floor_space of the dubai_marina_mall", 
+        "targetFormula": " !fb:business.shopping_center.retail_floor_space_m_2 fb:m.06zl3_x"
+    }, 
+    {
+        "utterance": "who built the uss_nautilus", 
+        "targetFormula": " !fb:boats.ship.ship_builder fb:en.uss_nautilus"
+    }, 
+    {
+        "utterance": "where did nathan_smith die", 
+        "targetFormula": " !fb:people.deceased_person.place_of_death fb:en.nathan_smith_1770"
+    }, 
+    {
+        "utterance": "who owns flickr", 
+        "targetFormula": " !fb:internet.website.owner fb:en.flickr"
+    }, 
+    {
+        "utterance": "who designed the game_of_life", 
+        "targetFormula": " !fb:games.game.designer fb:en.the_game_of_life"
+    }, 
+    {
+        "utterance": "what medal did graeme_brown receive at the 2004_summer_olympics", 
+        "targetFormula": " !fb:olympics.olympic_medal_honor.medal  (lambda#x#(fb:olympics.olympic_medal_honor.olympics#(var#x))) fb:en.2004_summer_olympics  (lambda#x#(fb:olympics.olympic_medal_honor.medalist#(var#x))) fb:en.graeme_brown"
+    }, 
+    {
+        "utterance": "what is the symbol for yen", 
+        "targetFormula": " !fb:finance.currency.prefix_symbol fb:en.japanese_yen"
+    }, 
+    {
+        "utterance": "what topics_are_equivalent to us_county", 
+        "targetFormula": " !fb:freebase.type_profile.equivalent_topic fb:location.us_county"
+    }, 
+    {
+        "utterance": "what is the origin of the mississippi_river", 
+        "targetFormula": " !fb:geography.river.origin fb:en.mississippi_river"
+    }, 
+    {
+        "utterance": "how_many celebrities have_been_charged with driving_under_the_influence", 
+        "targetFormula": " count !fb:celebrities.legal_entanglement.celebrity  (lambda#x#(fb:celebrities.legal_entanglement.offense#(var#x))) fb:en.driving_under_the_influence"
+    }, 
+    {
+        "utterance": "how_many expansion packs does the_sims have", 
+        "targetFormula": " count  !fb:cvg.computer_videogame.expansions fb:en.the_sims"
+    }, 
+    {
+        "utterance": "what is ron_glass 's religion", 
+        "targetFormula": " !fb:people.person.religion fb:en.ron_glass)"
+    }, 
+    {
+        "utterance": "what is the cape_may_lighthouse made_of", 
+        "targetFormula": " !fb:architecture.lighthouse.construction fb:en.cape_may_lighthouse"
+    }, 
+    {
+        "utterance": "what is the subject of the_source_report", 
+        "targetFormula": " !fb:radio.radio_program.subjects fb:en.the_source_report"
+    }, 
+    {
+        "utterance": "where was jerry_seinfeld born", 
+        "targetFormula": " !fb:people.person.place_of_birth fb:en.jerry_seinfeld"
+    }, 
+    {
+        "utterance": "what was roe_v._wade about", 
+        "targetFormula": " !fb:law.legal_case.subject fb:en.roe_v_wade"
+    }, 
+    {
+        "utterance": "what position does craig_adams play", 
+        "targetFormula": " !fb:ice_hockey.hockey_player.hockey_position fb:en.craig_adams_1977"
+    }, 
+    {
+        "utterance": "how_many record labels was omarion under", 
+        "targetFormula": " count  !fb:music.artist.label fb:en.omarion_grandberry"
+    }, 
+    {
+        "utterance": "in 1981 what award did danny_devito win", 
+        "targetFormula": " !fb:award.award_honor.award  (lambda#x#(fb:award.award_honor.award_winner#(var#x))) fb:en.danny_devito  (lambda#x#(fb:award.award_honor.year#(var#x))) date#1981#-1#-1"
+    }, 
+    {
+        "utterance": "what sizes does pilsner_urquell come in", 
+        "targetFormula": " !fb:food.beer_containment.size  (lambda#x#(fb:food.beer_containment.beer#(var#x))) fb:en.pilsner_urquell"
+    }, 
+    {
+        "utterance": "how_many starring tv_roles did jack_albertson have", 
+        "targetFormula": "  count !fb:tv.regular_tv_appearance.character  (lambda#x#(fb:tv.regular_tv_appearance.actor#(var#x))) fb:en.jack_albertson"
+    }, 
+    {
+        "utterance": "when was the airspeed_oxford first_flown", 
+        "targetFormula": " !fb:aviation.aircraft_model.maiden_flight fb:en.airspeed_oxford"
+    }, 
+    {
+        "utterance": "what is the release_date for 2_fast_2_furious", 
+        "targetFormula": " !fb:film.film.initial_release_date fb:en.2_fast_2_furious"
+    }, 
+    {
+        "utterance": "who founded nivea", 
+        "targetFormula": " !fb:organization.organization.founders fb:en.nivea"
+    }, 
+    {
+        "utterance": "what are the file formats_supported by the iphone", 
+        "targetFormula": " !fb:computer.computing_platform.file_formats_supported fb:en.iphone"
+    }, 
+    {
+        "utterance": "where is the tempelhof_international_airport located", 
+        "targetFormula": " !fb:location.location.containedby fb:en.tempelhof_international_airport"
+    }, 
+    {
+        "utterance": "what languages has microsoft designed", 
+        "targetFormula": " !fb:computer.programming_language_designer.languages_designed fb:en.microsoft_corporation"
+    }, 
+    {
+        "utterance": "what works did anthony_payne finish", 
+        "targetFormula": " !fb:media_common.completion_of_unfinished_work.unfinished_work  (lambda#x#(fb:media_common.completion_of_unfinished_work.finisher#(var#x))) fb:en.anthony_payne"
+    }, 
+    {
+        "utterance": "how_many awards did titanic win", 
+        "targetFormula": " count  !fb:award.award_honor.award  (lambda#x#(fb:award.award_honor.honored_for#(var#x))) fb:en.titanic_special_edition_dvd"
+    }, 
+    {
+        "utterance": "how is the plastiki propelled", 
+        "targetFormula": " !fb:boats.ship.means_of_propulsion fb:en.plastiki)"
+    }, 
+    {
+        "utterance": "where was the 1st_world_science_fiction_convention held", 
+        "targetFormula": " !fb:conferences.conference.venue fb:en.1st_world_science_fiction_convention"
+    }, 
+    {
+        "utterance": "what is serge made_out_of", 
+        "targetFormula": " !fb:fashion.textile.fiber fb:en.serge"
+    }, 
+    {
+        "utterance": "who hosted the 2003_cricket_world_cup", 
+        "targetFormula": "(!fb:cricket.cricket_tournament_event.host fb:en.2003_cricket_world_cup)"
+    }, 
+    {
+        "utterance": "when did secretariat die", 
+        "targetFormula": "(!fb:biology.deceased_organism.date_of_death fb:en.secretariat)"
+    }, 
+    {
+        "utterance": "when was the galileo_spacecraft launched", 
+        "targetFormula": "(!fb:spaceflight.satellite.launch_date fb:en.galileo_spacecraft)"
+    }, 
+    {
+        "utterance": "when was savealot founded", 
+        "targetFormula": "(!fb:organization.organization.date_founded fb:en.save-a-lot)"
+    }, 
+    {
+        "utterance": "how_many people can play settlers_of_catan", 
+        "targetFormula": "(!fb:measurement_unit.integer_range.high_value (!fb:games.game.number_of_players fb:en.settlers_of_catan))"
+    }, 
+    {
+        "utterance": "how_many exhibitions have there been about leonardo_da_vinci", 
+        "targetFormula": "(count (!fb:exhibitions.exhibition_subject.exhibitions_created_about_this_subject fb:en.leonardo_da_vinci))"
+    }, 
+    {
+        "utterance": "what buildings were destroyed in september_11th", 
+        "targetFormula": "(!fb:event.disaster.structures_destroyed fb:en.september_11_2001_attacks)"
+    }, 
+    {
+        "utterance": "how_many dinosaur species are from africa", 
+        "targetFormula": "(count (!fb:base.dinosaur.dinosaur_location.dinosaur_s fb:en.africa))"
+    }, 
+    {
+        "utterance": "when was the abbey_of_st._gall listed as an unesco world_heritage_site", 
+        "targetFormula": "(!fb:protected_sites.natural_or_cultural_site_listing.date_listed (and ( (lambda#x#(fb:protected_sites.natural_or_cultural_site_listing.designation#(var#x))) fb:en.world_heritage_site) ( (lambda#x#(fb:protected_sites.natural_or_cultural_site_listing.listed_site#(var#x))) fb:en.abbey_of_st_gall)))"
+    }, 
+    {
+        "utterance": "what is the capacity of a rolls_royce_merlin", 
+        "targetFormula": "(!fb:engineering.piston_engine.capacity fb:en.rolls-royce_merlin)"
+    }, 
+    {
+        "utterance": "what are the side_effects of morphine", 
+        "targetFormula": "(!fb:medicine.medical_treatment.side_effects fb:en.morphine)"
+    }, 
+    {
+        "utterance": "what is the boiling_point of water", 
+        "targetFormula": "(!fb:chemistry.chemical_compound.boiling_point fb:en.cpd_c00001_h2o)"
+    }, 
+    {
+        "utterance": "who is the screenplay for the_nutty_professor by", 
+        "targetFormula": "(!fb:film.film.written_by fb:en.the_nutty_professor_1996)"
+    }, 
+    {
+        "utterance": "what is big_daddy rated", 
+        "targetFormula": "(!fb:film.film.rating fb:en.big_daddy)"
+    }, 
+    {
+        "utterance": "when did michael_jackson go solo", 
+        "targetFormula": "(!fb:music.artist.active_start fb:en.michael_jackson)"
+    }, 
+    {
+        "utterance": "when did tutankhamun die", 
+        "targetFormula": "(!fb:people.deceased_person.date_of_death fb:en.tutankhamun)"
+    }, 
+    {
+        "utterance": "when was the united_nations founded", 
+        "targetFormula": "(!fb:organization.organization.date_founded fb:en.united_nations)"
+    }, 
+    {
+        "utterance": "who are the distributors for bruce_almighty", 
+        "targetFormula": "(!fb:film.film_film_distributor_relationship.distributor ((lambda#x#(fb:film.film_film_distributor_relationship.film#(var#x))) fb:en.bruce_almighty))"
+    }, 
+    {
+        "utterance": "when was bruce_almighty released", 
+        "targetFormula": "(!fb:film.film.initial_release_date fb:en.bruce_almighty)"
+    }, 
+    {
+        "utterance": "what was the budget for edward_scissorhands", 
+        "targetFormula": "(!fb:measurement_unit.dated_money_value.amount ((lambda#x#(!fb:film.film.estimated_budget#(var#x))) fb:en.edward_scissorhands))"
+    }, 
+    {
+        "utterance": "who owns wxpn", 
+        "targetFormula": "(!fb:broadcast.radio_station.owner fb:en.wxpn)"
+    }, 
+    {
+        "utterance": "what was walter_gropius architectural_style", 
+        "targetFormula": "(!fb:architecture.architect.architectural_style fb:en.walter_gropius)"
+    }, 
+    {
+        "utterance": "how many beds does mclean_hospital have", 
+        "targetFormula": "(count (!fb:measurement_unit.dated_integer.number (!fb:medicine.hospital.beds fb:en.mclean_hospital)))"
+    }, 
+    {
+        "utterance": "what are some gato_class submarines", 
+        "targetFormula": "(!fb:boats.ship_class.ships_in_class fb:en.gato_class_submarine)"
+    }, 
+    {
+        "utterance": "what is the maximum_altitude of stratus clouds", 
+        "targetFormula": "(!fb:meteorology.cloud.maximum_altitude_m fb:en.stratus)"
+    }, 
+    {
+        "utterance": "how_many conferences_about mathematics are there", 
+        "targetFormula": "(count (!fb:conferences.conference_subject.series_of_conferences_about_this fb:en.mathematics))"
+    }, 
+    {
+        "utterance": "what diet did ceratopsia have", 
+        "targetFormula": "(!fb:base.dinosaur.dinosaur.diet fb:en.ceratopsia)"
+    }, 
+    {
+        "utterance": "what judge presided over state_v._kelly", 
+        "targetFormula": "(!fb:law.legal_case.judges fb:en.state_v_kelly)"
+    }, 
+    {
+        "utterance": "when was sigmod founded", 
+        "targetFormula": "(!fb:organization.organization.date_founded fb:en.sigmod)"
+    }, 
+    {
+        "utterance": "in what city is h_&_r_block headquartered", 
+        "targetFormula": "(!fb:location.mailing_address.citytown ((lambda#x#(!fb:organization.organization.headquarters#(var#x))) fb:en.h_r_block))"
+    }, 
+    {
+        "utterance": "what is the highest_elevation at the elk_mountain_ski_area", 
+        "targetFormula": "(!fb:skiing.ski_area.top_elevation fb:en.elk_mountain_ski_area)"
+    }, 
+    {
+        "utterance": "what is the texture of brie_cheese", 
+        "targetFormula": "(!fb:food.cheese.texture fb:m.01482f)"
+    }, 
+    {
+        "utterance": "how_many schools have a beaver as their mascot", 
+        "targetFormula": "(count (!fb:education.school_mascot.school fb:en.beaver))"
+    }, 
+    {
+        "utterance": "who created sesame_street", 
+        "targetFormula": "(!fb:tv.tv_program.program_creator fb:en.sesame_street)"
+    }, 
+    {
+        "utterance": "how_many film_performances does jerry_seinfeld have", 
+        "targetFormula": "(count (!fb:film.performance.film ((lambda#x#(fb:film.performance.actor#(var#x))) fb:en.jerry_seinfeld)))"
+    }, 
+    {
+        "utterance": "how_many spin_offs does sesame_street have", 
+        "targetFormula": "(count (!fb:tv.tv_program.spin_offs fb:en.sesame_street))"
+    }, 
+    {
+        "utterance": "what diseases_cause leukemia", 
+        "targetFormula": "(!fb:medicine.disease.causes fb:en.leukemia)"
+    }, 
+    {
+        "utterance": "how_many different products does gsusa produce", 
+        "targetFormula": "(count (!fb:business.brand.products fb:en.girl_scouts_of_the_usa))"
+    }, 
+    {
+        "utterance": "who directed meet_the_parents", 
+        "targetFormula": "(!fb:film.film.directed_by fb:en.meet_the_parents)"
+    }, 
+    {
+        "utterance": "when was omarion born", 
+        "targetFormula": "(!fb:people.person.date_of_birth fb:en.omarion_grandberry)"
+    }, 
+    {
+        "utterance": "what are some french restaurants", 
+        "targetFormula": "(!fb:dining.cuisine.restaurant fb:m.02z3r)"
+    }, 
+    {
+        "utterance": "who publishes the journal_of_abnormal_psychology", 
+        "targetFormula": "(!fb:book.periodical_publisher_period.publisher ( (lambda#x#(fb:book.periodical_publisher_period.periodical#(var#x))) fb:en.journal_of_abnormal_psychology))"
+    }, 
+    {
+        "utterance": "what was sesame_street 's original network", 
+        "targetFormula": "(!fb:tv.tv_network_duration.network ((lambda#x#(fb:tv.tv_network_duration.program#(var#x))) fb:en.sesame_street))"
+    }, 
+    {
+        "utterance": "what are the moons of jupiter", 
+        "targetFormula": "(!fb:astronomy.orbital_relationship.orbited_by fb:en.jupiter)"
+    }, 
+    {
+        "utterance": "what exhibits are there at the arignar_anna_zoological_park", 
+        "targetFormula": "(!fb:zoos.zoo.exhibits fb:en.arignar_anna_zoological_park)"
+    }, 
+    {
+        "utterance": "where was neanderthal_1 found", 
+        "targetFormula": "(!fb:biology.fossil_specimen.found_at_site fb:m.026lz95)"
+    }, 
+    {
+        "utterance": "what radio program is a_right_to_death an episode of", 
+        "targetFormula": "(!fb:radio.radio_program_episode.program fb:en.a_right_to_death)"
+    }, 
+    {
+        "utterance": "what category of martial arts is tai_chi_chuan", 
+        "targetFormula": "(!fb:martial_arts.martial_art.category fb:en.tai_chi_chuan)"
+    }, 
+    {
+        "utterance": "how_many religions worship god", 
+        "targetFormula": "(count (!fb:religion.deity.deity_of fb:en.god))"
+    }, 
+    {
+        "utterance": "what are the subdisciplines of engineering", 
+        "targetFormula": "(!fb:education.field_of_study.subdisciplines fb:en.engineering)"
+    }, 
+    {
+        "utterance": "what is target 's industry", 
+        "targetFormula": "(!fb:business.business_operation.industry fb:en.target_corporation)"
+    }, 
+    {
+        "utterance": "how_many countries_use the australian_dollar", 
+        "targetFormula": "(count (!fb:finance.currency.countries_used fb:en.australian_dollar))"
+    }, 
+    {
+        "utterance": "what software has claris developed", 
+        "targetFormula": "(!fb:computer.software_developer.software fb:en.claris)"
+    }, 
+    {
+        "utterance": "what bus_operators run buses to paris", 
+        "targetFormula": "(!fb:travel.transportation.transport_operator ((lambda#x#(fb:travel.transportation.travel_destination#(var#x))) fb:en.paris))"
+    }, 
+    {
+        "utterance": "when was porgy_and_bess first_performed", 
+        "targetFormula": "(!fb:opera.opera.date_of_first_performance fb:en.porgy_and_bess)"
+    }, 
+    {
+        "utterance": "how_many people have been influenced by socrates", 
+        "targetFormula": "(count (!fb:influence.influence_node.influenced fb:en.socrates))"
+    }, 
+    {
+        "utterance": "how_many runways does the san_francisco_international_airport have", 
+        "targetFormula": "(!fb:aviation.airport.number_of_runways fb:en.san_francisco_international_airport)"
+    }, 
+    {
+        "utterance": "what color did adolf_anderssen play in the immortal_game", 
+        "targetFormula": "(!fb:chess.chess_game_participation.color (and ((lambda#x#(fb:chess.chess_game_participation.game#(var#x))) fb:en.immortal_game) ((lambda#x#(fb:chess.chess_game_participation.player#(var#x))) fb:en.adolf_anderssen)))"
+    }, 
+    {
+        "utterance": "when was the boston_herald first published", 
+        "targetFormula": "(!fb:book.periodical_publication_date.date (!fb:book.periodical.first_issue_date fb:en.boston_herald))"
+    }, 
+    {
+        "utterance": "is the university of lima public or private", 
+        "targetFormula": "(!fb:education.educational_institution.school_type fb:en.university_of_lima)"
+    }, 
+    {
+        "utterance": "what exhibitions has the_gross_clinic been in", 
+        "targetFormula": "(!fb:exhibitions.exhibit.exhibitions_displayed_in fb:en.the_gross_clinic)"
+    }, 
+    {
+        "utterance": "what do cirrus_clouds look_like", 
+        "targetFormula": "(!fb:meteorology.cloud.appearance fb:m.0cs96)"
+    }, 
+    {
+        "utterance": "who played in the game_of_the_century", 
+        "targetFormula": "(!fb:chess.chess_game_participation.player ((lambda#x#(fb:chess.chess_game_participation.game#(var#x))) fb:en.the_game_of_the_century))"
+    }, 
+    {
+        "utterance": "how_many_countries participated in the 2006_winter_olympics", 
+        "targetFormula": "(!fb:olympics.olympic_games.number_of_countries fb:en.2006_winter_olympics)"
+    }, 
+    {
+        "utterance": "how_many tv_shows did danny_devito have a leading role in", 
+        "targetFormula": "(count (!fb:tv.regular_tv_appearance.character ((lambda#x#(fb:tv.regular_tv_appearance.actor#(var#x))) fb:en.danny_devito)))"
+    }, 
+    {
+        "utterance": "what awards has the english_patient won", 
+        "targetFormula": "(!fb:award.award_honor.award ((lambda#x#(fb:award.award_honor.honored_for#(var#x))) fb:en.the_english_patient))"
+    }, 
+    {
+        "utterance": "who designed the first_generation_ford_mustang", 
+        "targetFormula": "(!fb:automotive.generation.designer fb:en.first_generation_ford_mustang)"
+    }, 
+    {
+        "utterance": "where is the_hobbit set", 
+        "targetFormula": "(!fb:fictional_universe.work_of_fiction.setting fb:en.the_hobbit)"
+    }, 
+    {
+        "utterance": "who discovered neon", 
+        "targetFormula": "(!fb:chemistry.chemical_element.discoverer fb:en.neon)"
+    }, 
+    {
+        "utterance": "what are some british locomotive class_52_trains", 
+        "targetFormula": "(!fb:rail.locomotive_class.locomotives_of_this_class fb:en.british_rail_class_52)"
+    }, 
+    {
+        "utterance": "what_number was david_akers on the philadelphia_eagles", 
+        "targetFormula": "(!fb:american_football.football_historical_roster_position.number (and ( (lambda#x#(fb:american_football.football_historical_roster_position.team#(var#x))) fb:en.philadelphia_eagles) ( (lambda#x#(fb:american_football.football_historical_roster_position.player#(var#x))) fb:en.david_akers)))"
+    }, 
+    {
+        "utterance": "how_many shows was hayden_panettiere on", 
+        "targetFormula": "(count (!fb:tv.regular_tv_appearance.character ((lambda#x#(fb:tv.regular_tv_appearance.actor#(var#x))) fb:en.hayden_panettiere)))"
+    }, 
+    {
+        "utterance": "how_many free exhibits have there been at the science_museum", 
+        "targetFormula": "(count (!fb:exhibitions.exhibition_run.exhibition ((lambda#x#(fb:exhibitions.exhibition_run.venue#(var#x))) fb:en.science_museum_great_britain)))"
+    }, 
+    {
+        "utterance": "how did samuel_beckett die", 
+        "targetFormula": "(!fb:people.deceased_person.cause_of_death fb:en.samuel_beckett)"
+    }, 
+    {
+        "utterance": "what type_of_infection is syphilis", 
+        "targetFormula": "(!fb:medicine.infectious_disease.infectious_agent_type fb:en.syphillis)"
+    }, 
+    {
+        "utterance": "what is africa 's area", 
+        "targetFormula": "(!fb:location.location.area fb:en.africa)"
+    }, 
+    {
+        "utterance": "how_long are adventure_time episodes", 
+        "targetFormula": "(!fb:tv.tv_program.episode_running_time fb:m.0280hsm)"
+    }, 
+    {
+        "utterance": "who designed the hawker_sea_hawk", 
+        "targetFormula": "(!fb:aviation.aircraft_model.designed_by fb:en.hawker_sea_hawk)"
+    }, 
+    {
+        "utterance": "when was the high_court_of_australia founded", 
+        "targetFormula": "(!fb:law.court.founded fb:en.high_court_of_australia)"
+    }, 
+    {
+        "utterance": "who brews pauwel_kwak", 
+        "targetFormula": "(!fb:food.beer.brewery_brand fb:en.pauwel_kwak)"
+    }, 
+    {
+        "utterance": "when did everything_is_illuminated win the guardian_first_book_award", 
+        "targetFormula": "(!fb:award.award_honor.year (and ((lambda#x#(fb:award.award_honor.honored_for#(var#x))) fb:en.everything_is_illuminated) ((lambda#x#(fb:award.award_honor.award#(var#x))) fb:en.guardian_first_book_award)))"
+    }, 
+    {
+        "utterance": "what airlines is the london_heathrow_airport a hub_for", 
+        "targetFormula": "(!fb:aviation.airport.hub_for fb:en.london_heathrow_airport)"
+    }, 
+    {
+        "utterance": "who are some notable agnostic figures", 
+        "targetFormula": "(!fb:religion.religion.notable_figures fb:en.agnosticism)"
+    }, 
+    {
+        "utterance": "what lines does the london_overground operate", 
+        "targetFormula": "(!fb:rail.railway_operator_relationship.railway ((lambda#x#(fb:rail.railway_operator_relationship.operator#(var#x))) fb:en.london_overground))"
+    }, 
+    {
+        "utterance": "how_many judges has the high_court_of_justice had", 
+        "targetFormula": "(count (!fb:law.judicial_tenure.judge ((lambda#x#(fb:law.judicial_tenure.court#(var#x))) fb:en.high_court_of_justice)))"
+    }, 
+    {
+        "utterance": "what other_names is the united_nations known by", 
+        "targetFormula": "(!fb:common.topic.alias fb:en.united_nations)"
+    }, 
+    {
+        "utterance": "where did taekwondo originate", 
+        "targetFormula": "(!fb:martial_arts.martial_art.origin fb:en.taekwondo)"
+    }, 
+    {
+        "utterance": "what is the area of north_america", 
+        "targetFormula": "(!fb:location.location.area fb:en.north_america)"
+    }, 
+    {
+        "utterance": "since_when has the arabic_alphabet been used", 
+        "targetFormula": "(!fb:language.language_writing_system.used_from fb:en.arabic_alphabet)"
+    }, 
+    {
+        "utterance": "how_long is the mexican_federal_highway 1", 
+        "targetFormula": "(!fb:transportation.road.length fb:en.mexican_federal_highway_1)"
+    }, 
+    {
+        "utterance": "how_many schools have a chapter of sigma_phi_epsilon", 
+        "targetFormula": "(count (!fb:education.fraternity_sorority.colleges_and_universities fb:en.sigma_phi_epsilon))"
+    }, 
+    {
+        "utterance": "who were the astronauts in the apollo_12 mission", 
+        "targetFormula": "(!fb:spaceflight.space_mission.astronauts fb:en.apollo_12)"
+    }, 
+    {
+        "utterance": "how_many people influenced karl_marx", 
+        "targetFormula": "(count (!fb:influence.influence_node.influenced_by fb:en.karl_marx))"
+    }, 
+    {
+        "utterance": "how_many canon digital_cameras are there", 
+        "targetFormula": "(count (!fb:digicams.digital_camera_manufacturer.cameras fb:en.canon))"
+    }, 
+    {
+        "utterance": "what is the original_language of the_wind-up_bird_chronicle", 
+        "targetFormula": "(!fb:book.written_work.original_language fb:en.the_wind-up_bird_chronicle)"
+    }, 
+    {
+        "utterance": "what is the usa money currency_code", 
+        "targetFormula": "(!fb:finance.currency.currency_code fb:en.us)"
+    }, 
+    {
+        "utterance": "how_many military_units originated in delaware", 
+        "targetFormula": "(count (!fb:military.military_unit_place_of_origin.military_units fb:en.delaware))"
+    }, 
+    {
+        "utterance": "how_many people have held the title of grand_master of the order_of_the_most_holy_annunciation", 
+        "targetFormula": "(count (!fb:royalty.chivalric_order_position_tenure.officer (and ( (lambda#x#(fb:royalty.chivalric_order_position_tenure.chivalric_office#(var#x))) fb:en.grand_master) ( (lambda#x#(fb:royalty.chivalric_order_position_tenure.order#(var#x))) fb:en.order_of_the_most_holy_annunciation))))"
+    }, 
+    {
+        "utterance": "how_many malls does oxford_properties own", 
+        "targetFormula": "(count (!fb:business.shopping_center_owner.shopping_centers_owned fb:en.oxford_properties))"
+    }, 
+    {
+        "utterance": "what qualification does woody_strode have in seishindo_kenpo", 
+        "targetFormula": "(!fb:martial_arts.martial_arts_certification.qualification (and ((lambda#x#(fb:martial_arts.martial_arts_certification.art#(var#x))) fb:en.seishindo_kenpo) ((lambda#x#(fb:martial_arts.martial_arts_certification.person#(var#x))) fb:en.woody_strode)))"
+    }, 
+    {
+        "utterance": "what is the single letter abreviation for tryptophan", 
+        "targetFormula": "(!fb:biology.amino_acid.single_letter_abbreviation fb:en.tryptophan)"
+    }, 
+    {
+        "utterance": "where are dravidian_languages spoken", 
+        "targetFormula": "(!fb:language.language_family.geographic_distribution fb:en.dravidian_languages)"
+    }, 
+    {
+        "utterance": "how many books does the detroit_public library have", 
+        "targetFormula": "(count (!fb:measurement_unit.dated_integer.number (!fb:library.public_library_system.collection_size fb:en.detroit_public_library)))"
+    }, 
+    {
+        "utterance": "how_many kinds of footwear are there", 
+        "targetFormula": "(count (!fb:fashion.garment.more_specialized_forms fb:en.footwear))"
+    }, 
+    {
+        "utterance": "in what park is splash_mountain", 
+        "targetFormula": "(fb:amusement_parks.park.rides fb:en.splash_mountain)"
+    }, 
+    {
+        "utterance": "what is danny_devito 's religion", 
+        "targetFormula": "(!fb:people.person.religion fb:en.danny_devito)"
+    }, 
+    {
+        "utterance": "what powers does sonic_the_hedgehog have", 
+        "targetFormula": "(!fb:fictional_universe.fictional_character.powers_or_abilities fb:en.sonic_the_hedgehog)"
+    }, 
+    {
+        "utterance": "how_many wins has larry_bird had in his career", 
+        "targetFormula": "(!fb:basketball.basketball_coach.season_wins fb:en.larry_bird)"
+    }, 
+    {
+        "utterance": "what are the symptoms of motor_neuron_disease", 
+        "targetFormula": "(!fb:medicine.disease.symptoms fb:en.motor_neuron_disease)"
+    }, 
+    {
+        "utterance": "what was the final_air date of lux_radio_theater", 
+        "targetFormula": "(!fb:radio.radio_program.final_broadcast fb:en.lux_radio_theater)"
+    }, 
+    {
+        "utterance": "how_many grammy awards did beyonce receive in her singing career", 
+        "targetFormula": "(count (!fb:award.award_honor.award ((lambda#x#(fb:award.award_honor.award_winner#(var#x))) fb:en.beyonce)))"
+    }, 
+    {
+        "utterance": "what language is lohengrin in", 
+        "targetFormula": "(!fb:opera.opera.language fb:m.09hvx)"
+    }, 
+    {
+        "utterance": "which issues of x-men have iceman on the cover", 
+        "targetFormula": "(!fb:comic_books.comic_book_character.cover_appearances fb:en.iceman)"
+    }, 
+    {
+        "utterance": "what number is kevin_youkilis on the boston_red_sox", 
+        "targetFormula": "(!fb:sports.sports_team_roster.number (and ((lambda#x#(fb:sports.sports_team_roster.player#(var#x))) fb:en.kevin_youkilis) ((lambda#x#(fb:sports.sports_team_roster.team#(var#x))) fb:en.boston_red_sox)))"
+    }, 
+    {
+        "utterance": "what are the symptoms of prostate_cancer", 
+        "targetFormula": "(!fb:medicine.disease.symptoms fb:en.prostate_cancer)"
+    }, 
+    {
+        "utterance": "who created charlie_brown", 
+        "targetFormula": "(!fb:fictional_universe.fictional_character.character_created_by fb:en.charlie_brown)"
+    }, 
+    {
+        "utterance": "what class_of_train was heavy_harry", 
+        "targetFormula": "(!fb:rail.locomotive.locomotive_class fb:m.0glzm0h)"
+    }, 
+    {
+        "utterance": "what type_of_bicycle is a bianchi_pista", 
+        "targetFormula": "(!fb:bicycles.bicycle_model.bicycle_type fb:en.bianchi_pista)"
+    }, 
+    {
+        "utterance": "how_many broadcasts does blogtalkradio distribute", 
+        "targetFormula": "(count (!fb:broadcast.distributor.distributes fb:en.blogtalkradio))"
+    }, 
+    {
+        "utterance": "what label does julien_fournie design for", 
+        "targetFormula": "(!fb:fashion.designer_label_association.label ((lambda#x#(fb:fashion.designer_label_association.designer#(var#x))) fb:en.julien_fournie))"
+    }, 
+    {
+        "utterance": "how_high is niagara_falls", 
+        "targetFormula": "(!fb:geography.waterfall.height fb:en.niagara_falls)"
+    }, 
+    {
+        "utterance": "who currently plays for the san_jose_sharks", 
+        "targetFormula": "(!fb:ice_hockey.hockey_roster_position.player ((lambda#x#(fb:ice_hockey.hockey_roster_position.team#(var#x))) fb:en.san_jose_sharks))"
+    }, 
+    {
+        "utterance": "what are the survival_rates for prostate_cancer", 
+        "targetFormula": "(!fb:medicine.survival_rate.rate ((lambda#x#(!fb:medicine.disease.survival_rates#(var#x))) fb:en.prostate_cancer))"
+    }, 
+    {
+        "utterance": "how_many award nominations did danny devito have", 
+        "targetFormula": "(count (!fb:award.award_nomination.award ((lambda#x#(fb:award.award_nomination.award_nominee#(var#x))) fb:en.danny_devito)))"
+    }, 
+    {
+        "utterance": "when did charlie_sheen enter the_thousand_oaks rehab facility", 
+        "targetFormula": "(!fb:celebrities.rehab.entered (and ((lambda#x#(fb:celebrities.rehab.rehab_facility#(var#x))) fb:m.04fz39z) ((lambda#x#(fb:celebrities.rehab.celebrity#(var#x))) fb:en.charlie_sheen)))"
+    }, 
+    {
+        "utterance": "what bowling_technique does matthew_hayden use", 
+        "targetFormula": "(!fb:cricket.cricket_bowler.technique fb:en.matthew_hayden)"
+    }, 
+    {
+        "utterance": "what's the focus of the_last_minute_blog", 
+        "targetFormula": "(!fb:internet.blog.focus fb:en.the_last_minute_blog)"
+    }, 
+    {
+        "utterance": "how_many nicknames does shaquille_o'neal have", 
+        "targetFormula": "(count (!fb:common.topic.alias fb:en.shaquille_oneal))"
+    }, 
+    {
+        "utterance": "in what division do the st._louis_blues play", 
+        "targetFormula": "(!fb:ice_hockey.hockey_team.division fb:m.06x6s)"
+    }, 
+    {
+        "utterance": "who managed liverpool_fc from 2004 to june_2010", 
+        "targetFormula": "(!fb:soccer.football_team_management_tenure.manager (and ((lambda#x#(fb:soccer.football_team_management_tenure.to#(var#x))) (date 2004 -1 -1)) ((lambda#x#(fb:soccer.football_team_management_tenure.team#(var#x))) fb:en.liverpool_fc)))"
+    }, 
+    {
+        "utterance": "what is the height_restriction on the roller_soaker", 
+        "targetFormula": "(!fb:amusement_parks.ride.height_restriction fb:en.roller_soaker)"
+    }, 
+    {
+        "utterance": "what is currency_code for the canadian_dollar", 
+        "targetFormula": "(!fb:finance.currency.currency_code fb:en.canadian_dollar)"
+    }, 
+    {
+        "utterance": "what is the area of antarctica", 
+        "targetFormula": "(!fb:location.location.area fb:en.antarctica)"
+    }, 
+    {
+        "utterance": "how_many games did donovan_mcnabb play in the 2008_season", 
+        "targetFormula": "(!fb:american_football.player_game_statistics.games (and ((lambda#x#(fb:american_football.player_game_statistics.season#(var#x))) fb:en.2008_nfl_season) ((lambda#x#(fb:american_football.player_game_statistics.player#(var#x))) fb:en.donovan_mcnabb)))"
+    }, 
+    {
+        "utterance": "how_many_issues are there in the x-men", 
+        "targetFormula": "(!fb:comic_books.comic_book_series.number_of_issues fb:m.02hqp38)"
+    }, 
+    {
+        "utterance": "in how_many countries is the euro used", 
+        "targetFormula": "(count (!fb:finance.currency.countries_used fb:en.euro))"
+    }, 
+    {
+        "utterance": "what was target 's rank in the fortune 500 in 2010", 
+        "targetFormula": "(!fb:award.ranking.rank (and (and ((lambda#x#(fb:award.ranking.list#(var#x))) fb:en.fortune_500) ((lambda#x#(fb:award.ranking.year#(var#x))) (date 2010 -1 -1))) ((lambda#x#(fb:award.ranking.item#(var#x))) fb:en.target_corporation)))"
+    }, 
+    {
+        "utterance": "how_many people were at the 2006_fifa_world_cup_final", 
+        "targetFormula": "(count (!fb:soccer.football_match.attendance fb:en.2006_fifa_world_cup_final))"
+    }, 
+    {
+        "utterance": "how_many awards did danny_devito win", 
+        "targetFormula": "(count (!fb:award.award_honor.award ((lambda#x#(fb:award.award_honor.award_winner#(var#x))) fb:en.danny_devito)))"
+    }, 
+    {
+        "utterance": "how_many islands are in the antilles", 
+        "targetFormula": "(count (!fb:geography.island_group.islands_in_group fb:en.antilles))"
+    }, 
+    {
+        "utterance": "what is the closet_city to snowshoe_mountain", 
+        "targetFormula": "(!fb:skiing.ski_area.closest_city fb:en.snowshoe_mountain)"
+    }, 
+    {
+        "utterance": "how_tall is jerry_seinfeld", 
+        "targetFormula": "(!fb:people.person.height_meters fb:en.jerry_seinfeld)"
+    }, 
+    {
+        "utterance": "how_many_cards do you need to play canasta", 
+        "targetFormula": "(!fb:games.playing_card_game.number_of_cards fb:en.canasta)"
+    }, 
+    {
+        "utterance": "how_many games are in the final_fantasy series", 
+        "targetFormula": "(count (!fb:cvg.game_series.games_in_series fb:en.final_fantasy))"
+    }, 
+    {
+        "utterance": "what are nicknames for new_york", 
+        "targetFormula": "(!fb:common.topic.alias fb:en.new_york_state)"
+    }, 
+    {
+        "utterance": "what is the highway fuel_economy of a 2007_honda_civic_hybrid", 
+        "targetFormula": "(!fb:automotive.us_fuel_economy.highway_mpg ((lambda#x#(fb:automotive.us_fuel_economy.trim_level#(var#x))) fb:m.04nbbrp))"
+    }, 
+    {
+        "utterance": "who is the developer of java_language", 
+        "targetFormula": "(!fb:computer.programming_language.developers fb:m.07sbkfb)"
+    }, 
+    {
+        "utterance": "how_many speeds does a panasonic_dx3000 have", 
+        "targetFormula": "(!fb:bicycles.bicycle_model.speeds fb:en.panasonic_dx3000)"
+    }, 
+    {
+        "utterance": "when was joni_mitchell inducted into the rock_and_roll_hall_of_fame", 
+        "targetFormula": "(!fb:award.hall_of_fame_induction.date (and ((lambda#x#(fb:award.hall_of_fame_induction.inductee#(var#x))) fb:en.joni_mitchell) ((lambda#x#(fb:award.hall_of_fame_induction.hall_of_fame#(var#x))) fb:en.rock_and_roll_hall_of_fame)))"
+    }, 
+    {
+        "utterance": "where was william_shakespeare born", 
+        "targetFormula": "(!fb:people.person.place_of_birth fb:en.william_shakespeare)"
+    }, 
+    {
+        "utterance": "what are the dimensions of the matrix_reloaded image", 
+        "targetFormula": "(!fb:common.image.size fb:m.0kjl0q)"
+    }, 
+    {
+        "utterance": "how_many test_conferences has rudi koertzen refereed", 
+        "targetFormula": "(!fb:cricket.cricket_umpire.test_matches_refereed fb:en.rudi_koertzen)"
+    }, 
+    {
+        "utterance": "what religions_branched from roman catholicism", 
+        "targetFormula": "(!fb:religion.religion.branched_into fb:en.roman_catholicism)"
+    }, 
+    {
+        "utterance": "what area does kifm serve", 
+        "targetFormula": "(!fb:broadcast.radio_station.serves_area fb:en.kifm)"
+    }, 
+    {
+        "utterance": "who developed the polio_vaccine", 
+        "targetFormula": "(!fb:medicine.vaccine.developed_by fb:en.polio_vaccine)"
+    }, 
+    {
+        "utterance": "who painted the mona_lisa", 
+        "targetFormula": "(!fb:visual_art.artwork.artist fb:en.mona_lisa)"
+    }, 
+    {
+        "utterance": "how_many collections did barry_halper have", 
+        "targetFormula": "(count (!fb:interests.collection.category ((lambda#x#(fb:interests.collection.collector#(var#x))) fb:en.barry_halper)))"
+    }, 
+    {
+        "utterance": "who writes the dabble_blog", 
+        "targetFormula": "(!fb:internet.blog.blogger fb:en.the_dabble_blog)"
+    }, 
+    {
+        "utterance": "what conventions has hillary_clinton spoken at", 
+        "targetFormula": "(!fb:base.politicalconventions.convention_speech.venue ( (lambda#x#(fb:base.politicalconventions.convention_speech.speaker#(var#x))) fb:en.hillary_rodham_clinton))"
+    }, 
+    {
+        "utterance": "who are some bauhaus architects", 
+        "targetFormula": "(!fb:architecture.architectural_style.architects fb:en.international_style)"
+    }, 
+    {
+        "utterance": "how_many teams has curly_lambeau coached", 
+        "targetFormula": "(count (!fb:american_football.football_historical_coach_position.team ( (lambda#x#(fb:american_football.football_historical_coach_position.coach#(var#x))) fb:en.curly_lambeau)))"
+    }, 
+    {
+        "utterance": "how_many branches does the  vancouver_public_library have", 
+        "targetFormula": "(count (!fb:library.public_library_system.branches fb:en.vancouver_public_library))"
+    }, 
+    {
+        "utterance": "what city is the ben_may main library in", 
+        "targetFormula": "(!fb:location.mailing_address.citytown ((lambda#x#(!fb:library.public_library.address#(var#x))) fb:m.02ncllz))"
+    }, 
+    {
+        "utterance": "what guidebooks are there for san_francisco", 
+        "targetFormula": "(!fb:travel.travel_destination.guidebooks fb:en.san_francisco)"
+    }, 
+    {
+        "utterance": "what are some psychology journals", 
+        "targetFormula": "(!fb:education.field_of_study.journals_in_this_discipline fb:en.psychology)"
+    }, 
+    {
+        "utterance": "where was the kepler_spacecraft launched", 
+        "targetFormula": "(!fb:spaceflight.satellite.launch_site fb:en.kepler_mission)"
+    }, 
+    {
+        "utterance": "how_many film_actors are there on freebase", 
+        "targetFormula": "(!fb:freebase.type_profile.instance_count fb:film.actor)"
+    }, 
+    {
+        "utterance": "when did a_prairie_home_companion  first_air", 
+        "targetFormula": "(!fb:radio.radio_program.first_broadcast fb:en.a_prairie_home_companion)"
+    }, 
+    {
+        "utterance": "what genres does  meet_the_parents consist of", 
+        "targetFormula": "(!fb:film.film.genre fb:en.meet_the_parents)"
+    }, 
+    {
+        "utterance": "what is the max_speed of a gloster_meteor", 
+        "targetFormula": "(!fb:aviation.aircraft_model.maximum_speed_km_h fb:en.gloster_meteor)"
+    }, 
+    {
+        "utterance": "what position does colby_armstrong play on the  toronto_maple_leafs", 
+        "targetFormula": "(!fb:ice_hockey.hockey_roster_position.position (and ((lambda#x#(fb:ice_hockey.hockey_roster_position.player#(var#x))) fb:en.colby_armstrong) ((lambda#x#(fb:ice_hockey.hockey_roster_position.team#(var#x))) fb:en.toronto_maple_leafs)))"
+    }, 
+    {
+        "utterance": "how_many countries are in the european_union", 
+        "targetFormula": "(count (!fb:organization.organization_membership.member ((lambda#x#(fb:organization.organization_membership.organization#(var#x))) fb:en.european_union)))"
+    }, 
+    {
+        "utterance": "when was civilization first released", 
+        "targetFormula": "(!fb:cvg.computer_videogame.release_date fb:m.01vvf)"
+    }, 
+    {
+        "utterance": "on what network was gilligan_s_island first aired", 
+        "targetFormula": "(!fb:tv.tv_network_duration.network ((lambda#x#(fb:tv.tv_network_duration.program#(var#x))) fb:en.gilligans_island))"
+    }, 
+    {
+        "utterance": "what series did tamora_pierce write", 
+        "targetFormula": "(!fb:book.author.series_written_or_contributed_to fb:en.tamora_pierce)"
+    }, 
+    {
+        "utterance": "who presented the gettysburg_address", 
+        "targetFormula": "(!fb:event.speech_or_presentation.speaker_s ((lambda#x#(fb:event.speech_or_presentation.presented_work#(var#x))) fb:en.gettysburg_address))"
+    }, 
+    {
+        "utterance": "what is the mascot of the  boston_red_sox", 
+        "targetFormula": "(!fb:sports.sports_team.team_mascot fb:en.boston_red_sox)"
+    }, 
+    {
+        "utterance": "when was cathy_landers certified as a fifth_degree black belt in seishindo_kenpo", 
+        "targetFormula": "(!fb:martial_arts.martial_arts_certification.date (and (and ((lambda#x#(fb:martial_arts.martial_arts_certification.qualification#(var#x))) fb:en.fifth_degree) ((lambda#x#(fb:martial_arts.martial_arts_certification.art#(var#x))) fb:en.seishindo_kenpo)) ((lambda#x#(fb:martial_arts.martial_arts_certification.person#(var#x))) fb:en.cathy_landers)))"
+    }, 
+    {
+        "utterance": "how_many locations are there on freebase", 
+        "targetFormula": "(!fb:freebase.type_profile.instance_count fb:location.location)"
+    }, 
+    {
+        "utterance": "who are gatorade 's major sponsors", 
+        "targetFormula": "(!fb:business.sponsorship.sponsored_recipient ((lambda#x#(fb:business.sponsorship.sponsored_by#(var#x))) fb:en.gatorade))"
+    }, 
+    {
+        "utterance": "what is the fuel_economy of a 2008  hyundai_accent_gls_sedan in the city", 
+        "targetFormula": "(!fb:automotive.us_fuel_economy.highway_mpg ((lambda#x#(fb:automotive.us_fuel_economy.trim_level#(var#x))) fb:m.04nbpg5))"
+    }, 
+    {
+        "utterance": "where is  between_the_lines produced", 
+        "targetFormula": "(!fb:broadcast.content.location fb:m.03d5yt5)"
+    }, 
+    {
+        "utterance": "when was the oreo cookie introduced", 
+        "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda#x#(fb:business.company_brand_relationship.brand#(var#x))) fb:en.oreo))"
+    }, 
+    {
+        "utterance": "what positon does ray_lewis currently play for the baltimore_ravens", 
+        "targetFormula": "(!fb:american_football.football_historical_roster_position.position_s (and ( (lambda#x#(fb:american_football.football_historical_roster_position.player#(var#x))) fb:en.ray_lewis) ( (lambda#x#(fb:american_football.football_historical_roster_position.team#(var#x))) fb:en.baltimore_ravens)))"
+    }, 
+    {
+        "utterance": "to whom is invisible_man dedicated", 
+        "targetFormula": "(!fb:media_common.dedication.dedicated_to ((lambda#x#(fb:media_common.dedication.work_dedicated#(var#x))) fb:en.invisible_man))"
+    }, 
+    {
+        "utterance": "how is syphilis transmitted", 
+        "targetFormula": "(!fb:medicine.infectious_disease.transmission fb:en.syphillis)"
+    }, 
+    {
+        "utterance": "what characters sing soprano in  tristan_and_isolde", 
+        "targetFormula": "(!fb:opera.opera_character_voice.character (and ((lambda#x#(fb:opera.opera_character_voice.opera#(var#x))) fb:en.tristan_und_isolde) ((lambda#x#(fb:opera.opera_character_voice.voice#(var#x))) fb:en.crystal_clear_soprano)))"
+    }, 
+    {
+        "utterance": "what team did rick_carlisle coach in 2002", 
+        "targetFormula": "(!fb:basketball.basketball_historical_coach_position.team (and ((lambda#x#(fb:basketball.basketball_historical_coach_position.from#(var#x))) (date 2002 -1 -1)) ((lambda#x#(fb:basketball.basketball_historical_coach_position.coach#(var#x))) fb:en.rick_carlisle)))"
+    }, 
+    {
+        "utterance": "how_many dialects of arabic are there", 
+        "targetFormula": "(count (!fb:language.human_language.dialects fb:en.arabic_language))"
+    }, 
+    {
+        "utterance": "when did invertigo open", 
+        "targetFormula": "(!fb:amusement_parks.ride.opened fb:m.0flmt0)"
+    }, 
+    {
+        "utterance": "what is the melting_point of gold", 
+        "targetFormula": "(!fb:chemistry.chemical_element.melting_point fb:m.025rs2z)"
+    }, 
+    {
+        "utterance": "what is the_thinker made_of", 
+        "targetFormula": "(!fb:visual_art.artwork.media fb:en.the_thinker)"
+    }, 
+    {
+        "utterance": "who did jun_matsumoto play in  hana_yori_dango", 
+        "targetFormula": "(!fb:tv.regular_tv_appearance.character (and ((lambda#x#(fb:tv.regular_tv_appearance.actor#(var#x))) fb:en.jun_matsumoto) ((lambda#x#(fb:tv.regular_tv_appearance.series#(var#x))) fb:m.05f52tw)))"
+    }, 
+    {
+        "utterance": "how_many cars are in jay_leno 's car_collection", 
+        "targetFormula": "(count (!fb:interests.collection.items (and ((lambda#x#(fb:interests.collection.collector#(var#x))) fb:en.jay_leno) ((lambda#x#(fb:interests.collection.category#(var#x))) fb:en.automobile))))"
+    }, 
+    {
+        "utterance": "when did coronet_peak open", 
+        "targetFormula": "(!fb:skiing.ski_area.opening_date fb:en.coronet_peak)"
+    }, 
+    {
+        "utterance": "what series was game_of_thrones  adapted_from", 
+        "targetFormula": "(!fb:media_common.adaptation.adapted_from fb:en.game_of_thrones)"
+    }, 
+    {
+        "utterance": "what was the  science_of_survival_exhibit about", 
+        "targetFormula": "(!fb:exhibitions.exhibition.subjects fb:m.046chvq)"
+    }, 
+    {
+        "utterance": "how_many legal_offences has lindsey_lohan committed", 
+        "targetFormula": "(count (!fb:celebrities.legal_entanglement.location ((lambda#x#(fb:celebrities.legal_entanglement.celebrity#(var#x))) fb:en.lindsay_lohan)))"
+    }, 
+    {
+        "utterance": "how_many people visit the  new_york_public_library annually", 
+        "targetFormula": "(count (!fb:measurement_unit.dated_integer.number (!fb:library.public_library_system.annual_visits fb:en.new_york_public_library)))"
+    }, 
+    {
+        "utterance": "how_many comic_stories has adrienne_roy colored", 
+        "targetFormula": "(count (!fb:comic_books.comic_book_colorist.comic_stories_colored fb:en.adrienne_roy))"
+    }, 
+    {
+        "utterance": "what games has garry_kasparov won", 
+        "targetFormula": "(!fb:chess.chess_game_participation.game ((lambda#x#(fb:chess.chess_game_participation.outcome#(var#x))) fb:m.0454vkd))"
+    }, 
+    {
+        "utterance": "how_tall do you have to be to ride the american_eagle", 
+        "targetFormula": "(!fb:amusement_parks.ride.height_restriction fb:m.0cdlng)"
+    }, 
+    {
+        "utterance": "\ufeffwho is the head coach of the pittsburgh_steelers", 
+        "targetFormula": "(!fb:american_football.football_team.current_head_coach fb:en.pittsburgh_steelers)"
+    }, 
+    {
+        "utterance": "what conditions does aspirin treat", 
+        "targetFormula": "(!fb:medicine.medical_treatment.used_to_treat fb:en.aspirin)"
+    }, 
+    {
+        "utterance": "for what team does fedor_tyutin play", 
+        "targetFormula": "(!fb:ice_hockey.hockey_roster_position.team ((lambda#x#(fb:ice_hockey.hockey_roster_position.player#(var#x))) fb:en.fedor_tyutin))"
+    }, 
+    {
+        "utterance": "how_many tv_shows was ron_glass in", 
+        "targetFormula": "(count (!fb:tv.regular_tv_appearance.series ((lambda#x#(fb:tv.regular_tv_appearance.actor#(var#x))) fb:en.ron_glass)))"
+    }, 
+    {
+        "utterance": "how_many ships were built by  bath_iron_works", 
+        "targetFormula": "(count (!fb:boats.ship_builder.ships_built fb:en.bath_iron_works))"
+    }, 
+    {
+        "utterance": "who was nominated for the academy award for best_director in 2011", 
+        "targetFormula": "(!fb:award.award_nomination.award_nominee (and ((lambda#x#(fb:award.award_nomination.award#(var#x))) fb:en.academy_award_for_best_director) ((lambda#x#(fb:award.award_nomination.year#(var#x))) (date 2011 -1 -1))))"
+    }, 
+    {
+        "utterance": "what character says ``  i_'ll_be_back ''", 
+        "targetFormula": "(!fb:media_common.quotation.spoken_by_character fb:m.06zh9s)"
+    }, 
+    {
+        "utterance": "what is britney_spears ' sexual_orientation", 
+        "targetFormula": "(!fb:celebrities.sexual_orientation_phase.sexual_orientation ((lambda#x#(fb:celebrities.sexual_orientation_phase.celebrity#(var#x))) fb:en.britney_spears))"
+    }, 
+    {
+        "utterance": "how_many engines have a straight-4 piston_configuration", 
+        "targetFormula": "(count (!fb:engineering.piston_configuration.engines fb:en.straight-4))"
+    }, 
+    {
+        "utterance": "what players_scored in the   2006_fifa_world_cup_final", 
+        "targetFormula": "(!fb:soccer.football_goal.scorer ((lambda#x#(fb:soccer.football_goal.match#(var#x))) fb:en.2006_fifa_world_cup_final))"
+    }, 
+    {
+        "utterance": "how_many athletes have gotten an olympic gold_medal", 
+        "targetFormula": "(count (!fb:olympics.olympic_medal_honor.medalist ((lambda#x#(fb:olympics.olympic_medal_honor.medal#(var#x))) fb:en.gold_medal)))"
+    }, 
+    {
+        "utterance": "what movies were nominated_for  favorite_comedy_movie", 
+        "targetFormula": "(!fb:award.award_nomination.nominated_for ( (lambda#x#(fb:award.award_nomination.award#(var#x))) fb:en.peoples_choice_award_for_favorite_comedy_movie))"
+    }, 
+    {
+        "utterance": "who_lived in fallingwater", 
+        "targetFormula": "(!fb:architecture.occupancy.occupant ((lambda#x#(fb:architecture.occupancy.building#(var#x))) fb:en.fallingwater))"
+    }, 
+    {
+        "utterance": "who developed capri_sun", 
+        "targetFormula": "(!fb:business.company_brand_relationship.company ((lambda#x#(fb:business.company_brand_relationship.brand#(var#x))) fb:en.capri_sun))"
+    }, 
+    {
+        "utterance": "what lodges are in the  alta_ski_area", 
+        "targetFormula": "(!fb:skiing.ski_area.lodges fb:en.alta_ski_area)"
+    }, 
+    {
+        "utterance": "does the canon_powershot_a75 have an  orientation_sensor", 
+        "targetFormula": "(!fb:digicams.digital_camera.orientation_sensor fb:en.canon_powershot_a75)"
+    }, 
+    {
+        "utterance": "how long is titanic 's runtime", 
+        "targetFormula": "(!fb:film.film_cut.runtime ((lambda#x#(fb:film.film_cut.film#(var#x))) fb:en.titanic_special_edition_dvd))"
+    }, 
+    {
+        "utterance": "what team does mike_brown coach", 
+        "targetFormula": "(!fb:basketball.basketball_coach.team fb:en.mike_brown_1970)"
+    }, 
+    {
+        "utterance": "what team does joe_girardi currently manage", 
+        "targetFormula": "(!fb:baseball.baseball_manager.current_team_managed fb:en.joe_girardi)"
+    }, 
+    {
+        "utterance": "when was country_time produced", 
+        "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda#x#(fb:business.company_brand_relationship.brand#(var#x))) fb:en.country_time))"
+    }, 
+    {
+        "utterance": "who is the ceo of apple", 
+        "targetFormula": "(!fb:organization.leadership.person (and ((lambda#x#(fb:organization.leadership.role#(var#x))) fb:en.chief_executive_officer) ((lambda#x#(fb:organization.leadership.organization#(var#x))) fb:en.apple_inc)))"
+    }, 
+    {
+        "utterance": "how_many commanders were there in the civil_war", 
+        "targetFormula": "(count (!fb:military.military_command.military_commander ((lambda#x#(fb:military.military_command.military_conflict#(var#x))) fb:en.american_civil_war)))"
+    }, 
+    {
+        "utterance": "when did francesco_sabatini start working on the  puerta_de_san_vicente", 
+        "targetFormula": "(!fb:projects.project_participation.from_date (and ((lambda#x#(fb:projects.project_participation.project#(var#x))) fb:m.0gk9x46) ((lambda#x#(fb:projects.project_participation.participant#(var#x))) fb:en.francesco_sabatini)))"
+    }, 
+    {
+        "utterance": "when did martin_margiela start designing for herm", 
+        "targetFormula": "(!fb:fashion.designer_label_association.from_date (and ((lambda#x#(fb:fashion.designer_label_association.designer#(var#x))) fb:en.martin_margiela) ((lambda#x#(fb:fashion.designer_label_association.label#(var#x))) fb:m.06dr8q)))"
+    }, 
+    {
+        "utterance": "who directed  2_fast_2_furious", 
+        "targetFormula": "(!fb:film.film.directed_by fb:en.2_fast_2_furious)"
+    }, 
+    {
+        "utterance": "how_many languages has jrr_tolkein created", 
+        "targetFormula": "(count (!fb:language.language_creator.languages_created fb:en.j_r_r_tolkien))"
+    }, 
+    {
+        "utterance": "what telescopes does the lowell_observatory have", 
+        "targetFormula": "(!fb:astronomy.astronomical_observatory.telescope_s fb:en.lowell_observatory)"
+    }, 
+    {
+        "utterance": "how_long is the  tokyu_tamagawa_line", 
+        "targetFormula": "(!fb:rail.railway.length fb:en.tokyu_tamagawa_line)"
+    }, 
+    {
+        "utterance": "who was the newscaster in 1948 on  cbs_evening_news", 
+        "targetFormula": "(!fb:tv.tv_regular_personal_appearance.person (and (and ((lambda#x#(fb:tv.tv_regular_personal_appearance.appearance_type#(var#x))) fb:en.newscaster) ((lambda#x#(fb:tv.tv_regular_personal_appearance.program#(var#x))) fb:en.cbs_evening_news)) ((lambda#x#(fb:tv.tv_regular_personal_appearance.from#(var#x))) (date 1948 -1 -1))))"
+    }, 
+    {
+        "utterance": "who is the music by in bruce_almighty", 
+        "targetFormula": "(!fb:film.film.music fb:en.bruce_almighty)"
+    }, 
+    {
+        "utterance": "how_many episodes does sesame_street have", 
+        "targetFormula": "(count (!fb:tv.tv_program.episodes fb:en.sesame_street))"
+    }, 
+    {
+        "utterance": "what is the area of australia", 
+        "targetFormula": "(!fb:location.location.area fb:en.australia)"
+    }, 
+    {
+        "utterance": "what is the chemical_formula for butane", 
+        "targetFormula": "(!fb:chemistry.chemical_compound.formula fb:en.butane)"
+    }, 
+    {
+        "utterance": "how_many seasons of sesame_street are there", 
+        "targetFormula": "(count (!fb:tv.tv_program.seasons fb:en.sesame_street))"
+    }, 
+    {
+        "utterance": "who created superman", 
+        "targetFormula": "(!fb:comic_books.comic_book_character.created_by fb:en.superman)"
+    }, 
+    {
+        "utterance": "what is the runtime for  meet_the_parents", 
+        "targetFormula": "(!fb:film.film_cut.runtime ((lambda#x#(fb:film.film_cut.film#(var#x))) fb:en.meet_the_parents))"
+    }, 
+    {
+        "utterance": "who was the casting_director for  meet_the_parents", 
+        "targetFormula": "(!fb:film.film.film_casting_director fb:en.meet_the_parents)"
+    }, 
+    {
+        "utterance": "how_many generations of the ipod are there", 
+        "targetFormula": "(count (!fb:business.consumer_product.product_line fb:en.ipod))"
+    }, 
+    {
+        "utterance": "how_many awards did jack_albertson win", 
+        "targetFormula": "(count (!fb:award.award_honor.award ((lambda#x#(fb:award.award_honor.award_winner#(var#x))) fb:en.jack_albertson)))"
+    }, 
+    {
+        "utterance": "since_when has the california_gull been the state_bird of utah", 
+        "targetFormula": "(!fb:location.location_symbol_relationship.date_adopted (and (and ((lambda#x#(fb:location.location_symbol_relationship.administrative_division#(var#x))) fb:en.utah) ((lambda#x#(fb:location.location_symbol_relationship.Kind_of_symbol#(var#x))) fb:en.state_bird)) ((lambda#x#(fb:location.location_symbol_relationship.symbol#(var#x))) fb:en.california_gull)))"
+    }, 
+    {
+        "utterance": "what are the new_york_giants also  known_as", 
+        "targetFormula": "(!fb:common.topic.alias fb:en.new_york_giants)"
+    }, 
+    {
+        "utterance": "when was  universal_studios_japan opened", 
+        "targetFormula": "(!fb:amusement_parks.park.opened fb:en.universal_studios_japan)"
+    }, 
+    {
+        "utterance": "how_many people worked on the    design_and_construction_of_the_golden_gate_bridge", 
+        "targetFormula": "(count (!fb:projects.project_participation.participant ( (lambda#x#(fb:projects.project_participation.project#(var#x))) fb:en.design_and_construction_of_the_golden_gate_bridge)))"
+    }, 
+    {
+        "utterance": "does doom have a multiplayer mode", 
+        "targetFormula": "(and fb:en.doom (fb:cvg.computer_videogame.gameplay_modes fb:en.multiplayer_game))"
+    }, 
+    {
+        "utterance": "when was starbucks founded", 
+        "targetFormula": "(!fb:organization.organization.date_founded fb:en.starbucks)"
+    }, 
+    {
+        "utterance": "how_much money in damages did the  1904_toronto_fire cost", 
+        "targetFormula": "(!fb:measurement_unit.money_value.amount (!fb:event.disaster.damage fb:en.1904_toronto_fire))"
+    }, 
+    {
+        "utterance": "what newspapers does carnegie_mellon publish", 
+        "targetFormula": "(!fb:education.educational_institution.newspaper fb:en.carnegie_mellon_university)"
+    }, 
+    {
+        "utterance": "how_many schools are in the school  district_of_philadelphia", 
+        "targetFormula": "(count (!fb:education.school_district.schools fb:en.school_district_of_philadelphia))"
+    }, 
+    {
+        "utterance": "what rehab_facilities has jerry_garcia gone to", 
+        "targetFormula": "(!fb:celebrities.rehab.rehab_facility ((lambda#x#(fb:celebrities.rehab.celebrity#(var#x))) fb:en.jerry_garcia))"
+    }, 
+    {
+        "utterance": "how_many peabody_award winners are there", 
+        "targetFormula": "(count (!fb:award.award_honor.award_winner ((lambda#x#(fb:award.award_honor.award#(var#x))) fb:en.peabody_award)))"
+    }, 
+    {
+        "utterance": "how_many games are there for nintendo_ds", 
+        "targetFormula": "(count (!fb:cvg.cvg_platform.games_on_this_platform fb:en.nintendo_ds))"
+    }, 
+    {
+        "utterance": "who invented scrabble", 
+        "targetFormula": "(!fb:law.invention.inventor fb:en.scrabble)"
+    }, 
+    {
+        "utterance": "where was the armory_show exhibited", 
+        "targetFormula": "(!fb:exhibitions.exhibition_run.venue ((lambda#x#(fb:exhibitions.exhibition_run.exhibition#(var#x))) fb:en.armory_show))"
+    }, 
+    {
+        "utterance": "what stadium do the_phillies play in", 
+        "targetFormula": "(!fb:sports.sports_team.arena_stadium fb:en.philadelphia_phillies)"
+    }, 
+    {
+        "utterance": "who was the director of  the_nutty_professor", 
+        "targetFormula": "(!fb:film.film.directed_by fb:en.the_nutty_professor_1996)"
+    }, 
+    {
+        "utterance": "what is the spin of a positron", 
+        "targetFormula": "(!fb:physics.particle.spin fb:en.positron)"
+    }, 
+    {
+        "utterance": "how_many brands does sara_lee own", 
+        "targetFormula": "(count (!fb:business.company_brand_relationship.brand ((lambda#x#(fb:business.company_brand_relationship.company#(var#x))) fb:en.sara_lee)))"
+    }, 
+    {
+        "utterance": "who was the 22 nd president", 
+        "targetFormula": "(fb:government.us_president.presidency_number (number 22.0 fb:en.unitless))"
+    }, 
+    {
+        "utterance": "what genre is   the_hound_of_the_baskervilles", 
+        "targetFormula": "(fb:media_common.literary_genre.books_in_this_genre fb:en.the_hound_of_the_baskervilles)"
+    }, 
+    {
+        "utterance": "what is the dry_mass of the  hubble_space_telescope", 
+        "targetFormula": "(!fb:spaceflight.satellite.dry_mass_kg fb:en.hubble_space_telescope)"
+    }, 
+    {
+        "utterance": "what are some examples of a road_bike", 
+        "targetFormula": "(!fb:bicycles.bicycle_type.bicycle_models_of_this_type fb:en.road_bicycle)"
+    }, 
+    {
+        "utterance": "what particles are in the lepton family", 
+        "targetFormula": "(!fb:physics.particle_family.particles fb:en.lepton)"
+    }, 
+    {
+        "utterance": "what category does the film_domain belong to", 
+        "targetFormula": "(!fb:freebase.domain_profile.category fb:m.010s)"
+    }, 
+    {
+        "utterance": "what_rock is  gruta_das_torres made of", 
+        "targetFormula": "(!fb:geology.geological_formation.type_of_rock fb:en.gruta_das_torres)"
+    }, 
+    {
+        "utterance": "what processor did the apple_ii use", 
+        "targetFormula": "(!fb:computer.computer.processor fb:en.apple_ii)"
+    }, 
+    {
+        "utterance": "when is jerry_seinfeld 's birthday", 
+        "targetFormula": "(!fb:people.person.date_of_birth fb:en.jerry_seinfeld)"
+    }, 
+    {
+        "utterance": "what language is tagliablog in", 
+        "targetFormula": "(!fb:internet.blog.language fb:en.tagliablog)"
+    }, 
+    {
+        "utterance": "who produced  the_three_doctors", 
+        "targetFormula": "(!fb:tv.tv_producer_episode_credit.producer (!fb:tv.tv_series_episode.producers fb:en.the_three_doctors))"
+    }, 
+    {
+        "utterance": "who manufactured the  space_shuttle_discovery", 
+        "targetFormula": "(!fb:spaceflight.spacecraft.manufacturer fb:en.space_shuttle_discovery)"
+    }, 
+    {
+        "utterance": "what is the population of asia", 
+        "targetFormula": "(!fb:measurement_unit.dated_integer.number ((lambda#x#(!fb:location.statistical_region.population#(var#x))) fb:en.asia))"
+    }, 
+    {
+        "utterance": "how_many areas were affected by hurricane_ivan", 
+        "targetFormula": "(count (!fb:meteorology.tropical_cyclone.affected_areas fb:en.hurricane_ivan))"
+    }, 
+    {
+        "utterance": "when was kid_s_corner first_broadcast", 
+        "targetFormula": "(!fb:radio.radio_program.first_broadcast fb:m.05v47f_)"
+    }, 
+    {
+        "utterance": "what is currency_code for the mexican_peso", 
+        "targetFormula": "(!fb:finance.currency.currency_code fb:en.mexican_peso)"
+    }, 
+    {
+        "utterance": "what languages use bengali_script", 
+        "targetFormula": "(!fb:language.language_writing_system.languages fb:en.bengali_script)"
+    }, 
+    {
+        "utterance": "how_tall is mount_everest", 
+        "targetFormula": "(!fb:geography.mountain.elevation fb:en.mount_everest)"
+    }, 
+    {
+        "utterance": "who are the hosts of car_talk", 
+        "targetFormula": "(!fb:broadcast.content.artist fb:en.car_talk)"
+    }, 
+    {
+        "utterance": "where was henry_iii buried", 
+        "targetFormula": "(!fb:people.deceased_person.place_of_burial fb:en.henry_iii_of_england)"
+    }, 
+    {
+        "utterance": "who manufactures the t-38_talon", 
+        "targetFormula": "(!fb:aviation.aircraft_model.manufacturer fb:en.t-38_talon)"
+    }, 
+    {
+        "utterance": "what award does the   royal_institute_of_british_architects present", 
+        "targetFormula": "(!fb:award.award_presenting_organization.awards_presented fb:en.royal_institute_of_british_architects)"
+    }, 
+    {
+        "utterance": "how_many orders did queen_victoria found", 
+        "targetFormula": "(count (!fb:royalty.chivalric_order_founder.orders_founded fb:en.victoria_of_the_united_kingdom))"
+    }, 
+    {
+        "utterance": "what was robert_oppenheimer 's role in the manhattan_project", 
+        "targetFormula": "(!fb:projects.project_participation.role (and ((lambda#x#(fb:projects.project_participation.project#(var#x))) fb:en.manhattan_project) ((lambda#x#(fb:projects.project_participation.participant#(var#x))) fb:en.robert_oppenheimer)))"
+    }, 
+    {
+        "utterance": "who are the players currently on the  los_angeles_dodgers", 
+        "targetFormula": "(!fb:baseball.baseball_roster_position.player ((lambda#x#(fb:baseball.baseball_roster_position.team#(var#x))) fb:en.los_angeles_dodgers))"
+    }, 
+    {
+        "utterance": "what religion did martin_luther found", 
+        "targetFormula": "(!fb:religion.founding_figure.religion_founded fb:en.martin_luther)"
+    }, 
+    {
+        "utterance": "what character was born in gotham_city", 
+        "targetFormula": "(!fb:fictional_universe.fictional_setting.fictional_characters_born_here fb:en.gotham_city)"
+    }, 
+    {
+        "utterance": "how_much protein is in quinoa", 
+        "targetFormula": "(!fb:food.nutrition_fact.quantity (and ((lambda#x#(fb:food.nutrition_fact.food#(var#x))) fb:en.quinoa) ((lambda#x#(fb:food.nutrition_fact.nutrient#(var#x))) fb:en.protein)))"
+    }, 
+    {
+        "utterance": "when was the movie big_daddy released", 
+        "targetFormula": "(!fb:film.film.initial_release_date fb:en.big_daddy)"
+    }, 
+    {
+        "utterance": "what city_hosted the  1948_summer_olympics", 
+        "targetFormula": "(!fb:olympics.olympic_games.host_city fb:en.1948_summer_olympics)"
+    }, 
+    {
+        "utterance": "how_many beers are there on freebase", 
+        "targetFormula": "(!fb:freebase.type_profile.instance_count fb:food.beer)"
+    }, 
+    {
+        "utterance": "when was target founded", 
+        "targetFormula": "(!fb:organization.organization.date_founded fb:en.target_corporation)"
+    }, 
+    {
+        "utterance": "how_many countries use uk money", 
+        "targetFormula": "(count (!fb:finance.currency.countries_used fb:en.uk))"
+    }, 
+    {
+        "utterance": "what are columbia_university 's colors", 
+        "targetFormula": "(!fb:education.educational_institution.colors fb:en.columbia_university)"
+    }, 
+    {
+        "utterance": "what instrument did  lightnin_'_hopkins play", 
+        "targetFormula": "(!fb:music.group_member.instruments_played fb:en.lightnin_hopkins)"
+    }, 
+    {
+        "utterance": "what are the practices of sikhism", 
+        "targetFormula": "(!fb:religion.religion.practices fb:en.sikhism)"
+    }, 
+    {
+        "utterance": "how_many people_blog on beyond_robson", 
+        "targetFormula": "(count (!fb:internet.blog.blogger fb:en.beyond_robson))"
+    }, 
+    {
+        "utterance": "how_many industries does walmart consist of", 
+        "targetFormula": "(count (!fb:business.business_operation.industry fb:en.wal-mart))"
+    }, 
+    {
+        "utterance": "what is the population in iowa", 
+        "targetFormula": "(!fb:measurement_unit.dated_integer.number ((lambda#x#(!fb:location.statistical_region.population#(var#x))) fb:en.iowa))"
+    }, 
+    {
+        "utterance": "where does the market-frankford_line stop", 
+        "targetFormula": "(!fb:metropolitan_transit.transit_line.stops fb:en.market-frankford_line)"
+    }, 
+    {
+        "utterance": "what are the subclasses of the boson class", 
+        "targetFormula": "(!fb:physics.particle_family.subclasses fb:en.boson)"
+    }, 
+    {
+        "utterance": "how_long is the  golden_gate_bridge", 
+        "targetFormula": "(!fb:transportation.bridge.total_length fb:en.golden_gate_bridge)"
+    }, 
+    {
+        "utterance": "how_many boats does the royal_navy own", 
+        "targetFormula": "(count (!fb:boats.ship_ownership.ship ((lambda#x#(fb:boats.ship_ownership.owner#(var#x))) fb:en.navy_dept)))"
+    }, 
+    {
+        "utterance": "where was luke_skywalker born", 
+        "targetFormula": "(!fb:fictional_universe.fictional_character.place_of_birth fb:en.luke_skywalker)"
+    }, 
+    {
+        "utterance": "who was the story of charlie_s_angels by", 
+        "targetFormula": "(!fb:film.film.written_by fb:en.charlies_angels)"
+    }, 
+    {
+        "utterance": "what was the manhattan_project about", 
+        "targetFormula": "(!fb:projects.project.project_focus fb:en.manhattan_project)"
+    }, 
+    {
+        "utterance": "what party did grover_cleveland belong to", 
+        "targetFormula": "(!fb:government.political_party_tenure.party ((lambda#x#(fb:government.political_party_tenure.politician#(var#x))) fb:en.grover_cleveland))"
+    }, 
+    {
+        "utterance": "what is the passenger capacity of a  cessna_citation_x", 
+        "targetFormula": "(!fb:measurement_unit.integer_range.high_value (!fb:aviation.aircraft_model.passengers fb:en.cessna_citation_x))"
+    }, 
+    {
+        "utterance": "when was panasonic corporation founded", 
+        "targetFormula": "(!fb:organization.organization.date_founded fb:en.matsushita_electric_industrial_co)"
+    }, 
+    {
+        "utterance": "who got the gold_medal in    men_s_singles_tennis_at_the_1896_summer_olympics", 
+        "targetFormula": "(!fb:olympics.olympic_medal_honor.medalist (and ( (lambda#x#(fb:olympics.olympic_medal_honor.event#(var#x))) fb:en.tennis_at_the_1896_summer_olympics_mens_singles) ((lambda#x#(fb:olympics.olympic_medal_honor.medal#(var#x))) fb:en.gold_medal)))"
+    }, 
+    {
+        "utterance": "in what year did  harry_potter_and_the_goblet_of_fire win the     hugo_award_for_best_novel", 
+        "targetFormula": "(!fb:award.award_honor.year (and ((lambda#x#(fb:award.award_honor.award#(var#x))) fb:en.hugo_award_for_best_novel) ((lambda#x#(fb:award.award_honor.honored_for#(var#x))) fb:en.harry_potter_and_the_goblet_of_fire)))"
+    }, 
+    {
+        "utterance": "how_many dinosaur species are there in north_america", 
+        "targetFormula": "(count (!fb:base.dinosaur.dinosaur_location.dinosaur_s fb:en.north_america))"
+    }, 
+    {
+        "utterance": "what is the parent_disease of a stroke", 
+        "targetFormula": "(!fb:medicine.disease.parent_disease fb:en.stroke)"
+    }, 
+    {
+        "utterance": "who directed  13_going_on_30", 
+        "targetFormula": "(!fb:film.film.directed_by fb:en.13_going_on_30)"
+    }, 
+    {
+        "utterance": "what team does dennis_bergkamp play for", 
+        "targetFormula": "(!fb:soccer.football_roster_position.team ((lambda#x#(fb:soccer.football_roster_position.player#(var#x))) fb:en.dennis_bergkamp))"
+    }, 
+    {
+        "utterance": "in how_many military conflicts did mussolini command", 
+        "targetFormula": "(count (!fb:military.military_command.military_conflict ((lambda#x#(fb:military.military_command.military_commander#(var#x))) fb:en.benito_mussolini)))"
+    }, 
+    {
+        "utterance": "what structures did  frank_lloyd_wright design", 
+        "targetFormula": "(!fb:architecture.architect.structures_designed fb:en.frank_lloyd_wright)"
+    }, 
+    {
+        "utterance": "in what time_zone is illinois", 
+        "targetFormula": "(!fb:location.location.time_zones fb:en.illinois)"
+    }, 
+    {
+        "utterance": "who are the main cast_members of sesame_street", 
+        "targetFormula": "(!fb:tv.regular_tv_appearance.actor ((lambda#x#(fb:tv.regular_tv_appearance.series#(var#x))) fb:en.sesame_street))"
+    }, 
+    {
+        "utterance": "who are the characters in  to_kill_a_mockingbird", 
+        "targetFormula": "(!fb:book.book.characters fb:en.to_kill_a_mockingbird)"
+    }, 
+    {
+        "utterance": "who are the students of bruce_lee", 
+        "targetFormula": "(!fb:martial_arts.martial_artist.martial_arts_students fb:en.bruce_lee)"
+    }, 
+    {
+        "utterance": "how_tall was seabiscuit", 
+        "targetFormula": "(!fb:biology.organism.height_meters fb:en.seabiscuit)"
+    }, 
+    {
+        "utterance": "who won   muhammad_ali_vs._joe_frazier_ii", 
+        "targetFormula": "(!fb:boxing.match_boxer_relationship.boxer (and ((lambda#x#(fb:boxing.match_boxer_relationship.winner_won#(var#x))) true) ((lambda#x#(fb:boxing.match_boxer_relationship.match#(var#x))) fb:en.ali-frazier_ii)))"
+    }, 
+    {
+        "utterance": "what is the engine in a  2010_ferrari_california", 
+        "targetFormula": "(!fb:automotive.trim_level.engine fb:m.0h33xbs)"
+    }, 
+    {
+        "utterance": "how_many other_names is panasonic corporation known by", 
+        "targetFormula": "(count (!fb:common.topic.alias fb:en.matsushita_electric_industrial_co))"
+    }, 
+    {
+        "utterance": "what genre did lil hardin armstrong represent", 
+        "targetFormula": "(!fb:music.artist.genre fb:en.lil_hardin_armstrong)"
+    }, 
+    {
+        "utterance": "what is currency_code for the japanese_yen", 
+        "targetFormula": "(!fb:finance.currency.currency_code fb:en.japanese_yen)"
+    }, 
+    {
+        "utterance": "what was the fawlty towers episode_after the_psychiatrist", 
+        "targetFormula": "(!fb:tv.tv_series_episode.next_episode fb:en.the_psychiatrist)"
+    }, 
+    {
+        "utterance": "who is the president of  gap_,_inc .", 
+        "targetFormula": "(!fb:business.employment_tenure.person (and ((lambda#x#(fb:business.employment_tenure.company#(var#x))) fb:en.gap_inc) ((lambda#x#(fb:business.employment_tenure.title#(var#x))) fb:en.president)))"
+    }, 
+    {
+        "utterance": "what chemical_series is tungsten in", 
+        "targetFormula": "(!fb:chemistry.chemical_element.chemical_series fb:en.tungsten)"
+    }, 
+    {
+        "utterance": "how_many works have been set on the moon", 
+        "targetFormula": "(count (!fb:fictional_universe.fictional_setting.works_set_here fb:en.moon))"
+    }, 
+    {
+        "utterance": "when was jcpenney founded", 
+        "targetFormula": "(!fb:organization.organization.date_founded fb:en.j_c_penney)"
+    }, 
+    {
+        "utterance": "what is the setting of the magician_s_nephew", 
+        "targetFormula": "(!fb:fictional_universe.work_of_fiction.setting fb:en.the_magicians_nephew)"
+    }, 
+    {
+        "utterance": "who produces  meet_the_press", 
+        "targetFormula": "(!fb:broadcast.content.producer fb:en.nbc_meet_the_press_video)"
+    }, 
+    {
+        "utterance": "when did jack albertson die", 
+        "targetFormula": "(!fb:people.deceased_person.date_of_death fb:en.jack_albertson)"
+    }, 
+    {
+        "utterance": "what tv programs has hugh_laurie created", 
+        "targetFormula": "(fb:tv.tv_program.program_creator fb:en.hugh_laurie)"
+    }, 
+    {
+        "utterance": "how_many breeds are in the sporting_group of the  american_kennel_club", 
+        "targetFormula": "(count (!fb:biology.breed_registration.breed (and ((lambda#x#(fb:biology.breed_registration.breed_group#(var#x))) fb:en.sporting_group) ((lambda#x#(fb:biology.breed_registration.registry#(var#x))) fb:en.american_kennel_club))))"
+    }, 
+    {
+        "utterance": "how_many visitors does  mammoth_cave_national_park get in a year", 
+        "targetFormula": "(!fb:measurement_unit.dated_integer.number (!fb:protected_sites.protected_site.annual_visitors fb:en.mammoth_cave_national_park))"
+    }, 
+    {
+        "utterance": "how_many animals are there at the london_zoo", 
+        "targetFormula": "(!fb:zoos.zoo.num_animals fb:en.london_zoo)"
+    }, 
+    {
+        "utterance": "where is independence_hall located", 
+        "targetFormula": "(!fb:location.location.containedby fb:en.independence_hall)"
+    }, 
+    {
+        "utterance": "when was mark_mckinney born", 
+        "targetFormula": "(!fb:people.person.date_of_birth fb:en.mark_mckinney)"
+    }, 
+    {
+        "utterance": "when were ritz_crackers introduced", 
+        "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda#x#(fb:business.company_brand_relationship.brand#(var#x))) fb:en.ritz_cracker))"
+    }, 
+    {
+        "utterance": "when was tostitos introduced", 
+        "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda#x#(fb:business.company_brand_relationship.brand#(var#x))) fb:en.tostitos))"
+    }, 
+    {
+        "utterance": "what are some periodicals on computer_science", 
+        "targetFormula": "(!fb:book.periodical_subject.periodicals fb:en.computer_science)"
+    }, 
+    {
+        "utterance": "in what year did motorola have  the_most_revenue", 
+        "targetFormula": "(!fb:measurement_unit.dated_money_value.valid_date ((lambda#x#(!fb:business.business_operation.revenue#(var#x))) fb:en.motorola))"
+    }, 
+    {
+        "utterance": "how_many other_names is prostate_cancer known as", 
+        "targetFormula": "(count (!fb:common.topic.alias fb:en.prostate_cancer))"
+    }, 
+    {
+        "utterance": "who are the creators of  teenage_mutant_ninja_turtles", 
+        "targetFormula": "(!fb:tv.tv_program.program_creator fb:m.053x52)"
+    }, 
+    {
+        "utterance": "who_proposed the fifth_amendment", 
+        "targetFormula": "(!fb:law.constitutional_amendment.proposed_by fb:en.fifth_amendment_to_the_united_states_constitution)"
+    }, 
+    {
+        "utterance": "what programming_languages were used for  aol_instant_messenger", 
+        "targetFormula": "(!fb:computer.software.languages_used fb:en.aol_instant_messenger)"
+    }, 
+    {
+        "utterance": "how_many awards did sesame_street win", 
+        "targetFormula": "(count (!fb:award.award_honor.award ((lambda#x#(fb:award.award_honor.honored_for#(var#x))) fb:en.sesame_street)))"
+    }, 
+    {
+        "utterance": "in what division are the  st._louis_cardinals", 
+        "targetFormula": "(!fb:baseball.baseball_team.division fb:en.st_louis_cardinals)"
+    }, 
+    {
+        "utterance": "what are the dna codons of glutamine", 
+        "targetFormula": "(!fb:biology.amino_acid.codons fb:en.glutamine)"
+    }, 
+    {
+        "utterance": "how_many us_supreme court_cases have there been", 
+        "targetFormula": "(count (!fb:law.court.legal_cases fb:en.supreme_court_of_the_united_states))"
+    }, 
+    {
+        "utterance": "who is currently number 6 on the washington_wizards", 
+        "targetFormula": "(!fb:basketball.basketball_roster_position.player (and ((lambda#x#(fb:basketball.basketball_roster_position.team#(var#x))) fb:en.washington_wizards) ((lambda#x#(fb:basketball.basketball_roster_position.number#(var#x))) (number 6.0 fb:en.unitless))))"
+    }, 
+    {
+        "utterance": "what makes does ford have", 
+        "targetFormula": "(!fb:automotive.company.make_s fb:en.ford_motor_company)"
+    }, 
+    {
+        "utterance": "what are some films on the apollo_11 mission", 
+        "targetFormula": "(fb:film.film.subjects fb:en.apollo_11)"
+    }, 
+    {
+        "utterance": "what are some books about art_deco", 
+        "targetFormula": "(!fb:book.book_subject.works fb:en.art_deco)"
+    }, 
+    {
+        "utterance": "what is the official_language of mauritania", 
+        "targetFormula": "(!fb:location.country.official_language fb:en.mauritania)"
+    }, 
+    {
+        "utterance": "what cities does  us_interstate_5 pass", 
+        "targetFormula": "(!fb:transportation.road.major_cities fb:en.us_interstate_5)"
+    }, 
+    {
+        "utterance": "how_many people collect automobiles", 
+        "targetFormula": "(count (!fb:interests.collection.collector ((lambda#x#(fb:interests.collection.category#(var#x))) fb:en.automobile)))"
+    }, 
+    {
+        "utterance": "how_many parent_types does igneous_rock have", 
+        "targetFormula": "(count (!fb:geology.rock_type.parent_rock_type fb:en.igneous_rock))"
+    }, 
+    {
+        "utterance": "what is the piston configuration of a  ford_model_t_engine", 
+        "targetFormula": "(!fb:engineering.piston_engine.piston_configuration fb:en.ford_model_t_engine)"
+    }, 
+    {
+        "utterance": "what digital_cameras take an sdhc_card", 
+        "targetFormula": "(!fb:digicams.camera_storage_type.compatible_cameras fb:en.sdhc_card)"
+    }, 
+    {
+        "utterance": "where is the uss_alabama currently moored", 
+        "targetFormula": "(!fb:location.location.containedby fb:m.019zhn)"
+    }, 
+    {
+        "utterance": "what are the divisions of the western_conference of the nhl", 
+        "targetFormula": "(!fb:ice_hockey.hockey_conference.divisions fb:en.western_conference)"
+    }, 
+    {
+        "utterance": "what were the highest_wind speeds in hurricane_katrina", 
+        "targetFormula": "(!fb:meteorology.tropical_cyclone.highest_winds fb:en.hurricane_katrina)"
+    }, 
+    {
+        "utterance": " how_long_overall is the tahina", 
+        "targetFormula": "(!fb:boats.ship.length_overall fb:m.0b_h31m)"
+    }, 
+    {
+        "utterance": "when was the  mark_vii_monorail introduced", 
+        "targetFormula": "(!fb:rail.locomotive_class.introduced fb:en.mark_vii_monorail)"
+    }, 
+    {
+        "utterance": "where is walden_pond located", 
+        "targetFormula": "(!fb:location.location.containedby fb:en.walden_pond)"
+    }, 
+    {
+        "utterance": "what diseases is fatigue a symptom of", 
+        "targetFormula": "(fb:medicine.disease.symptoms fb:en.fatigue)"
+    }, 
+    {
+        "utterance": "what rock_formations formed in the barremian period", 
+        "targetFormula": "(fb:geology.geological_formation.formed_during_period fb:en.barremian)"
+    }, 
+    {
+        "utterance": "what is jcpenney 's operating income", 
+        "targetFormula": "(!fb:measurement_unit.dated_money_value.amount ((lambda#x#(!fb:business.business_operation.operating_income#(var#x))) fb:en.j_c_penney))"
+    }, 
+    {
+        "utterance": "what types of judaism are there", 
+        "targetFormula": "(!fb:religion.religion.includes fb:en.judaism)"
+    }, 
+    {
+        "utterance": "how_many film performances did ron_glass do", 
+        "targetFormula": "(count (!fb:film.performance.film ((lambda#x#(fb:film.performance.actor#(var#x))) fb:en.ron_glass)))"
+    }, 
+    {
+        "utterance": "where was the uss_constitution built", 
+        "targetFormula": "(!fb:boats.ship.place_built fb:en.uss_constitution)"
+    }, 
+    {
+        "utterance": "what treatments are there for leukemia", 
+        "targetFormula": "(!fb:medicine.disease.treatments fb:en.leukemia)"
+    }, 
+    {
+        "utterance": "what  kind_of_website is bing", 
+        "targetFormula": "(!fb:internet.website.category fb:en.windows_live_search)"
+    }, 
+    {
+        "utterance": "when did the standard_school_broadcast  start_production", 
+        "targetFormula": "(!fb:broadcast.content.production_start fb:en.the_standard_school_broadcast)"
+    }, 
+    {
+        "utterance": "what are the rides at  six_flags_america", 
+        "targetFormula": "(!fb:amusement_parks.park.rides fb:en.six_flags_america)"
+    }, 
+    {
+        "utterance": "where did omarion 's musical career begin", 
+        "targetFormula": "(!fb:music.artist.origin fb:en.omarion_grandberry)"
+    }, 
+    {
+        "utterance": "how_many tracks has the_band recorded", 
+        "targetFormula": "(count (!fb:music.artist.track fb:en.the_band))"
+    }, 
+    {
+        "utterance": "what articles are in the july 1967 issue of frontier_times", 
+        "targetFormula": "(!fb:book.contents.work ((lambda#x#(fb:book.contents.publication#(var#x))) fb:en.frontier_times_1967_july))"
+    }, 
+    {
+        "utterance": "what species is spock", 
+        "targetFormula": "(!fb:fictional_universe.fictional_character.species fb:en.spock)"
+    }, 
+    {
+        "utterance": "how many knights_of_the_garter did the order_of_the_garter have", 
+        "targetFormula": "(count (!fb:royalty.chivalric_order_membership.recipient (and ((lambda#x#(fb:royalty.chivalric_order_membership.order#(var#x))) fb:en.order_of_the_garter) ((lambda#x#(fb:royalty.chivalric_order_membership.title#(var#x))) fb:en.knight_of_the_garter))))"
+    }, 
+    {
+        "utterance": "when did charlie_s_angels come_out", 
+        "targetFormula": "(!fb:film.film.initial_release_date fb:en.charlies_angels)"
+    }, 
+    {
+        "utterance": "at_what_age to kids usually start  second_grade", 
+        "targetFormula": "(!fb:education.grade_level.typical_age_minimum fb:en.second_grade)"
+    }, 
+    {
+        "utterance": "when was  yosemite_national_park designated as a protected place", 
+        "targetFormula": "(!fb:protected_sites.protected_site.date_established fb:en.yosemite_national_park)"
+    }, 
+    {
+        "utterance": "what substancs has  robert_downey_jr abused", 
+        "targetFormula": "(!fb:celebrities.substance_abuse_problem.substance ((lambda#x#(fb:celebrities.substance_abuse_problem.celebrity#(var#x))) fb:en.robert_downey_jr))"
+    }, 
+    {
+        "utterance": "what did elizabeth_ii collect", 
+        "targetFormula": "(!fb:interests.collection.category ((lambda#x#(fb:interests.collection.collector#(var#x))) fb:en.elizabeth_ii_of_the_united_kingdom))"
+    }, 
+    {
+        "utterance": "who owned doritos", 
+        "targetFormula": "(!fb:business.company_brand_relationship.company ((lambda#x#(fb:business.company_brand_relationship.brand#(var#x))) fb:en.doritos))"
+    }, 
+    {
+        "utterance": "how_many sub_types of metamorphic_rock are there", 
+        "targetFormula": "(count (!fb:geology.rock_type.sub_types fb:en.metamorphic_rock))"
+    }, 
+    {
+        "utterance": "what species is the_doctor", 
+        "targetFormula": "(!fb:fictional_universe.fictional_character.species fb:en.the_doctor)"
+    }, 
+    {
+        "utterance": "when did chips_ahoy debut", 
+        "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda#x#(fb:business.company_brand_relationship.brand#(var#x))) fb:en.chips_ahoy))"
+    }, 
+    {
+        "utterance": "what_is_the_price of a 2012_jeep wrangler_sport", 
+        "targetFormula": "(!fb:measurement_unit.money_value.amount (!fb:automotive.trim_level.msrp fb:m.0hgwnr4))"
+    }, 
+    {
+        "utterance": "how_many nominations did  nutty_professor_have", 
+        "targetFormula": "(count (!fb:award.award_nomination.award ((lambda#x#(fb:award.award_nomination.nominated_for#(var#x))) fb:en.the_nutty_professor_1996)))"
+    }, 
+    {
+        "utterance": "what companies produce smartphones", 
+        "targetFormula": "(!fb:business.competitive_space_mediator.company ((lambda#x#(fb:business.competitive_space_mediator.space#(var#x))) fb:en.smartphone))"
+    }, 
+    {
+        "utterance": "how_many french operas are there", 
+        "targetFormula": "(count (fb:opera.opera.language fb:en.french))"
+    }, 
+    {
+        "utterance": "what is the population of the people on the earth", 
+        "targetFormula": "(!fb:measurement_unit.dated_integer.number ((lambda#x#(!fb:location.statistical_region.population#(var#x))) fb:en.earth))"
+    }, 
+    {
+        "utterance": "what opera did jonathan_miller direct", 
+        "targetFormula": "(!fb:opera.opera_director.operas_directed fb:en.jonathan_miller)"
+    }, 
+    {
+        "utterance": "what are some types of hats", 
+        "targetFormula": "(!fb:fashion.garment.more_specialized_forms fb:en.hat)"
+    }, 
+    {
+        "utterance": "when was scope introduced", 
+        "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda#x#(fb:business.company_brand_relationship.brand#(var#x))) fb:m.02r3cjp))"
+    }, 
+    {
+        "utterance": "what award did jack_albertson win in 1968", 
+        "targetFormula": "(!fb:award.award_honor.award (and ((lambda#x#(fb:award.award_honor.year#(var#x))) (date 1968 -1 -1)) ((lambda#x#(fb:award.award_honor.award_winner#(var#x))) fb:en.jack_albertson)))"
+    }, 
+    {
+        "utterance": "who makes_up tomkat", 
+        "targetFormula": "(!fb:celebrities.supercouple.partners fb:en.tomkat)"
+    }, 
+    {
+        "utterance": "what area of disneyland is space_mountain in", 
+        "targetFormula": "(!fb:amusement_parks.ride.area fb:en.space_mountain)"
+    }, 
+    {
+        "utterance": "who was the music by in titanic", 
+        "targetFormula": "(!fb:film.film.music fb:en.titanic_special_edition_dvd)"
+    }, 
+    {
+        "utterance": "what military_branches use the  f-5_freedom_fighter", 
+        "targetFormula": "(!fb:aviation.aircraft_ownership_count.aircraft_owner ((lambda#x#(fb:aviation.aircraft_ownership_count.aircraft_model#(var#x))) fb:en.f-5_freedom_fighter))"
+    }, 
+    {
+        "utterance": "what are the causes of syphilis", 
+        "targetFormula": "(!fb:medicine.disease.causes fb:en.syphillis)"
+    }, 
+    {
+        "utterance": "what genre of music is b12", 
+        "targetFormula": "(!fb:music.artist.genre fb:en.b12)"
+    }, 
+    {
+        "utterance": "who designs for  bill_blass_limited", 
+        "targetFormula": "(!fb:fashion.designer_label_association.designer ((lambda#x#(fb:fashion.designer_label_association.label#(var#x))) fb:en.bill_blass_limited))"
+    }, 
+    {
+        "utterance": "when did  john_f_kennedy die", 
+        "targetFormula": "(!fb:people.deceased_person.date_of_death fb:en.john_f_kennedy)"
+    }, 
+    {
+        "utterance": "who was vice_president to woodrow_wilson", 
+        "targetFormula": "(!fb:government.us_president.vice_president fb:en.woodrow_wilson)"
+    }, 
+    {
+        "utterance": "when was borders founded", 
+        "targetFormula": "(!fb:organization.organization.date_founded fb:en.borders_group)"
+    }, 
+    {
+        "utterance": "who_fought in the   the_battle_of_the_champions", 
+        "targetFormula": "(!fb:boxing.match_boxer_relationship.boxer ((lambda#x#(fb:boxing.match_boxer_relationship.match#(var#x))) fb:en.the_battle_of_the_champions))"
+    }, 
+    {
+        "utterance": "who was the cohost in 1993 on  cbs_evening_news", 
+        "targetFormula": "(!fb:tv.tv_regular_personal_appearance.person (and (and ((lambda#x#(fb:tv.tv_regular_personal_appearance.program#(var#x))) fb:en.cbs_evening_news) ((lambda#x#(fb:tv.tv_regular_personal_appearance.appearance_type#(var#x))) fb:en.co_host)) ((lambda#x#(fb:tv.tv_regular_personal_appearance.from#(var#x))) (date 1993 -1 -1))))"
+    }, 
+    {
+        "utterance": "for what albums did barack_obama win a grammy   award_for_best_spoken_word_album", 
+        "targetFormula": "(!fb:award.award_honor.honored_for (and ((lambda#x#(fb:award.award_honor.award#(var#x))) fb:en.grammy_award_for_best_spoken_word_album) ((lambda#x#(fb:award.award_honor.award_winner#(var#x))) fb:en.barack_obama)))"
+    }, 
+    {
+        "utterance": "how_many other_names is omarion known by", 
+        "targetFormula": "(count (!fb:common.topic.alias fb:en.omarion_grandberry))"
+    }, 
+    {
+        "utterance": "what percent_alcohol is a   g.h_._mumm_cordon_rouge_brut", 
+        "targetFormula": "(!fb:wine.wine.percentage_alcohol fb:en.g_h_mumm_cordon_rouge_brut)"
+    }, 
+    {
+        "utterance": "how_many countries_use the indian_rupee", 
+        "targetFormula": "(count (!fb:finance.currency.countries_used fb:en.indian_rupee))"
+    }, 
+    {
+        "utterance": "when was the uss_croaker launched", 
+        "targetFormula": "(!fb:boats.ship.launched fb:en.uss_croaker)"
+    }, 
+    {
+        "utterance": "who is the producer for  13_going_on_30", 
+        "targetFormula": "(!fb:film.film.produced_by fb:en.13_going_on_30)"
+    }, 
+    {
+        "utterance": "what is the australian_dollar code", 
+        "targetFormula": "(!fb:finance.currency.currency_code fb:en.australian_dollar)"
+    }, 
+    {
+        "utterance": "who_composed the song  ship_of_fools", 
+        "targetFormula": "(!fb:music.composition.composer fb:m.02knmd5)"
+    }, 
+    {
+        "utterance": "what are some adaptations of   the_wonderful_wizard_of_oz", 
+        "targetFormula": "(!fb:media_common.adapted_work.adaptations fb:en.the_wonderful_wizard_of_oz)"
+    }, 
+    {
+        "utterance": "what generation of matter is a down_quark", 
+        "targetFormula": "(!fb:physics.particle.generation fb:en.down_quark)"
+    }, 
+    {
+        "utterance": "what is the max_speed of kingda_ka", 
+        "targetFormula": "(!fb:amusement_parks.ride.max_speed fb:en.kingda_ka)"
+    }, 
+    {
+        "utterance": "what is ron_glass 's place of birth", 
+        "targetFormula": "(!fb:people.person.place_of_birth fb:en.ron_glass)"
+    }, 
+    {
+        "utterance": "who was    rolling_stones_'_greatest_guitarist_of_all_time in 2003", 
+        "targetFormula": "(!fb:award.ranking.item ( (lambda#x#(fb:award.ranking.list#(var#x))) fb:en.rolling_stones_100_greatest_guitarists_of_all_time))"
+    }, 
+    {
+        "utterance": "what religion was pablo_picasso", 
+        "targetFormula": "(!fb:people.person.religion fb:en.pablo_picasso)"
+    }, 
+    {
+        "utterance": "who is the owner of easy_cheese", 
+        "targetFormula": "(!fb:business.company_brand_relationship.company ((lambda#x#(fb:business.company_brand_relationship.brand#(var#x))) fb:en.easy_cheese))"
+    }, 
+    {
+        "utterance": "which characters are playable in sonic_rush", 
+        "targetFormula": "(!fb:cvg.game_performance.character ((lambda#x#(fb:cvg.game_performance.game#(var#x))) fb:en.sonic_rush))"
+    }, 
+    {
+        "utterance": "who created the runaways comic book series", 
+        "targetFormula": "(!fb:comic_books.comic_book_series.created_by fb:en.runaways)"
+    }, 
+    {
+        "utterance": "what  textiles_are_made from cotton", 
+        "targetFormula": "(!fb:fashion.fiber.textiles_made_from_this_fiber fb:en.cotton)"
+    }, 
+    {
+        "utterance": "what is the theme_song of sesame_street", 
+        "targetFormula": "(!fb:tv.tv_program.theme_song fb:en.sesame_street)"
+    }, 
+    {
+        "utterance": "what movies won the   golden_globe_award_for_best_drama film", 
+        "targetFormula": "(!fb:award.award_honor.honored_for ( (lambda#x#(fb:award.award_honor.award#(var#x))) fb:en.golden_globe_award_for_best_motion_picture_-_drama))"
+    }, 
+    {
+        "utterance": "what are the causes of a heart_attack", 
+        "targetFormula": "(!fb:medicine.disease.causes fb:en.heart_failure)"
+    }, 
+    {
+        "utterance": "how_many main characters did charlie_s_angels have", 
+        "targetFormula": "(count (!fb:film.performance.character ((lambda#x#(fb:film.performance.film#(var#x))) fb:en.charlies_angels)))"
+    }, 
+    {
+        "utterance": "what ship_class is the uss_cobia", 
+        "targetFormula": "(!fb:boats.ship.ship_class fb:en.uss_cobia)"
+    }, 
+    {
+        "utterance": "how_many tv_shows did jerry_seinfeld produce", 
+        "targetFormula": "(count (!fb:tv.tv_producer_term.program ((lambda#x#(fb:tv.tv_producer_term.producer#(var#x))) fb:en.jerry_seinfeld)))"
+    }, 
+    {
+        "utterance": "what rock_formations are made of quartzite", 
+        "targetFormula": "(!fb:geology.rock_type.formations fb:en.quartzite)"
+    }, 
+    {
+        "utterance": "what is rna binding", 
+        "targetFormula": "(!fb:biology.gene_ontology_group.description fb:en.rna_binding)"
+    }, 
+    {
+        "utterance": "when did the  band_massive_attack form", 
+        "targetFormula": "(!fb:music.artist.active_start fb:en.massive_attack)"
+    }, 
+    {
+        "utterance": "when is the  restoration_of_the_rijksmuseum supposed to finish", 
+        "targetFormula": "(!fb:projects.project.planned_completion_date fb:m.0fq7hj3)"
+    }, 
+    {
+        "utterance": "who founded gsusa", 
+        "targetFormula": "(!fb:organization.organization.founders fb:en.girl_scouts_of_the_usa)"
+    }, 
+    {
+        "utterance": "how_many products has mattel produced", 
+        "targetFormula": "(count (!fb:business.company_product_relationship.consumer_product (!fb:business.consumer_company.products fb:en.mattel)))"
+    }, 
+    {
+        "utterance": "when was techvibes started", 
+        "targetFormula": "(!fb:internet.blog.started fb:en.techvibes)"
+    }, 
+    {
+        "utterance": "who won the   1964_united_states_presidential_election", 
+        "targetFormula": "(!fb:government.election.winner fb:en.united_states_presidential_election_1964)"
+    }, 
+    {
+        "utterance": "how_many countries_are_within  north_america", 
+        "targetFormula": "(count (fb:location.location.containedby fb:en.north_america))"
+    }, 
+    {
+        "utterance": "how_many films are there on antarctica", 
+        "targetFormula": "(count (fb:film.film.subjects fb:en.antarctica))"
+    }, 
+    {
+        "utterance": "when was the green_party founded", 
+        "targetFormula": "(!fb:organization.organization.date_founded fb:en.green_party)"
+    }, 
+    {
+        "utterance": "when did the princetown_railway close", 
+        "targetFormula": "(!fb:rail.railway.closed fb:en.princetown_railway)"
+    }, 
+    {
+        "utterance": "who are the characters in peanuts", 
+        "targetFormula": "(!fb:comic_strips.comic_strip.characters fb:en.peanuts)"
+    }, 
+    {
+        "utterance": "how_much danish_kroner is a us dollar worth", 
+        "targetFormula": "(!fb:finance.exchange_rate.target_of_exchange ((lambda#x#(fb:finance.exchange_rate.source_of_exchange#(var#x))) fb:en.danish_krone))"
+    }, 
+    {
+        "utterance": "what series is  a_wrinkle_in_time a part of", 
+        "targetFormula": "(!fb:book.written_work.part_of_series fb:en.a_wrinkle_in_time)"
+    }, 
+    {
+        "utterance": "how_many soccer_players are goalkeepers", 
+        "targetFormula": "(count (!fb:soccer.football_position.players fb:en.goalkeeper_football))"
+    }, 
+    {
+        "utterance": "what software has oracle designed", 
+        "targetFormula": "(!fb:computer.software_developer.software fb:en.oracle_corporation)"
+    }, 
+    {
+        "utterance": "how_much_time did  alan_shepard spend in space", 
+        "targetFormula": "(!fb:spaceflight.astronaut.space_time_minutes fb:en.alan_shepard)"
+    }, 
+    {
+        "utterance": "how_many hockey_players play center", 
+        "targetFormula": "(count (!fb:ice_hockey.hockey_position.players fb:m.02qvdc))"
+    }, 
+    {
+        "utterance": "who is wells_fargo 's supplier", 
+        "targetFormula": "(!fb:business.customer.supplier fb:en.wells_fargo)"
+    }, 
+    {
+        "utterance": "who were the members of  the_soul_stirrers", 
+        "targetFormula": "(!fb:music.group_membership.member ((lambda#x#(fb:music.group_membership.group#(var#x))) fb:en.the_soul_stirrers))"
+    }, 
+    {
+        "utterance": "where do the denver_spurs play", 
+        "targetFormula": "(!fb:sports.sports_team.arena_stadium fb:en.denver_spurs)"
+    }, 
+    {
+        "utterance": "who_won best_movie of 2010", 
+        "targetFormula": "(!fb:award.award_honor.award_winner (and ((lambda#x#(fb:award.award_honor.award#(var#x))) fb:en.academy_award_for_best_picture) ((lambda#x#(fb:award.award_honor.year#(var#x))) (date 2010 -1 -1))))"
+    }, 
+    {
+        "utterance": "what hospitals specialize in cardiology", 
+        "targetFormula": "(!fb:medicine.medical_specialty.hospitals_with_this_specialty fb:en.cardiology)"
+    }, 
+    {
+        "utterance": "when was hank_aaron inducted into the  hall_of_fame", 
+        "targetFormula": "(!fb:baseball.baseball_player.hall_of_fame_induction fb:en.henry_aaron)"
+    }, 
+    {
+        "utterance": "what blog does robert_scoble write", 
+        "targetFormula": "(!fb:internet.blogger.blog fb:en.robert_scoble)"
+    }, 
+    {
+        "utterance": "when was   girl_scouts_of_the_usa founded", 
+        "targetFormula": "(!fb:organization.organization.date_founded fb:en.girl_scouts_of_the_usa)"
+    }, 
+    {
+        "utterance": "what is the atomic_number of silicon", 
+        "targetFormula": "(!fb:chemistry.chemical_element.atomic_number fb:en.silicon)"
+    }, 
+    {
+        "utterance": "when did the renaissance begin", 
+        "targetFormula": "(!fb:time.event.start_date fb:en.renaissance)"
+    }, 
+    {
+        "utterance": "what year was danny_devito born", 
+        "targetFormula": "(!fb:people.person.date_of_birth fb:en.danny_devito)"
+    }, 
+    {
+        "utterance": "how much did transformers  cost_to_produce", 
+        "targetFormula": "(!fb:measurement_unit.dated_money_value.amount ((lambda#x#(!fb:film.film.estimated_budget#(var#x))) fb:en.transformers))"
+    }, 
+    {
+        "utterance": "where is the guardian circulated", 
+        "targetFormula": "(!fb:book.newspaper.circulation_areas fb:en.the_guardian)"
+    }, 
+    {
+        "utterance": "what type of beer is miller_lite", 
+        "targetFormula": "(!fb:food.beer.beer_style fb:en.miller_lite)"
+    }, 
+    {
+        "utterance": "what is the temperature of polaris", 
+        "targetFormula": "(!fb:astronomy.star.temperature_k fb:m.0kjyrc7)"
+    }, 
+    {
+        "utterance": "what are dave_grohl 's musical genres", 
+        "targetFormula": "(!fb:music.artist.genre fb:en.dave_grohl)"
+    }, 
+    {
+        "utterance": "what is currency_code for the singapore_dollar", 
+        "targetFormula": "(!fb:finance.currency.currency_code fb:en.singapore_dollar)"
+    }, 
+    {
+        "utterance": "what movies won ascap film and television music awards for  most_performed_songs from motion pictures", 
+        "targetFormula": "(!fb:award.award_honor.honored_for ((lambda#x#(fb:award.award_honor.award#(var#x))) fb:m.04d215m))"
+    }, 
+    {
+        "utterance": "what is the scientific_name for a horse", 
+        "targetFormula": "(!fb:biology.organism_classification.scientific_name fb:en.domesticated_horse)"
+    }, 
+    {
+        "utterance": "what artists are influenced by lead_belly", 
+        "targetFormula": "(!fb:influence.influence_node.influenced fb:en.leadbelly)"
+    }, 
+    {
+        "utterance": "how_many film productions did hayden_panettiere appear in", 
+        "targetFormula": "(count (!fb:film.performance.film ((lambda#x#(fb:film.performance.actor#(var#x))) fb:en.hayden_panettiere)))"
+    }, 
+    {
+        "utterance": "what is currency_code for the swedish_krona", 
+        "targetFormula": "(!fb:finance.currency.currency_code fb:en.swedish_krona)"
+    }, 
+    {
+        "utterance": "who_coaches the toronto maple_leafs", 
+        "targetFormula": "(!fb:ice_hockey.hockey_team.coach fb:en.toronto_maple_leafs)"
+    }, 
+    {
+        "utterance": "who was titanic produced_by", 
+        "targetFormula": "(!fb:film.film.produced_by fb:en.titanic_special_edition_dvd)"
+    }, 
+    {
+        "utterance": "how_many topics are equivalent to city/town/village", 
+        "targetFormula": "(count (!fb:freebase.type_profile.equivalent_topic fb:location.citytown))"
+    }, 
+    {
+        "utterance": "what are some cajun dishes", 
+        "targetFormula": "(!fb:dining.cuisine.dishes fb:m.01v7z)"
+    }, 
+    {
+        "utterance": "who did the cover_art for  batman_#_477", 
+        "targetFormula": "(!fb:book.magazine_issue.cover_artist fb:en.batman_477)"
+    }, 
+    {
+        "utterance": "how_many countries use euros", 
+        "targetFormula": "(count (!fb:finance.currency.countries_used fb:en.euro))"
+    }, 
+    {
+        "utterance": "how_many_storms were in the  2005_atlantic_hurricane_season", 
+        "targetFormula": "(!fb:meteorology.tropical_cyclone_season.total_storms fb:en.2005_atlantic_hurricane_season)"
+    }, 
+    {
+        "utterance": "what was the strongest_storm in the  1992_atlantic_hurricane_season", 
+        "targetFormula": "(!fb:meteorology.tropical_cyclone_season.strongest_storm fb:en.1992_atlantic_hurricane_season)"
+    }, 
+    {
+        "utterance": "when did the apple_i  stop_being_sold", 
+        "targetFormula": "(!fb:computer.computer.discontinued fb:en.apple_i)"
+    }, 
+    {
+        "utterance": "who has held the title of  wba_world_champion", 
+        "targetFormula": "(!fb:boxing.boxing_title_tenure.champion ((lambda#x#(fb:boxing.boxing_title_tenure.title#(var#x))) fb:m.0chgh2j))"
+    }, 
+    {
+        "utterance": "who_studied martial arts under yip_man", 
+        "targetFormula": "(!fb:martial_arts.martial_artist.martial_arts_students fb:en.yip_man)"
+    }, 
+    {
+        "utterance": "how_many losses has sean_miller had in his career", 
+        "targetFormula": "(!fb:basketball.basketball_coach.season_losses fb:en.sean_miller_1968)"
+    }, 
+    {
+        "utterance": "who wrote  travels_with_my_cello", 
+        "targetFormula": "(!fb:book.written_work.author fb:m.067y_k7)"
+    }, 
+    {
+        "utterance": "who were the parents of ferdinand_ii", 
+        "targetFormula": "(!fb:people.person.parents fb:en.ferdinand_ii_holy_roman_emperor)"
+    }, 
+    {
+        "utterance": "who operates the  silver_star_railway", 
+        "targetFormula": "(!fb:rail.railway_operator_relationship.operator ((lambda#x#(fb:rail.railway_operator_relationship.railway#(var#x))) fb:m.04rsv0))"
+    }, 
+    {
+        "utterance": "what_labels does  sarah_jessica_parker wear", 
+        "targetFormula": "(!fb:base.popstra.fashion_choice.designer ((lambda#x#(fb:base.popstra.fashion_choice.fashion_wearer#(var#x))) fb:en.sarah_jessica_parker))"
+    }, 
+    {
+        "utterance": "what awards has lost won", 
+        "targetFormula": "(!fb:award.award_honor.award ((lambda#x#(fb:award.award_honor.honored_for#(var#x))) fb:en.lost))"
+    }, 
+    {
+        "utterance": "what ingredients are in italian_cuisine", 
+        "targetFormula": "(!fb:dining.cuisine.ingredients fb:m.09y2k2)"
+    }, 
+    {
+        "utterance": "what is the max_speed of a  collins_class_submarine", 
+        "targetFormula": "(!fb:boats.ship_class.max_speed_knots fb:en.collins_class_submarine)"
+    }, 
+    {
+        "utterance": "what_country does the royal_navy belong to", 
+        "targetFormula": "(!fb:military.armed_force.military_combatant fb:en.navy_dept)"
+    }, 
+    {
+        "utterance": "who_played in the 1973_fa_cup_final", 
+        "targetFormula": "(!fb:soccer.football_match.teams fb:en.fa_cup_final_1973)"
+    }, 
+    {
+        "utterance": "how_many teams did jim_thorpe play for", 
+        "targetFormula": "(count (!fb:american_football.football_historical_roster_position.team ( (lambda#x#(fb:american_football.football_historical_roster_position.player#(var#x))) fb:en.jim_thorpe)))"
+    }, 
+    {
+        "utterance": "what are sacred_sites in sunni_islam", 
+        "targetFormula": "(!fb:religion.religion.sacred_sites fb:en.sunni_islam)"
+    }, 
+    {
+        "utterance": "who produced country_time", 
+        "targetFormula": "(!fb:business.company_brand_relationship.company ((lambda#x#(fb:business.company_brand_relationship.brand#(var#x))) fb:en.country_time))"
+    }, 
+    {
+        "utterance": "what are some german beers", 
+        "targetFormula": "(!fb:food.beer_country_region.beers_from_here fb:en.germany)"
+    }, 
+    {
+        "utterance": "what is the currency_code for the indonesian_rupiah", 
+        "targetFormula": "(!fb:finance.currency.currency_code fb:en.indonesian_rupiah)"
+    }, 
+    {
+        "utterance": "what is  sarah_jessica_parker 's hobby", 
+        "targetFormula": "(!fb:interests.hobbyist.hobbies fb:en.sarah_jessica_parker)"
+    }, 
+    {
+        "utterance": "what  fictional_characters_have_attended oxford", 
+        "targetFormula": "(!fb:fictional_universe.school_in_fiction.students_graduates fb:en.university_of_oxford)"
+    }, 
+    {
+        "utterance": "how_many people_died in the  boston_molasses_disaster", 
+        "targetFormula": "(!fb:event.disaster.fatalities fb:en.boston_molasses_disaster)"
+    }, 
+    {
+        "utterance": "what position does keyon_dooling play", 
+        "targetFormula": "(!fb:basketball.basketball_player.position_s fb:en.keyon_dooling)"
+    }, 
+    {
+        "utterance": "how_many oscar_shows did frank_sinatra host", 
+        "targetFormula": "(count (!fb:base.academyawards.host_of_oscar_show.oscar_show_hosted fb:en.frank_sinatra))"
+    }, 
+    {
+        "utterance": "where was the  cross_of_gold_speech presented", 
+        "targetFormula": "(!fb:event.speech_or_presentation.event ((lambda#x#(fb:event.speech_or_presentation.presented_work#(var#x))) fb:en.cross_of_gold_speech))"
+    }, 
+    {
+        "utterance": "when did hurricane_andrew form", 
+        "targetFormula": "(!fb:meteorology.tropical_cyclone.formed fb:en.hurricane_andrew)"
+    }, 
+    {
+        "utterance": "who designed the rolls-royce_welland", 
+        "targetFormula": "(!fb:engineering.engine.designer fb:en.rolls-royce_welland)"
+    }, 
+    {
+        "utterance": "how_many  cancer_centers are comprehensive", 
+        "targetFormula": "(count (fb:medicine.cancer_center.comprehensive true))"
+    }, 
+    {
+        "utterance": "how_many albums has fleet_foxes released", 
+        "targetFormula": "(count (!fb:music.artist.album fb:en.fleet_foxes))"
+    }, 
+    {
+        "utterance": "what is the earth 's area", 
+        "targetFormula": "(!fb:location.location.area fb:en.earth)"
+    }, 
+    {
+        "utterance": "how_many other_names are there for the usa_s currency", 
+        "targetFormula": "(count (!fb:common.topic.alias fb:en.us))"
+    }, 
+    {
+        "utterance": "who has portrayed james_bond in film", 
+        "targetFormula": "(!fb:film.performance.actor ((lambda#x#(fb:film.performance.character#(var#x))) fb:m.0clpml))"
+    }, 
+    {
+        "utterance": "what is the slogan of bmw", 
+        "targetFormula": "(!fb:organization.organization.slogan fb:en.bmw)"
+    }, 
+    {
+        "utterance": "when did robin_williams stop_abusing cocaine", 
+        "targetFormula": "(!fb:celebrities.substance_abuse_problem.end (and ((lambda#x#(fb:celebrities.substance_abuse_problem.celebrity#(var#x))) fb:en.robin_williams) ((lambda#x#(fb:celebrities.substance_abuse_problem.substance#(var#x))) fb:en.cocaine)))"
+    }, 
+    {
+        "utterance": "how_tall is the  you_only_live_once image", 
+        "targetFormula": "(!fb:common.image.size fb:m.0kk92b)"
+    }, 
+    {
+        "utterance": "what is the voltage of a aa alkaline_battery", 
+        "targetFormula": "(!fb:engineering.battery_size_cell_variation.voltage (and ((lambda#x#(fb:engineering.battery_size_cell_variation.cell_type#(var#x))) fb:en.alkaline_battery) ((lambda#x#(fb:engineering.battery_size_cell_variation.size#(var#x))) fb:en.aa_battery)))"
+    }, 
+    {
+        "utterance": "how_many stages of breast_cancer are there", 
+        "targetFormula": "(count (!fb:medicine.disease.stages fb:en.breast_cancer))"
+    }, 
+    {
+        "utterance": "what languages are spoken in firefly", 
+        "targetFormula": "(!fb:tv.tv_program.languages fb:m.014v3t)"
+    }, 
+    {
+        "utterance": "when was the frida_kahlo exhibit at the  philadelphia_art_museum", 
+        "targetFormula": "(!fb:exhibitions.exhibition_run.opened_on (and ((lambda#x#(fb:exhibitions.exhibition_run.exhibition#(var#x))) fb:m.04d14h7) ((lambda#x#(fb:exhibitions.exhibition_run.venue#(var#x))) fb:en.philadelphia_museum_of_art)))"
+    }, 
+    {
+        "utterance": "when was  stove_top_stuffing introduced", 
+        "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda#x#(fb:business.company_brand_relationship.brand#(var#x))) fb:en.stove_top_stuffing))"
+    }, 
+    {
+        "utterance": "how_many units does the us_army have", 
+        "targetFormula": "(count (!fb:military.armed_force.units fb:en.u_army))"
+    }, 
+    {
+        "utterance": "who was the_nutty_professor  produced_by", 
+        "targetFormula": "(!fb:film.film.produced_by fb:en.the_nutty_professor_1996)"
+    }, 
+    {
+        "utterance": "how_many documentaries are there on netflix", 
+        "targetFormula": "(count (!fb:media_common.netflix_genre.titles fb:en.documentary))"
+    }, 
+    {
+        "utterance": "who are the current senators of colorado", 
+        "targetFormula": "(!fb:government.government_position_held.office_holder (and ( (lambda#x#(fb:government.government_position_held.office_position_or_title#(var#x))) fb:en.united_states_senator) ((lambda#x#(fb:government.government_position_held.district_represented#(var#x))) fb:en.colorado)))"
+    }, 
+    {
+        "utterance": "how_many songs are there for  guitar_hero_:_aerosmith", 
+        "targetFormula": "(count (!fb:cvg.musical_game_song_relationship.song ((lambda#x#(fb:cvg.musical_game_song_relationship.game#(var#x))) fb:en.guitar_hero_aerosmith)))"
+    }, 
+    {
+        "utterance": "what is lamarcus_aldridge 's number", 
+        "targetFormula": "(!fb:basketball.basketball_roster_position.number ((lambda#x#(fb:basketball.basketball_roster_position.player#(var#x))) fb:en.lamarcus_aldridge))"
+    }, 
+    {
+        "utterance": "what are the sub-types of coal", 
+        "targetFormula": "(!fb:geology.rock_type.sub_types fb:en.coal)"
+    }, 
+    {
+        "utterance": "how_many books are there written on computer_programming", 
+        "targetFormula": "(count (!fb:media_common.literary_genre.books_in_this_genre fb:en.computer_programming))"
+    }, 
+    {
+        "utterance": "where did the  rolling_stones_2009_concert tour take place", 
+        "targetFormula": "(!fb:time.event.locations fb:en.the_rolling_stones_2009_concert_tour)"
+    }, 
+    {
+        "utterance": "what is the electric_charge of a proton", 
+        "targetFormula": "(!fb:physics.particle.electric_charge fb:en.proton)"
+    }, 
+    {
+        "utterance": "when was macintosh introduced", 
+        "targetFormula": "(!fb:computer.computer.introduced fb:en.macintosh)"
+    }, 
+    {
+        "utterance": "how_many works did mozart dedicate to joseph_haydn", 
+        "targetFormula": "(count (!fb:media_common.dedication.work_dedicated (and ((lambda#x#(fb:media_common.dedication.dedicated_to#(var#x))) fb:en.joseph_haydn) ((lambda#x#(fb:media_common.dedication.dedicated_by#(var#x))) fb:en.wolfgang_amadeus_mozart))))"
+    }, 
+    {
+        "utterance": "what is the subject of  13_going_on_30", 
+        "targetFormula": "(!fb:film.film.subjects fb:en.13_going_on_30)"
+    }, 
+    {
+        "utterance": "who has influenced stephen_fry", 
+        "targetFormula": "(!fb:influence.influence_node.influenced_by fb:en.stephen_fry)"
+    }, 
+    {
+        "utterance": "who is the costume_designer for bruce_almighty", 
+        "targetFormula": "(!fb:film.film.costume_design_by fb:en.bruce_almighty)"
+    }, 
+    {
+        "utterance": "who wrote the episode  straight_and_true of the wire", 
+        "targetFormula": "(!fb:tv.tv_series_episode.writer fb:en.straight_and_true)"
+    },
+
+    {
+        "utterance": "how_many tv programs did danny_devito produce", 
+        "targetFormula": "(count (!fb:tv.tv_producer_term.program ((lambda#x#(fb:tv.tv_producer_term.producer#(var#x))) fb:en.danny_devito)))"
+    }, 
+    {
+        "utterance": "how_many countries are in south_america", 
+        "targetFormula": "(count (fb:location.location.containedby fb:en.south_america))"
+    }, 
+    {
+        "utterance": "what product_lines does ipod include", 
+        "targetFormula": "(!fb:business.product_line.includes_product_lines fb:en.ipod)"
+    }, 
+    {
+        "utterance": "when was starry_night painted", 
+        "targetFormula": "(!fb:visual_art.artwork.date_completed fb:en.de_sterrennacht)"
+    }, 
+    {
+        "utterance": "when was interstate_579 formed", 
+        "targetFormula": "(!fb:transportation.road.formed fb:en.interstate_579)"
+    }, 
+    {
+        "utterance": "what area did the meiji_constitution govern", 
+        "targetFormula": "(!fb:law.constitution.country fb:en.meiji_constitution)"
+    }, 
+    {
+        "utterance": "who is the lyricist for spamalot", 
+        "targetFormula": "(!fb:theater.play.lyricist fb:en.spamalot)"
+    }, 
+    {
+        "utterance": "what is yahoo_! 's slogan", 
+        "targetFormula": "(!fb:organization.organization.slogan fb:m.019rl6)"
+    }, 
+    {
+        "utterance": "what is the population of belgium", 
+        "targetFormula": "(!fb:measurement_unit.dated_integer.number ((lambda#x#(!fb:location.statistical_region.population#(var#x))) fb:en.belgium))"
+    }, 
+    {
+        "utterance": "who is the founder of savealot", 
+        "targetFormula": "(!fb:organization.organization.founders fb:en.save-a-lot)"
+    }, 
+    {
+        "utterance": "what library_system is the  sunset_branch_library in", 
+        "targetFormula": "(!fb:library.public_library.library_system fb:en.sunset_branch_library)"
+    }, 
+    {
+        "utterance": "where was the 3_juno asteroid discovered", 
+        "targetFormula": "(!fb:astronomy.astronomical_discovery.discovery_site fb:en.3_juno)"
+    }, 
+    {
+        "utterance": "what is the population of europe", 
+        "targetFormula": "(!fb:measurement_unit.dated_integer.number ((lambda#x#(!fb:location.statistical_region.population#(var#x))) fb:en.europe))"
+    }, 
+    {
+        "utterance": "what weight_class was the  fight_of_the_century", 
+        "targetFormula": "(!fb:boxing.boxing_match.weight_class fb:en.fight_of_the_century)"
+    }, 
+    {
+        "utterance": "who designed pac-man", 
+        "targetFormula": "(!fb:cvg.computer_videogame.designers fb:en.pac-man)"
+    }, 
+    {
+        "utterance": "when was the  order_of_saint_michael founded", 
+        "targetFormula": "(!fb:royalty.order_of_chivalry.date_founded fb:en.order_of_saint_michael)"
+    }, 
+    {
+        "utterance": "what is the collection of postcards called", 
+        "targetFormula": "(!fb:interests.collection_category.name_of_collection_activity fb:en.postcard)"
+    }, 
+    {
+        "utterance": "what year was ron_glass an award nominee", 
+        "targetFormula": "(!fb:award.award_nomination.year ((lambda#x#(fb:award.award_nomination.award_nominee#(var#x))) fb:en.ron_glass))"
+    }, 
+    {
+        "utterance": "what 's the horsepower of an alluminum-alloy_v6 engine", 
+        "targetFormula": "(!fb:automotive.engine.horsepower fb:en.alluminum_alloy_v6)"
+    }, 
+    {
+        "utterance": "what causes prostate_cancer", 
+        "targetFormula": "(!fb:medicine.disease.causes fb:en.prostate_cancer)"
+    }, 
+    {
+        "utterance": "when was the iphone introduced", 
+        "targetFormula": "(!fb:computer.computer.introduced fb:en.iphone)"
+    }, 
+    {
+        "utterance": "in what martial_art does christopher_adams have a black_belt", 
+        "targetFormula": "(!fb:martial_arts.martial_arts_certification.art (and ((lambda#x#(fb:martial_arts.martial_arts_certification.qualification#(var#x))) fb:en.black_belt) ((lambda#x#(fb:martial_arts.martial_arts_certification.person#(var#x))) fb:en.christopher_adams)))"
+    }, 
+    {
+        "utterance": "who was the librettist for the magic_flute", 
+        "targetFormula": "(!fb:opera.opera.librettist fb:en.the_magic_flute)"
+    }, 
+    {
+        "utterance": "what episode of snl did ben_stiller host", 
+        "targetFormula": "(!fb:base.saturdaynightlive.snl_host.episodes_hosted fb:en.ben_stiller)"
+    }, 
+    {
+        "utterance": "who created the philosopher_s_stone", 
+        "targetFormula": "(!fb:fictional_universe.fictional_object.created_by fb:en.philosophers_stone)"
+    }, 
+    {
+        "utterance": "how_many organizations are in the automobile industry", 
+        "targetFormula": "(count (fb:business.business_operation.industry fb:en.automobile))"
+    }, 
+    {
+        "utterance": "what was procter_&_gamble 's  net_profit in 1955", 
+        "targetFormula": "(!fb:measurement_unit.dated_money_value.amount ((lambda#x#(!fb:business.business_operation.net_profit#(var#x))) fb:en.procter_gamble))"
+    }, 
+    {
+        "utterance": "what is currency_code for uk currency", 
+        "targetFormula": "(!fb:finance.currency.currency_code fb:en.uk)"
+    }, 
+    {
+        "utterance": "what 's the symbol for mercury", 
+        "targetFormula": "(!fb:chemistry.chemical_element.symbol fb:m.025sw5g)"
+    }, 
+    {
+        "utterance": "what is jerry_seinfeld religion", 
+        "targetFormula": "(!fb:people.person.religion fb:en.jerry_seinfeld)"
+    }, 
+    {
+        "utterance": " how_big_is_the_screen on a   nikon_coolpix_s50", 
+        "targetFormula": "(!fb:digicams.digital_camera.lcd_screen_dimensions fb:en.nikon_coolpix_s50)"
+    }, 
+    {
+        "utterance": "how_many speeches did winston_churchill give", 
+        "targetFormula": "(count (!fb:event.speech_or_presentation.presented_work ((lambda#x#(fb:event.speech_or_presentation.speaker_s#(var#x))) fb:en.winston_churchill)))"
+    }, 
+    {
+        "utterance": "how_many religions use the bible", 
+        "targetFormula": "(count (!fb:religion.religious_text.religious_text_of fb:en.bible))"
+    }, 
+    {
+        "utterance": "what is the capital of iceland", 
+        "targetFormula": "(!fb:location.country.capital fb:en.iceland)"
+    }, 
+    {
+        "utterance": "what public_transportation is there in tokyo", 
+        "targetFormula": "(!fb:travel.travel_destination.local_transportation fb:en.tokyo)"
+    }, 
+    {
+        "utterance": "what is europe 's area", 
+        "targetFormula": "(!fb:location.location.area fb:en.europe)"
+    }, 
+    {
+        "utterance": "how_many players are in the current roster of the  new_york_mets", 
+        "targetFormula": "(count (!fb:baseball.baseball_roster_position.player ((lambda#x#(fb:baseball.baseball_roster_position.team#(var#x))) fb:en.new_york_mets)))"
+    }, 
+    {
+        "utterance": "what are the treatments of prostate cancer", 
+        "targetFormula": "(!fb:medicine.disease.treatments fb:en.prostate_cancer)"
+    }, 
+    {
+        "utterance": "where was the peseta used as currency", 
+        "targetFormula": "(!fb:finance.currency.countries_formerly_used fb:en.spanish_peseta)"
+    }, 
+    {
+        "utterance": "what is the currency_code for the spanish_peseta", 
+        "targetFormula": "(!fb:finance.currency.currency_code fb:en.spanish_peseta)"
+    }, 
+    {
+        "utterance": "how_many awards did big_daddy win", 
+        "targetFormula": "(count (!fb:award.award_honor.award ((lambda#x#(fb:award.award_honor.honored_for#(var#x))) fb:en.big_daddy)))"
+    }, 
+    {
+        "utterance": "what bridges go over the  san_francisco_bay", 
+        "targetFormula": "(!fb:geography.body_of_water.bridges fb:en.san_francisco_bay)"
+    }, 
+    {
+        "utterance": "how_many notable people died by poisoning", 
+        "targetFormula": "(count (fb:people.deceased_person.cause_of_death fb:en.poison))"
+    }, 
+    {
+        "utterance": "what parks are in the  canadian_national_parks system", 
+        "targetFormula": "(!fb:protected_sites.park_system.member_parks fb:en.canadian_national_parks)"
+    }, 
+    {
+        "utterance": "who instructed steven_seagal", 
+        "targetFormula": "(!fb:martial_arts.martial_artist.instructor fb:en.steven_seagal)"
+    }, 
+    {
+        "utterance": " when_did_the_last_episode of   six_feet_under air", 
+        "targetFormula": "(!fb:tv.tv_program.air_date_of_final_episode fb:en.six_feet_under)"
+    }, 
+    {
+        "utterance": "how_many major events happened in australia", 
+        "targetFormula": "(count (!fb:location.location.events fb:en.australia))"
+    }, 
+    {
+        "utterance": "how_many religions_believe in reincarnation", 
+        "targetFormula": "(count (!fb:religion.belief.belief_of fb:en.reincarnation))"
+    }, 
+    {
+        "utterance": "what other_titles does  13_going_on_30 have", 
+        "targetFormula": "(!fb:common.topic.alias fb:en.13_going_on_30)"
+    }, 
+    {
+        "utterance": "how_many writing_systems are used in japanese", 
+        "targetFormula": "(count (!fb:language.human_language.writing_system fb:en.japanese))"
+    }, 
+    {
+        "utterance": "who is the ceo of savealot", 
+        "targetFormula": "(!fb:organization.leadership.person (and ((lambda#x#(fb:organization.leadership.role#(var#x))) fb:en.chief_executive_officer) ((lambda#x#(fb:organization.leadership.organization#(var#x))) fb:en.save-a-lot)))"
+    }, 
+    {
+        "utterance": "what_starts are in ursa_minor", 
+        "targetFormula": "(!fb:astronomy.constellation.contains fb:en.ursa_minor)"
+    }, 
+    {
+        "utterance": "how_many conferences have been held at the  los_angeles_convention_center", 
+        "targetFormula": "(count (!fb:conferences.conference_venue.conferences fb:en.los_angeles_convention_center))"
+    }, 
+    {
+        "utterance": "when was diet mountain_dew created", 
+        "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda#x#(fb:business.company_brand_relationship.brand#(var#x))) fb:en.mountain_dew))"
+    }, 
+    {
+        "utterance": "what are some mountain_bike models", 
+        "targetFormula": "(!fb:bicycles.bicycle_type.bicycle_models_of_this_type fb:en.mountain_bike)"
+    }, 
+    {
+        "utterance": "how_many films has julie_andrews been in", 
+        "targetFormula": "(count (!fb:film.performance.film ((lambda#x#(fb:film.performance.actor#(var#x))) fb:en.julie_edwards)))"
+    }, 
+    {
+        "utterance": "who designed_the_costumes for   alice_in_wonderland", 
+        "targetFormula": "(!fb:film.film.costume_design_by fb:m.04jpg2p)"
+    }, 
+    {
+        "utterance": "what mountain_range is  king_edward_peak in", 
+        "targetFormula": "(!fb:geography.mountain.mountain_range fb:en.king_edward_peak)"
+    }, 
+    {
+        "utterance": "what are some hotels in vancouver", 
+        "targetFormula": "(!fb:travel.travel_destination.accommodation fb:en.vancouver_british_columbia)"
+    }, 
+    {
+        "utterance": "what year were the ny_yankees founded", 
+        "targetFormula": "(!fb:sports.sports_team.founded fb:en.new_york_yankees)"
+    }, 
+    {
+        "utterance": "how_many national_parks does the  national_wildlife_refuge have", 
+        "targetFormula": "(count (!fb:protected_sites.park_system.member_parks fb:en.national_wildlife_refuge))"
+    }, 
+    {
+        "utterance": "how_many actors use their  middle_name_or_initial", 
+        "targetFormula": "(count (!fb:freebase.list.entries fb:m.0599h7b))"
+    }, 
+    {
+        "utterance": "where is  fry_s_turkish_delight sold", 
+        "targetFormula": "(!fb:food.candy_bar.sold_in fb:en.frys_turkish_delight)"
+    }, 
+    {
+        "utterance": "who invented koolaid", 
+        "targetFormula": "(!fb:business.company_brand_relationship.company ((lambda#x#(fb:business.company_brand_relationship.brand#(var#x))) fb:en.kool-aid))"
+    }, 
+    {
+        "utterance": "when was doritos produced", 
+        "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda#x#(fb:business.company_brand_relationship.brand#(var#x))) fb:en.doritos))"
+    }, 
+    {
+        "utterance": "how_many countries_use the spanish_peseta", 
+        "targetFormula": "(count (!fb:finance.currency.countries_used fb:en.spanish_peseta))"
+    }, 
+    {
+        "utterance": "when was the pencarrow_head_lighthouse  first_lit", 
+        "targetFormula": "(!fb:architecture.lighthouse.year_first_lit fb:en.pencarrow_head_lighthouse)"
+    }, 
+    {
+        "utterance": "what titles does the world boxing_association have", 
+        "targetFormula": "(!fb:boxing.boxing_sanctioning_body.titles fb:en.world_boxing_association)"
+    }, 
+    {
+        "utterance": "how_many species does the  san_francisco_zoo have", 
+        "targetFormula": "(!fb:zoos.zoo.num_species fb:en.san_francisco_zoo)"
+    }, 
+    {
+        "utterance": "what round did  thrilla_in_manila end", 
+        "targetFormula": "(!fb:boxing.boxing_match.round_match_ended fb:en.thrilla_in_manila)"
+    }, 
+    {
+        "utterance": "what is pycon about", 
+        "targetFormula": "(!fb:conferences.conference_series.subject fb:en.pycon)"
+    }, 
+    {
+        "utterance": "how_many works have been lost due to theft", 
+        "targetFormula": "(count (!fb:media_common.cause_of_loss.works_lost_this_way fb:en.theft))"
+    }, 
+    {
+        "utterance": "what armed_forces does thailand have", 
+        "targetFormula": "(!fb:military.military_combatant.armed_forces fb:en.thailand)"
+    }, 
+    {
+        "utterance": "what martial_arts does chris_maden practice", 
+        "targetFormula": "(!fb:martial_arts.martial_artist.martial_art fb:en.chris_maden)"
+    }, 
+    {
+        "utterance": "when was koolaid invented", 
+        "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda#x#(fb:business.company_brand_relationship.brand#(var#x))) fb:en.kool-aid))"
+    }, 
+    {
+        "utterance": "what year did    sgt_._pepper_'s_lonely_hearts_club_band win a grammy", 
+        "targetFormula": "(!fb:award.award_honor.year ((lambda#x#(fb:award.award_honor.honored_for#(var#x))) fb:en.sgt_peppers_lonely_hearts_club_band))"
+    }, 
+    {
+        "utterance": "how_many islands are there in lake_superior", 
+        "targetFormula": "(count (!fb:geography.body_of_water.islands fb:en.lake_superior))"
+    }, 
+    {
+        "utterance": "how_many countries is spanish spoken in", 
+        "targetFormula": "(count (!fb:language.human_language.countries_spoken_in fb:en.spanish))"
+    }, 
+    {
+        "utterance": "when was the  ss_great_britain established as a museum", 
+        "targetFormula": "(!fb:architecture.museum.established fb:en.ss_great_britain)"
+    }, 
+    {
+        "utterance": "what type_of_rock is the  marcellus_formation", 
+        "targetFormula": "(!fb:geology.geological_formation.type_of_rock fb:en.marcellus_formation)"
+    }, 
+    {
+        "utterance": "when was capri_sun developed", 
+        "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda#x#(fb:business.company_brand_relationship.brand#(var#x))) fb:en.capri_sun))"
+    }, 
+    {
+        "utterance": "when was 300 released", 
+        "targetFormula": "(!fb:film.film.initial_release_date fb:en.300_2007)"
+    }, 
+    {
+        "utterance": "how_many wins did the philadelphia_eagles have in the  2008_nfl_season", 
+        "targetFormula": "(count (!fb:sports.sports_team_season_record.wins (and ((lambda#x#(fb:sports.sports_team_season_record.season#(var#x))) fb:en.2008_nfl_season) ((lambda#x#(fb:sports.sports_team_season_record.team#(var#x))) fb:en.philadelphia_eagles))))"
+    }, 
+    {
+        "utterance": "when was barbie launched", 
+        "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda#x#(fb:business.company_brand_relationship.brand#(var#x))) fb:en.barbie))"
+    }, 
+    {
+        "utterance": "how_many libretti did wagner write", 
+        "targetFormula": "(count (!fb:opera.librettist.libretti fb:en.richardwagner))"
+    }, 
+    {
+        "utterance": "what is bruce almighty rated", 
+        "targetFormula": "(!fb:film.film.rating fb:en.bruce_almighty)"
+    }, 
+    {
+        "utterance": "where was lady_washington built", 
+        "targetFormula": "(!fb:boats.ship.place_built fb:en.lady_washington)"
+    }, 
+    {
+        "utterance": "how_many domains are in the  science_&_technology category", 
+        "targetFormula": "(count (!fb:freebase.domain_category.domains fb:en.science_technology))"
+    }, 
+    {
+        "utterance": "what is the building_function of the eiffel_tower", 
+        "targetFormula": "(!fb:architecture.building.building_function fb:en.eiffel_tower)"
+    }, 
+    {
+        "utterance": "how_many children does danny_devito have", 
+        "targetFormula": "(count (!fb:people.person.children fb:en.danny_devito))"
+    }, 
+    {
+        "utterance": "how_many different industries are there in home_depot", 
+        "targetFormula": "(count (!fb:business.business_operation.industry fb:en.the_home_depot))"
+    }, 
+    {
+        "utterance": "at what school was  delta_delta_delta founded", 
+        "targetFormula": "(!fb:education.fraternity_sorority.founded_location fb:en.delta_delta_delta)"
+    }, 
+    {
+        "utterance": "in what season of stargate sg-1 is the episode  show_and_tell", 
+        "targetFormula": "(!fb:tv.tv_series_episode.season fb:m.08mpny)"
+    }, 
+    {
+        "utterance": "who started starbucks", 
+        "targetFormula": "(!fb:organization.organization.founders fb:en.starbucks)"
+    }, 
+    {
+        "utterance": "who is the captain of the edmonton_oilers", 
+        "targetFormula": "(!fb:ice_hockey.hockey_team.captain fb:en.edmonton_oilers)"
+    }, 
+    {
+        "utterance": "who are the founders of home_depot", 
+        "targetFormula": "(!fb:organization.organization.founders fb:en.the_home_depot)"
+    }, 
+    {
+        "utterance": "what are the celtic languages", 
+        "targetFormula": "(!fb:language.language_family.languages fb:en.celtic_languages)"
+    }, 
+    {
+        "utterance": "what is the state_flower of alaska", 
+        "targetFormula": "(!fb:location.location_symbol_relationship.symbol (and ((lambda#x#(fb:location.location_symbol_relationship.administrative_division#(var#x))) fb:en.alaska) ((lambda#x#(fb:location.location_symbol_relationship.Kind_of_symbol#(var#x))) fb:en.state_flower)))"
+    }, 
+    {
+        "utterance": "what are the theme areas at disneyland", 
+        "targetFormula": "(!fb:amusement_parks.park.areas fb:en.disneyland)"
+    }, 
+    {
+        "utterance": "what production is the sopranos currently in", 
+        "targetFormula": "(!fb:tv.tv_program.currently_in_production fb:en.the_sopranos)"
+    }, 
+    {
+        "utterance": "where does the chow_chow originate", 
+        "targetFormula": "(!fb:biology.animal_breed.place_of_origin fb:en.chow_chow)"
+    }, 
+    {
+        "utterance": "what position did mike_schmidt play", 
+        "targetFormula": "(!fb:baseball.baseball_player.position_s fb:en.mike_schmidt)"
+    }, 
+    {
+        "utterance": "what breed_group is a shar_pei in the  american_kennel_club", 
+        "targetFormula": "(!fb:biology.breed_registration.breed_group (and ((lambda#x#(fb:biology.breed_registration.breed#(var#x))) fb:en.shar_pei) ((lambda#x#(fb:biology.breed_registration.registry#(var#x))) fb:en.american_kennel_club)))"
+    }, 
+    {
+        "utterance": "where was polonium discovered", 
+        "targetFormula": "(!fb:chemistry.chemical_element.discovering_country fb:en.polonium)"
+    }, 
+    {
+        "utterance": "how_many episodes of  taylor_made_piano were there", 
+        "targetFormula": "(count (!fb:radio.radio_program.episodes fb:en.taylor_made_piano_a_jazz_history))"
+    }, 
+    {
+        "utterance": "what record_label was  ali_farka_toure signed to", 
+        "targetFormula": "(!fb:music.artist.label fb:en.ali_farka_toure)"
+    }, 
+    {
+        "utterance": "what team does richard_hamilton play for", 
+        "targetFormula": "(!fb:basketball.basketball_roster_position.team ((lambda#x#(fb:basketball.basketball_roster_position.player#(var#x))) fb:en.richard_hamilton))"
+    }, 
+    {
+        "utterance": "what is africa 's population", 
+        "targetFormula": "(!fb:measurement_unit.dated_integer.number ((lambda#x#(!fb:location.statistical_region.population#(var#x))) fb:en.africa))"
+    }, 
+    {
+        "utterance": "what are the isotopes of zinc", 
+        "targetFormula": "(!fb:chemistry.chemical_element.isotopes fb:en.zinc)"
+    }, 
+    {
+        "utterance": "who published the amazing_spider-man", 
+        "targetFormula": "(!fb:comic_books.comic_book_series.publisher fb:en.the_amazing_spider-man)"
+    }, 
+    {
+        "utterance": "how_thick is the aletsch_glacier", 
+        "targetFormula": "(!fb:geography.glacier.thickness fb:en.aletsch_glacier)"
+    }, 
+    {
+        "utterance": "when was the release_date for titanic", 
+        "targetFormula": "(!fb:film.film.initial_release_date fb:en.titanic_special_edition_dvd)"
+    }, 
+    {
+        "utterance": "what are some research_only cancer centers", 
+        "targetFormula": "(!fb:medicine.cancer_center_type.centers_of_this_kind fb:en.research_only)"
+    }, 
+    {
+        "utterance": "what is the theme_song of full_house", 
+        "targetFormula": "(!fb:tv.tv_program.theme_song fb:en.full_house)"
+    }, 
+    {
+        "utterance": "how was pluto discovered", 
+        "targetFormula": "(!fb:astronomy.astronomical_discovery.discovery_technique fb:en.pluto)"
+    }, 
+    {
+        "utterance": "what versions of mac os x is mozilla firefox compatible with", 
+        "targetFormula": "(!fb:computer.software_compatibility.operating_system (!fb:computer.software.compatible_oses fb:en.mozilla_firefox))"
+    }, 
+    {
+        "utterance": "how_many seasons of seinfeld are there", 
+        "targetFormula": "(count (!fb:tv.tv_program.seasons fb:en.seinfeld))"
+    }, 
+    {
+        "utterance": "in 1982 who were the   primetieme_emmy_award_for_comedy_series nominees", 
+        "targetFormula": "(!fb:award.award_nomination.award_nominee (and ((lambda#x#(fb:award.award_nomination.year#(var#x))) (date 1982 -1 -1)) ( (lambda#x#(fb:award.award_nomination.award#(var#x))) fb:en.primetime_emmy_award_for_outstanding_comedy_series)))"
+    }, 
+    {
+        "utterance": "what company owns nutter_butter", 
+        "targetFormula": "(!fb:business.company_brand_relationship.company ((lambda#x#(fb:business.company_brand_relationship.brand#(var#x))) fb:en.nutter_butter))"
+    }, 
+    {
+        "utterance": "when was facebook launched", 
+        "targetFormula": "(!fb:internet.website.launched fb:en.facebook)"
+    }, 
+    {
+        "utterance": "what position does cristiano_ronaldo play", 
+        "targetFormula": "(!fb:soccer.football_player.position_s fb:en.cristiano_ronaldo)"
+    }, 
+    {
+        "utterance": "how_many games has hasbro published", 
+        "targetFormula": "(count (!fb:games.game_publisher.games_published fb:en.hasbro))"
+    }, 
+    {
+        "utterance": "what universe is   the_lord_of_the_rings set in", 
+        "targetFormula": "(!fb:fictional_universe.work_of_fiction.setting fb:en.the_lord_of_the_rings)"
+    }, 
+    {
+        "utterance": "how_many teams participated in the  1979_cricket_world_cup", 
+        "targetFormula": "(count (!fb:cricket.cricket_tournament_event.teams fb:en.1979_cricket_world_cup))"
+    }, 
+    {
+        "utterance": "what_year was the album_decade released", 
+        "targetFormula": "(!fb:music.album.release_date fb:m.02967)"
+    }, 
+    {
+        "utterance": "how_many operating_systems is adobe_flash compatible with", 
+        "targetFormula": "(count (!fb:computer.software_compatibility.operating_system ((lambda#x#(fb:computer.software_compatibility.software#(var#x))) fb:en.adobe_flash)))"
+    }, 
+    {
+        "utterance": "what is the population estimated in the_world", 
+        "targetFormula": "(!fb:measurement_unit.dated_integer.number ((lambda#x#(!fb:location.statistical_region.population#(var#x))) fb:en.earth))"
+    }, 
+    {
+        "utterance": "how_many tennis events are there at the olympics", 
+        "targetFormula": "(count (!fb:olympics.olympic_sport.events fb:m.07bs0))"
+    }, 
+    {
+        "utterance": "how_many rna_codons does glycine have", 
+        "targetFormula": "(count (!fb:biology.amino_acid.rna_codons fb:en.glycine))"
+    }, 
+    {
+        "utterance": "who was charlie_s_angels produced_by", 
+        "targetFormula": "(!fb:film.film.produced_by fb:en.charlies_angels)"
+    }, 
+    {
+        "utterance": "who completed mozart_s_requiem", 
+        "targetFormula": "(!fb:media_common.completion_of_unfinished_work.finisher ((lambda#x#(fb:media_common.completion_of_unfinished_work.unfinished_work#(var#x))) fb:m.02xtrr))"
+    }, 
+    {
+        "utterance": "how_many teams did joe_torre manage", 
+        "targetFormula": "(count (!fb:baseball.baseball_historical_managerial_position.team ((lambda#x#(fb:baseball.baseball_historical_managerial_position.manager#(var#x))) fb:en.joe_torre)))"
+    }, 
+    {
+        "utterance": "how_many cricket bowlers use fast_bowling", 
+        "targetFormula": "(count (fb:cricket.cricket_bowler.technique fb:en.fast_bowling))"
+    }, 
+    {
+        "utterance": "who designed the giant_dipper", 
+        "targetFormula": "(!fb:amusement_parks.ride.designer fb:en.giant_dipper)"
+    }, 
+    {
+        "utterance": "what characters are in  super_mario_bros", 
+        "targetFormula": "(!fb:cvg.game_performance.character ((lambda#x#(fb:cvg.game_performance.game#(var#x))) fb:en.super_mario_bros))"
+    }, 
+    {
+        "utterance": "what was john_f_kennedy 's   cause_of_death", 
+        "targetFormula": "(!fb:people.deceased_person.cause_of_death fb:en.john_f_kennedy)"
+    }, 
+    {
+        "utterance": "what is the genre of the   skeptics_'_guide_to_the_universe", 
+        "targetFormula": "(!fb:broadcast.content.genre fb:m.03z9smt)"
+    }, 
+    {
+        "utterance": "how many employees does nintendo have", 
+        "targetFormula": "(count (!fb:business.employment_tenure.person (!fb:business.employer.employees fb:en.nintendo)))"
+    }, 
+    {
+        "utterance": "how_many types of cumulus_clouds are there", 
+        "targetFormula": "(count (!fb:meteorology.cloud.varieties fb:m.0csh5))"
+    }, 
+    {
+        "utterance": "how_many other_names is ron_glass known by", 
+        "targetFormula": "(count (!fb:common.topic.alias fb:en.ron_glass))"
+    }, 
+    {
+        "utterance": "what number is ryan_callahan on the  new_york_rangers", 
+        "targetFormula": "(!fb:ice_hockey.hockey_roster_position.number (and ((lambda#x#(fb:ice_hockey.hockey_roster_position.team#(var#x))) fb:en.new_york_rangers) ((lambda#x#(fb:ice_hockey.hockey_roster_position.player#(var#x))) fb:en.ryan_callahan)))"
+    }, 
+    {
+        "utterance": "what are the christian holidays", 
+        "targetFormula": "(!fb:religion.religion.holidays fb:en.christianity)"
+    }, 
+    {
+        "utterance": "who directed charlie_s_angels", 
+        "targetFormula": "(!fb:film.film.directed_by fb:en.charlies_angels)"
+    }, 
+    {
+        "utterance": "what was jack_albertson 's  cause_of_death", 
+        "targetFormula": "(!fb:people.deceased_person.cause_of_death fb:en.jack_albertson)"
+    }, 
+    {
+        "utterance": "when was the printing_press invented", 
+        "targetFormula": "(!fb:law.invention.date_of_invention fb:en.printing_press)"
+    }, 
+    {
+        "utterance": "what are the neighborhoods in  new_york_city", 
+        "targetFormula": "(!fb:location.place_with_neighborhoods.neighborhoods fb:en.new_york_ny)"
+    }, 
+    {
+        "utterance": "how_many people practice karate", 
+        "targetFormula": "(count (!fb:martial_arts.martial_art.well_known_practitioner fb:en.karate))"
+    }, 
+    {
+        "utterance": "what is the area of south_america", 
+        "targetFormula": "(!fb:location.location.area fb:en.south_america)"
+    }, 
+    {
+        "utterance": "how_many sites are on the   national_register_of_historic_places", 
+        "targetFormula": "(count (!fb:protected_sites.natural_or_cultural_site_listing.listed_site ( (lambda#x#(fb:protected_sites.natural_or_cultural_site_listing.designation#(var#x))) fb:en.national_register_of_historic_places)))"
+    }, 
+    {
+        "utterance": "what football team does andy_reid currently coach", 
+        "targetFormula": "(!fb:american_football.football_coach.current_team_head_coached fb:en.andy_reid)"
+    }, 
+    {
+        "utterance": "how_many protected_sites does the u.s.  national_park_service govern", 
+        "targetFormula": "(count (!fb:protected_sites.governing_body_of_protected_sites.protected_sites_governed fb:en.national_park_service))"
+    }, 
+    {
+        "utterance": "what was viacom 's revenue in 2009", 
+        "targetFormula": "(!fb:measurement_unit.dated_money_value.amount (and ((lambda#x#(fb:measurement_unit.dated_money_value.valid_date#(var#x))) (date 2009 -1 -1)) ((lambda#x#(!fb:business.business_operation.revenue#(var#x))) fb:en.viacom)))"
+    }, 
+    {
+        "utterance": "what island_group is jekyll_island a part of", 
+        "targetFormula": "(!fb:geography.island.island_group fb:en.jekyll_island)"
+    }, 
+    {
+        "utterance": "how_many children does jerry_seinfeld have", 
+        "targetFormula": "(count (!fb:people.person.children fb:en.jerry_seinfeld))"
+    }, 
+    {
+        "utterance": "what type of organism was lucy a fossil of", 
+        "targetFormula": "(!fb:biology.fossil_specimen.organism fb:m.0gd2g7)"
+    }, 
+    {
+        "utterance": "when was crystal_light originally marketed", 
+        "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda#x#(fb:business.company_brand_relationship.brand#(var#x))) fb:en.crystal_light))"
+    }, 
+    {
+        "utterance": "how_many people ride the london_underground daily", 
+        "targetFormula": "(count (!fb:measurement_unit.dated_integer.number (!fb:metropolitan_transit.transit_system.daily_riders fb:en.london_underground)))"
+    }, 
+    {
+        "utterance": "in what disaster was  old_st_paul_s_cathedral destroyed", 
+        "targetFormula": "(!fb:event.disaster_affected_structure.destroyed_by_disaster fb:en.old_st_pauls_cathedral)"
+    }, 
+    {
+        "utterance": "what instruments did omarion play", 
+        "targetFormula": "(!fb:music.group_member.instruments_played fb:en.omarion_grandberry)"
+    }, 
+    {
+        "utterance": "what are the books in  the_chronicles_of_narnia series", 
+        "targetFormula": "(fb:book.written_work.part_of_series fb:en.the_chronicles_of_narnia)"
+    }, 
+    {
+        "utterance": "what characters are featured in   batman_:_the_dark_knight_returns", 
+        "targetFormula": "(!fb:comic_books.comic_book_series.featured_characters fb:en.batman_the_dark_knight_returns)"
+    }, 
+    {
+        "utterance": "what was henry_viii 's royal_line", 
+        "targetFormula": "(!fb:royalty.monarch.royal_line fb:en.king_henry_viii_of_england)"
+    }, 
+    {
+        "utterance": "what was the cost of building the magnum_xl-200", 
+        "targetFormula": "(!fb:measurement_unit.dated_money_value.amount (!fb:amusement_parks.ride.cost fb:en.magnum_xl-200))"
+    }, 
+    {
+        "utterance": "how_many cow 's milk cheeses are there", 
+        "targetFormula": "(count (!fb:food.cheese_milk_source.cheeses fb:en.cattle))"
+    }, 
+    {
+        "utterance": "did the big_bang_exhibit at the science_museum  cost_money", 
+        "targetFormula": "(!fb:exhibitions.exhibition_run.admission_fee (and ((lambda#x#(fb:exhibitions.exhibition_run.venue#(var#x))) fb:en.science_museum_great_britain) ((lambda#x#(fb:exhibitions.exhibition_run.exhibition#(var#x))) fb:m.046chwc)))"
+    }, 
+    {
+        "utterance": "what movie did danny_devito win an award for in 1981", 
+        "targetFormula": "(!fb:award.award_honor.honored_for (and ((lambda#x#(fb:award.award_honor.award_winner#(var#x))) fb:en.danny_devito) ((lambda#x#(fb:award.award_honor.year#(var#x))) (date 1981 -1 -1))))"
+    }, 
+    {
+        "utterance": "who coaches the  australian_cricket_team", 
+        "targetFormula": "(!fb:cricket.cricket_team.coach fb:en.australian_cricket_team)"
+    }, 
+    {
+        "utterance": "what are the texts of taoism", 
+        "targetFormula": "(!fb:religion.religion.texts fb:en.taoism)"
+    }, 
+    {
+        "utterance": "who was 8_mile directed_by", 
+        "targetFormula": "(!fb:film.film.directed_by fb:en.8_mile)"
+    }, 
+    {
+        "utterance": "how_many tv did jerry_seinfeld have a starring role in", 
+        "targetFormula": "(count (!fb:tv.regular_tv_appearance.series ((lambda#x#(fb:tv.regular_tv_appearance.actor#(var#x))) fb:en.jerry_seinfeld)))"
+    }, 
+    {
+        "utterance": "when was walmart founded", 
+        "targetFormula": "(!fb:organization.organization.date_founded fb:en.wal-mart)"
+    }, 
+    {
+        "utterance": "who used to be quarterback for the  green_bay_packers", 
+        "targetFormula": "(!fb:american_football.football_historical_roster_position.player (and ( (lambda#x#(fb:american_football.football_historical_roster_position.position_s#(var#x))) fb:en.quarterback) ( (lambda#x#(fb:american_football.football_historical_roster_position.team#(var#x))) fb:en.green_bay_packers)))"
+    }, 
+    {
+        "utterance": "how_many teams are in the atlantic_division of the eastern conference", 
+        "targetFormula": "(count (!fb:ice_hockey.hockey_division.teams fb:en.atlantic_division))"
+    }, 
+    {
+        "utterance": "how_many radio programs about science are there", 
+        "targetFormula": "(count (!fb:radio.radio_subject.programs_with_this_subject fb:m.06mq7))"
+    }, 
+    {
+        "utterance": "when was the latest_release of microsoft_word", 
+        "targetFormula": "(!fb:computer.software.latest_release_date fb:en.microsoft_word)"
+    }, 
+    {
+        "utterance": "what architectural_style is the brooklyn_bridge", 
+        "targetFormula": "(!fb:architecture.structure.architectural_style fb:en.brooklyn_bridge)"
+    }, 
+    {
+        "utterance": "how_many tv_channels does nbc own", 
+        "targetFormula": "(count (!fb:broadcast.tv_station_owner.tv_stations fb:en.nbc))"
+    }, 
+    {
+        "utterance": "how_many turbojet engines are there", 
+        "targetFormula": "(count (!fb:engineering.engine_category.engines fb:en.turbojet))"
+    }, 
+    {
+        "utterance": "how_many inversions does  the_mind_eraser have", 
+        "targetFormula": "(count (!fb:amusement_parks.ride.inversions fb:en.the_mind_eraser))"
+    }, 
+    {
+        "utterance": "when was  13_going_on_30 released", 
+        "targetFormula": "(!fb:film.film.initial_release_date fb:en.13_going_on_30)"
+    }, 
+    {
+        "utterance": "when did john_j._raskob own the   empire_state_building", 
+        "targetFormula": "(!fb:architecture.ownership.end_date (and ((lambda#x#(fb:architecture.ownership.owner#(var#x))) fb:en.john_j_raskob) ((lambda#x#(fb:architecture.ownership.structure#(var#x))) fb:en.empire_state_building)))"
+    }, 
+    {
+        "utterance": "what was the date_of_the_first  sesame_street episode aired", 
+        "targetFormula": "(!fb:tv.tv_program.air_date_of_first_episode fb:en.sesame_street)"
+    }, 
+    {
+        "utterance": "who created  the_far_side", 
+        "targetFormula": "(!fb:comic_strips.comic_strip_creator_duration.creator_of_strip ((lambda#x#(fb:comic_strips.comic_strip_creator_duration.comic_strip#(var#x))) fb:en.the_far_side))"
+    }, 
+    {
+        "utterance": "what conditions have symptoms including headache", 
+        "targetFormula": "(fb:medicine.disease.symptoms fb:en.severe_headache)"
+    }, 
+    {
+        "utterance": "what games has macsoft_games developed", 
+        "targetFormula": "(!fb:cvg.cvg_developer.games_developed fb:en.macsoft_games)"
+    }, 
+    {
+        "utterance": "are lithium_batteries rechargable", 
+        "targetFormula": "(!fb:engineering.battery_cell_type.rechargeable fb:en.lithium_battery)"
+    }, 
+    {
+        "utterance": "how_many people died_of a skiing_accident", 
+        "targetFormula": "(count (fb:people.deceased_person.cause_of_death fb:en.skiing_accident))"
+    }, 
+    {
+        "utterance": "what decision did manny  pacquiao_vs._timothy bradley end with", 
+        "targetFormula": "(!fb:boxing.boxing_match.decision fb:m.0j24b7h)"
+    }, 
+    {
+        "utterance": "what spirits are produced in kentucky", 
+        "targetFormula": "(!fb:distilled_spirits.spirit_producing_region.distilleries fb:en.kentucky)"
+    }, 
+    {
+        "utterance": "when was home_depot founded", 
+        "targetFormula": "(!fb:organization.organization.date_founded fb:en.the_home_depot)"
+    }, 
+    {
+        "utterance": "when did japan end as a musical group", 
+        "targetFormula": "(!fb:music.artist.active_end fb:m.016f2t)"
+    }, 
+    {
+        "utterance": "what animal does marscapone cheese come from", 
+        "targetFormula": "(!fb:food.cheese.source_of_milk fb:en.mascarpone)"
+    }, 
+    {
+        "utterance": "who was titanic directed_by", 
+        "targetFormula": "(!fb:film.film.directed_by fb:en.titanic_special_edition_dvd)"
+    }, 
+    {
+        "utterance": "what matches have had the  wbc_world_champion title at stake", 
+        "targetFormula": "(!fb:boxing.boxing_title.matches_with_this_title_at_stake fb:m.0cj52b7)"
+    }, 
+    {
+        "utterance": "how_many people_played in the   2010_fifa_world_cup_final", 
+        "targetFormula": "(count (!fb:soccer.football_player_match_participation.player ( (lambda#x#(fb:soccer.football_player_match_participation.match#(var#x))) fb:en.2010_fifa_world_cup_final)))"
+    }, 
+    {
+        "utterance": "how_many celebrities have abused cocaine", 
+        "targetFormula": "(count (!fb:celebrities.substance_abuse_problem.celebrity ((lambda#x#(fb:celebrities.substance_abuse_problem.substance#(var#x))) fb:en.cocaine)))"
+    }, 
+    {
+        "utterance": "what are the lines of the  new_york_city_subway", 
+        "targetFormula": "(!fb:metropolitan_transit.transit_system.transit_lines fb:en.new_york_city_subway)"
+    }, 
+    {
+        "utterance": "when was cap'n_crunch introduced", 
+        "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda#x#(fb:business.company_brand_relationship.brand#(var#x))) fb:en.capn_crunch))"
+    }, 
+    {
+        "utterance": "when was oxygen discovered", 
+        "targetFormula": "(!fb:chemistry.chemical_element.discovery_date fb:en.oxygen)"
+    }, 
+    {
+        "utterance": "when did easy_aces  stop_being_produced", 
+        "targetFormula": "(!fb:broadcast.content.production_end fb:en.easy_aces)"
+    }, 
+    {
+        "utterance": "what team does mike_babcock coach", 
+        "targetFormula": "(!fb:ice_hockey.hockey_coach.current_team fb:en.mike_babcock)"
+    }, 
+    {
+        "utterance": "how many engineers worked on the    design_and_construction_of_the_plymouth_breakwater", 
+        "targetFormula": "(count (!fb:projects.project_participation.participant (and ( (lambda#x#(fb:projects.project_participation.project#(var#x))) fb:en.design_and_construction_of_the_plymouth_breakwater) ((lambda#x#(fb:projects.project_participation.role#(var#x))) fb:en.engineer))))"
+    }, 
+    {
+        "utterance": "when was the sony_nex-5 released", 
+        "targetFormula": "(!fb:digicams.digital_camera.released fb:m.0cp1pcv)"
+    }, 
+    {
+        "utterance": "when was letter_from_america  last_broadcast", 
+        "targetFormula": "(!fb:radio.radio_program.final_broadcast fb:en.letter_from_america)"
+    }, 
+    {
+        "utterance": "in what zoo was knut kept", 
+        "targetFormula": "(!fb:zoos.animal_captivity.zoo ((lambda#x#(fb:zoos.animal_captivity.animal#(var#x))) fb:m.02q470c))"
+    }, 
+    {
+        "utterance": "what is the highest drop on stealth", 
+        "targetFormula": "(!fb:amusement_parks.ride.drop fb:m.0b6_sx)"
+    }, 
+    {
+        "utterance": "how_many films has tim_burton produced", 
+        "targetFormula": "(count (fb:film.film.produced_by fb:en.tim_burton))"
+    }, 
+    {
+        "utterance": "did jack_dempsey win the long count fight", 
+        "targetFormula": "(!fb:boxing.match_boxer_relationship.winner_won ((lambda#x#(fb:boxing.match_boxer_relationship.boxer#(var#x))) fb:en.jack_dempsey))"
+    }, 
+    {
+        "utterance": "who were the key_designers of the macintosh", 
+        "targetFormula": "(!fb:computer.computer.key_designers fb:en.macintosh)"
+    }, 
+    {
+        "utterance": "how_many people have won the  nobel_peace_prize", 
+        "targetFormula": "(count (!fb:award.award_honor.award_winner ((lambda#x#(fb:award.award_honor.award#(var#x))) fb:en.nobel_peace_prize)))"
+    }, 
+    {
+        "utterance": "where was omarion born", 
+        "targetFormula": "(!fb:people.person.place_of_birth fb:en.omarion_grandberry)"
+    }, 
+    {
+        "utterance": "what tourist_attractions are in rome", 
+        "targetFormula": "(!fb:travel.travel_destination.tourist_attractions fb:en.rome)"
+    }, 
+    {
+        "utterance": "what are the major exports of madagascar", 
+        "targetFormula": "(!fb:location.imports_exports_by_industry.industry ((lambda#x#(!fb:location.statistical_region.major_exports#(var#x))) fb:en.madagascar))"
+    }, 
+    {
+        "utterance": "when was the construction of new steubenville_bridge finished", 
+        "targetFormula": "(!fb:projects.project.actual_completion_date fb:m.0jb4_0h)"
+    }, 
+    {
+        "utterance": "how_many other_names are there for jcpenney", 
+        "targetFormula": "(count (!fb:common.topic.alias fb:en.j_c_penney))"
+    }, 
+    {
+        "utterance": "what language_family is afrikaans part of", 
+        "targetFormula": "(!fb:language.human_language.language_family fb:en.afrikaans)"
+    }, 
+    {
+        "utterance": "what percentage of the grapes in a  1966_chateau_latour grand vin are merlot", 
+        "targetFormula": "(!fb:wine.grape_variety_composition.percentage (and ((lambda#x#(fb:wine.grape_variety_composition.wine#(var#x))) fb:en.1966_chateau_latour) ((lambda#x#(fb:wine.grape_variety_composition.grape_variety#(var#x))) fb:en.merlot)))"
+    }, 
+    {
+        "utterance": "how_many historical events happened in south_america", 
+        "targetFormula": "(count (!fb:location.location.events fb:en.south_america))"
+    }, 
+    {
+        "utterance": "what meteor_showers has the comet_halley spawned", 
+        "targetFormula": "(!fb:astronomy.comet.meteor_shower_spawned fb:en.comet_halley)"
+    }, 
+    {
+        "utterance": "when was  pride_and_prejudice published", 
+        "targetFormula": "(!fb:book.written_work.date_of_first_publication fb:en.pride_and_prejudice)"
+    }, 
+    {
+        "utterance": "who manufactured millennium_force", 
+        "targetFormula": "(!fb:amusement_parks.ride.manufacturer fb:en.millennium_force)"
+    }, 
+    {
+        "utterance": "what characters were on the cover of  batman_#_1", 
+        "targetFormula": "(!fb:comic_books.comic_book_issue.characters_on_cover fb:en.batman_1)"
+    }, 
+    {
+        "utterance": "what sort of weave is used to make tweed", 
+        "targetFormula": "(!fb:fashion.textile.weave fb:en.tweed)"
+    }, 
+    {
+        "utterance": "when gatorade was first developed", 
+        "targetFormula": "(!fb:business.company_brand_relationship.from_date ((lambda#x#(fb:business.company_brand_relationship.brand#(var#x))) fb:en.gatorade))"
+    }, 
+    {
+        "utterance": "on how_many projects was james_walker a design_engineer", 
+        "targetFormula": "(count (!fb:projects.project_participation.project (and ((lambda#x#(fb:projects.project_participation.participant#(var#x))) fb:en.james_walker) ((lambda#x#(fb:projects.project_participation.role#(var#x))) fb:en.design_engineer))))"
+    }, 
+    {
+        "utterance": "how_many awards did the movie 8_mile win", 
+        "targetFormula": "(count (!fb:award.award_honor.award ((lambda#x#(fb:award.award_honor.honored_for#(var#x))) fb:en.8_mile)))"
+    }, 
+    {
+        "utterance": "how many people practice buddhism", 
+        "targetFormula": "(!fb:measurement_unit.dated_integer.number (!fb:religion.religion.number_of_adherents fb:en.buddhism))"
+    }, 
+    {
+        "utterance": "how_much did the  construction_of_the_taj mahal cost", 
+        "targetFormula": "(!fb:measurement_unit.dated_money_value.amount (!fb:projects.project.actual_cost fb:en.initial_design_and_construction_of_taj_mahal))"
+    }, 
+    {
+        "utterance": "what are some object-oriented programming_languages", 
+        "targetFormula": "(!fb:computer.programming_language_paradigm.languages fb:en.object-oriented_programming)"
+    }, 
+    {
+        "utterance": "who were the curators for   renoir_in_the_20th_century", 
+        "targetFormula": "(!fb:exhibitions.exhibition.curators fb:en.renoir_in_the_20th_century)"
+    }, 
+    {
+        "utterance": "for what country did bernard_lagat play in the  2000_summer_olympics", 
+        "targetFormula": "(!fb:olympics.olympic_athlete_affiliation.country (and ((lambda#x#(fb:olympics.olympic_athlete_affiliation.olympics#(var#x))) fb:en.2000_summer_olympics) ((lambda#x#(fb:olympics.olympic_athlete_affiliation.athlete#(var#x))) fb:en.bernard_lagat)))"
+    }, 
+    {
+        "utterance": "what titles were at stake in the   the_rumble_in_the_jungle", 
+        "targetFormula": "(!fb:boxing.boxing_match.titles_at_stake fb:en.the_rumble_in_the_jungle)"
+    }, 
+    {
+        "utterance": "what games has electronic_arts developed", 
+        "targetFormula": "(!fb:cvg.cvg_developer.games_developed fb:en.electronic_arts)"
+    }, 
+    {
+        "utterance": "how_many stores are in nittany_mall", 
+        "targetFormula": "(count (!fb:business.shopping_center.store fb:en.nittany_mall))"
+    }, 
+    {
+        "utterance": "when was nutty_professor released", 
+        "targetFormula": "(!fb:film.film.initial_release_date fb:en.the_nutty_professor_1996)"
+    }, 
+    {
+        "utterance": "who was the editor_in_chief of  die_welt in 2000", 
+        "targetFormula": "(!fb:business.employment_tenure.person (and (and ((lambda#x#(fb:business.employment_tenure.company#(var#x))) fb:en.die_welt) ((lambda#x#(fb:business.employment_tenure.to#(var#x))) (date 2000 -1 -1))) ((lambda#x#(fb:business.employment_tenure.title#(var#x))) fb:en.editor_in_chief)))"
+    }, 
+    {
+        "utterance": "what is the nutty_professor rated", 
+        "targetFormula": "(!fb:film.film.rating fb:en.the_nutty_professor_1996)"
+    }, 
+    {
+        "utterance": "how_many film_performances did jack_albertson do", 
+        "targetFormula": "(count (!fb:film.performance.film ((lambda#x#(fb:film.performance.actor#(var#x))) fb:en.jack_albertson)))"
+    }, 
+    {
+        "utterance": "what musicians have died_of lung_cancer", 
+        "targetFormula": "(fb:people.deceased_person.cause_of_death fb:en.lung_cancer)"
+    }, 
+    {
+        "utterance": "what type_of_bridge is the  manhattan_bridge", 
+        "targetFormula": "(!fb:transportation.bridge.bridge_type fb:en.manhattan_bridge)"
+    }, 
+    {
+        "utterance": "what sport did scott_anderson play in the  1992_summer_olympics", 
+        "targetFormula": "(!fb:olympics.olympic_athlete_affiliation.sport (and ((lambda#x#(fb:olympics.olympic_athlete_affiliation.athlete#(var#x))) fb:m.04dnjr9) ((lambda#x#(fb:olympics.olympic_athlete_affiliation.olympics#(var#x))) fb:en.1992_summer_olympics)))"
+    }, 
+    {
+        "utterance": "who designed the parthenon", 
+        "targetFormula": "(!fb:architecture.structure.architect fb:en.parthenon)"
+    }, 
+    {
+        "utterance": "how_many monarchs are from the  house_of_tutor", 
+        "targetFormula": "(count (!fb:royalty.royal_line.monarchs_from_this_line fb:en.tudor_dynasty))"
+    }, 
+    {
+        "utterance": "what german athletes have participated in the olympics", 
+        "targetFormula": "(!fb:olympics.olympic_athlete_affiliation.athlete ((lambda#x#(fb:olympics.olympic_athlete_affiliation.country#(var#x))) fb:en.germany))"
+    }, 
+    {
+        "utterance": "what teams did babe_ruth play for", 
+        "targetFormula": "(!fb:baseball.baseball_historical_roster_position.team ((lambda#x#(fb:baseball.baseball_historical_roster_position.player#(var#x))) fb:en.babe_ruth))"
+    }, 
+    {
+        "utterance": "in what events did ian_thorpe compete in the  2004_summer_olympics", 
+        "targetFormula": "(!fb:olympics.olympic_medal_honor.event (and ((lambda#x#(fb:olympics.olympic_medal_honor.olympics#(var#x))) fb:en.2004_summer_olympics) ((lambda#x#(fb:olympics.olympic_medal_honor.medalist#(var#x))) fb:en.ian_thorpe)))"
+    }, 
+    {
+        "utterance": "what is the wingspan of an eclipse_500", 
+        "targetFormula": "(!fb:aviation.aircraft_model.wingspan fb:en.eclipse_500)"
+    }, 
+    {
+        "utterance": "who sponsors the hoby_seminars", 
+        "targetFormula": "(!fb:conferences.conference_series.sponsoring_organization fb:m.0hmwcy2)"
+    }, 
+    {
+        "utterance": "who founded the  order_of_the_dragon", 
+        "targetFormula": "(!fb:royalty.order_of_chivalry.founders fb:en.order_of_the_dragon)"
+    }, 
+    {
+        "utterance": "who produced   sabotage_by_the_beastie_boys", 
+        "targetFormula": "(!fb:music.recording.producer fb:m.0l16j8)"
+    }, 
+    {
+        "utterance": "how_many runs does the  thunder_ridge_ski_area have", 
+        "targetFormula": "(count (!fb:skiing.ski_area.number_of_runs fb:en.thunder_ridge_ski_area))"
+    }, 
+    {
+        "utterance": "how_many people_died in hurricane_wilma", 
+        "targetFormula": "(!fb:meteorology.tropical_cyclone.direct_fatalities fb:en.hurricane_wilma)"
+    }, 
+    {
+        "utterance": "who discovered the  rings_of_saturn", 
+        "targetFormula": "(!fb:astronomy.astronomical_discovery.discoverer fb:en.rings_of_saturn)"
+    }, 
+    {
+        "utterance": "what is the lcd_screen_resolution of a  nikon_d80", 
+        "targetFormula": "(!fb:digicams.digital_camera.lcd_pixels fb:en.nikon_d80)"
+    }, 
+    {
+        "utterance": "when was the  san_diego_zoo opened", 
+        "targetFormula": "(!fb:zoos.zoo.opened fb:en.san_diego_zoo)"
+    }, 
+    {
+        "utterance": "how_heavy is a  panasonic_lumix_dmc-tz3", 
+        "targetFormula": "(!fb:digicams.digital_camera.weight fb:en.panasonic_lumix_dmc_tz3)"
+    }, 
+    {
+        "utterance": "where was liam_gallagher born", 
+        "targetFormula": "(!fb:people.person.place_of_birth fb:en.liam_gallagher)"
+    }, 
+    {
+        "utterance": "how_many beers come a can", 
+        "targetFormula": "(count (!fb:food.beer_containment.beer ((lambda#x#(fb:food.beer_containment.container_type#(var#x))) fb:en.beverage_can)))"
+    }, 
+    {
+        "utterance": "what is the subject of the atlantic_monthly", 
+        "targetFormula": "(!fb:book.periodical.subjects fb:en.the_atlantic_monthly)"
+    }, 
+    {
+        "utterance": "what was the american_past about", 
+        "targetFormula": "(!fb:radio.radio_program.subjects fb:m.05v0tbd)"
+    }, 
+    {
+        "utterance": "who destroyed the one_ring", 
+        "targetFormula": "(!fb:fictional_universe.fictional_object.destroyed_by fb:en.one_ring)"
+    }, 
+    {
+        "utterance": "how_many students are there at the  university_of_iceland", 
+        "targetFormula": "(!fb:measurement_unit.dated_integer.number (!fb:education.educational_institution.total_enrollment fb:en.university_of_iceland))"
+    }, 
+    {
+        "utterance": "who founded the red_cross", 
+        "targetFormula": "(!fb:organization.organization.founders fb:en.american_red_cross)"
+    }, 
+    {
+        "utterance": "how_many radio_stations does cbs_radio own", 
+        "targetFormula": "(count (!fb:broadcast.radio_station_owner.radio_stations fb:en.cbs_radio))"
+    }, 
+    {
+        "utterance": "what is ashok_malhotra 's bowling pace", 
+        "targetFormula": "(!fb:cricket.cricket_bowler.pace fb:en.ashok_malhotra)"
+    }, 
+    {
+        "utterance": "how_long is  wired_s_gadget_lab_podcast", 
+        "targetFormula": "(!fb:broadcast.podcast_feed.average_media_length fb:en.wireds_gadget_lab_podcast_podcast_feed)"
+    }, 
+    {
+        "utterance": "how many politicians have served in the us_navy", 
+        "targetFormula": "(count (!fb:military.military_service.military_person (!fb:military.armed_force.personnel fb:en.united_states_navy)))"
+    }, 
+    {
+        "utterance": "what causes bipolar_disorder", 
+        "targetFormula": "(!fb:medicine.disease.causes fb:en.bipolar_disorder)"
+    }, 
+    {
+        "utterance": "what causes syphilis", 
+        "targetFormula": "(!fb:medicine.disease.causes fb:en.syphillis)"
+    }, 
+    {
+        "utterance": "who_said that_s      one_small_step_for_man_,_one_giant_leap_for_mankind", 
+        "targetFormula": "(!fb:media_common.quotation.author fb:m.06gj5j3)"
+    }, 
+    {
+        "utterance": "what bicycle_models does raleigh_manufacture", 
+        "targetFormula": "(!fb:bicycles.bicycle_manufacturer.bicycle_models fb:en.raleigh_bicycle_company)"
+    }, 
+    {
+        "utterance": "what play was west_side_story  adapted_from", 
+        "targetFormula": "(!fb:media_common.adaptation.adapted_from fb:en.west_side_story)"
+    }, 
+    {
+        "utterance": "what team does alan_butcher coach", 
+        "targetFormula": "(!fb:cricket.cricket_coach.current_team fb:en.alan_butcher)"
+    }, 
+    {
+        "utterance": "how_many speeches have been given about  world_war_ii", 
+        "targetFormula": "(count (!fb:event.speech_or_presentation.presented_work ((lambda#x#(fb:event.speech_or_presentation.speech_topic#(var#x))) fb:en.world_war_ii)))"
+    }, 
+    {
+        "utterance": "who is the newscaster on  abc_6_news", 
+        "targetFormula": "(!fb:business.employment_tenure.person (and ((lambda#x#(fb:business.employment_tenure.title#(var#x))) fb:en.news_presenter) ((lambda#x#(fb:business.employment_tenure.company#(var#x))) fb:en.abc_news_washington_dc)))"
+    }, 
+    {
+        "utterance": "who is the present newscaster on  cbs_evening_news", 
+        "targetFormula": "(!fb:tv.tv_regular_personal_appearance.person (and ((lambda#x#(fb:tv.tv_regular_personal_appearance.appearance_type#(var#x))) fb:en.newscaster) ((lambda#x#(fb:tv.tv_regular_personal_appearance.program#(var#x))) fb:en.cbs_evening_news)))"
+    }
+]

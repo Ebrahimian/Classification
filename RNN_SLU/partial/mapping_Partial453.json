@@ -1,0 +1,16 @@
+{
+    "washington_wizards": [
+        "(lambda x (fb:basketball.basketball_roster_position.team (var x)))", 
+        "fb:en.washington_wizards"
+    ], 
+    "who": [
+        "!fb:basketball.basketball_roster_position.player"
+    ], 
+    "number": [
+        "(lambda x (fb:basketball.basketball_roster_position.number (var x)))", 
+"fb:en.unitless"
+    ],
+    "6": [
+        "number 6.0"
+    ]
+}

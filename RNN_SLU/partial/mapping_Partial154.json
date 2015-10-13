@@ -1,0 +1,9 @@
+{
+    "paris": [
+        "(lambda x (fb:travel.transportation.travel_destination (var x)))", 
+        "fb:en.paris"
+    ], 
+    "bus_operators": [
+        "!fb:travel.transportation.transport_operator"
+    ]
+}

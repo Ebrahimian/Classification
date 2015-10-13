@@ -1,0 +1,8 @@
+{
+    "catholicism": [
+        "fb:en.roman_catholicism"
+    ], 
+    "religions_branched": [
+        "!fb:religion.religion.branched_into"
+    ]
+}

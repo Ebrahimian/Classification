@@ -1,0 +1,13 @@
+{
+    "best_director": [
+        "(lambda x (fb:award.award_nomination.award (var x)))", 
+        "fb:en.academy_award_for_best_directo"
+    ], 
+    "2011": [
+        "(lambda x (fb:award.award_nomination.year (var x)))",
+"date 2011 -1 -1"
+    ], 
+    "nominated": [
+        "!fb:award.award_nomination.award_nominee"
+    ]
+}

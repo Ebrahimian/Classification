@@ -1,0 +1,8 @@
+{
+    "coach": [
+        "!fb:american_football.football_team.current_head_coach"
+    ], 
+    "pittsburgh_steelers": [
+        "fb:en.pittsburgh_steelers"
+    ]
+}

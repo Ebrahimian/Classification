@@ -1,0 +1,11 @@
+{
+    "books": [
+        "!fb:media_common.literary_genre.books_in_this_genre"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "computer_programming": [
+        "fb:en.computer_programming"
+    ]
+}

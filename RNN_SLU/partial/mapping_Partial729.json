@@ -1,0 +1,11 @@
+{
+    "domains": [
+        "!fb:freebase.domain_category.domains"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "science_&_technology": [
+        "fb:en.science_technology"
+    ]
+}

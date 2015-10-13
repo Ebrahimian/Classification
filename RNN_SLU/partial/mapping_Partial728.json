@@ -1,0 +1,8 @@
+{
+    "built": [
+        "!fb:boats.ship.place_built"
+    ], 
+    "lady_washington": [
+        "fb:en.lady_washington"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "jerry_seinfeld": [
+        "fb:en.jerry_seinfeld"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "children": [
+        "!fb:people.person.children"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "ceo": [
+        "(lambda x (fb:organization.leadership.role (var x)))", 
+        "fb:en.chief_executive_officer"
+    ], 
+    "savealot": [
+        "(lambda x (fb:organization.leadership.organization (var x)))", 
+        "fb:en.save-a-lot"
+    ], 
+    "who": [
+        "!fb:organization.leadership.person"
+    ]
+}

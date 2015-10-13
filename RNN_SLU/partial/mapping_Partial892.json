@@ -1,0 +1,11 @@
+{
+    "runs": [
+        "!fb:skiing.ski_area.number_of_runs"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "thunder_ridge_ski_area": [
+        "fb:en.thunder_ridge_ski_area"
+    ]
+}

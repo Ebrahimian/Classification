@@ -1,0 +1,13 @@
+{
+    "who": [
+        "!fb:boxing.match_boxer_relationship.boxer"
+    ], 
+    "muhammad_ali_vs._joe_frazier_ii": [
+        "(lambda x (fb:boxing.match_boxer_relationship.match (var x)))", 
+        "fb:en.ali-frazier_ii"
+    ], 
+    "won": [
+        "(lambda x (fb:boxing.match_boxer_relationship.winner_won (var x)))", 
+        "true"
+    ]
+}

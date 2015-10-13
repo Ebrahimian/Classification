@@ -1,0 +1,11 @@
+{
+    "operate": [
+        "(lambda x (fb:rail.railway_operator_relationship.operator (var x)))"
+    ], 
+    "lines": [
+        "!fb:rail.railway_operator_relationship.railway"
+    ], 
+    "london_overground": [
+        "fb:en.london_overground"
+    ]
+}

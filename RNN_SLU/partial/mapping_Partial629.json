@@ -1,0 +1,13 @@
+{
+    "senators": [
+        "(lambda x (fb:government.government_position_held.office_position_or_title (var x)))", 
+        "fb:en.united_states_senator"
+    ], 
+    "who": [
+        "!fb:government.government_position_held.office_holder"
+    ], 
+    "colorado": [
+        "(lambda x (fb:government.government_position_held.district_represented (var x)))", 
+        "fb:en.colorado"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "karate": [
+        "fb:en.karate"
+    ], 
+    "practice": [
+        "!fb:martial_arts.martial_art.well_known_practitioner"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

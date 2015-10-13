@@ -1,0 +1,8 @@
+{
+    "galileo_spacecraft": [
+        "fb:en.galileo_spacecraft"
+    ], 
+    "launched": [
+        "!fb:spaceflight.satellite.launch_date"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "rehab_facilities": [
+        "!fb:celebrities.rehab.rehab_facility"
+    ], 
+    "jerry_garcia": [
+        "(lambda x (fb:celebrities.rehab.celebrity (var x)))", 
+        "fb:en.jerry_garcia"
+    ]
+}

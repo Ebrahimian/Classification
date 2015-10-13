@@ -1,0 +1,12 @@
+{
+    "world_war_ii": [
+        "(lambda x (fb:event.speech_or_presentation.speech_topic (var x)))", 
+        "fb:en.world_war_ii"
+    ], 
+    "speeches": [
+        "!fb:event.speech_or_presentation.presented_work"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "win": [
+        "!fb:boxing.match_boxer_relationship.winner_won"
+    ], 
+    "jack_dempsey": [
+        "(lambda x (fb:boxing.match_boxer_relationship.boxer (var x)))", 
+        "fb:en.jack_dempsey"
+    ]
+}

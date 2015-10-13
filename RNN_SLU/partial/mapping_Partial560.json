@@ -1,0 +1,13 @@
+{
+    "best_movie": [
+        "(lambda x (fb:award.award_honor.award (var x)))", 
+        "fb:en.academy_award_for_best_picture"
+    ], 
+    "who_won": [
+        "!fb:award.award_honor.award_winner"
+    ], 
+    "2010": [
+        "(lambda x (fb:award.award_honor.year (var x)))",
+"date 2010 -1 -1"
+    ]
+}

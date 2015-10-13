@@ -1,0 +1,8 @@
+{
+    "symptoms": [
+        "fb:medicine.disease.symptoms"
+    ], 
+    "headache": [
+        "fb:en.severe_headache"
+    ]
+}

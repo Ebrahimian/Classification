@@ -1,0 +1,8 @@
+{
+    "joe_girardi": [
+        "fb:en.joe_girardi"
+    ], 
+    "team": [
+        "!fb:baseball.baseball_manager.current_team_managed"
+    ]
+}

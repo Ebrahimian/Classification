@@ -1,0 +1,12 @@
+{
+    "celebrities": [
+        "!fb:celebrities.legal_entanglement.celebrity"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "driving_under_the_influence": [
+        "fb:en.driving_under_the_influence",
+        "(lambda x (fb:celebrities.legal_entanglement.offense (var x)))"
+    ]
+}

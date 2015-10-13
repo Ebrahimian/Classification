@@ -1,0 +1,12 @@
+{
+    "nominations": [
+        "!fb:award.award_nomination.award"
+    ], 
+    "nutty_professor_have": [
+        "(lambda x (fb:award.award_nomination.nominated_for (var x)))", 
+        "fb:en.the_nutty_professor_1996"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

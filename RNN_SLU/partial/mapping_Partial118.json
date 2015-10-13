@@ -1,0 +1,9 @@
+{
+    "distributors": [
+        "!fb:film.film_film_distributor_relationship.distributor"
+    ], 
+    "bruce_almighty": [
+        "(lambda x (fb:film.film_film_distributor_relationship.film (var x)))", 
+        "fb:en.bruce_almighty"
+    ]
+}

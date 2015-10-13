@@ -1,0 +1,12 @@
+{
+    "how_many": [
+        "count"
+    ], 
+    "ron_glass": [
+        "(lambda x (fb:film.performance.actor (var x)))", 
+        "fb:en.ron_glass"
+    ], 
+    "film": [
+        "!fb:film.performance.film"
+    ]
+}

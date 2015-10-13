@@ -1,0 +1,8 @@
+{
+    "discovered": [
+        "!fb:chemistry.chemical_element.discovery_date"
+    ], 
+    "oxygen": [
+        "fb:en.oxygen"
+    ]
+}

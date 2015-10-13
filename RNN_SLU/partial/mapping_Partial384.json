@@ -1,0 +1,9 @@
+{
+    "players": [
+        "!fb:baseball.baseball_roster_position.player"
+    ], 
+    "los_angeles_dodgers": [
+        "(lambda x (fb:baseball.baseball_roster_position.team (var x)))", 
+        "fb:en.los_angeles_dodgers"
+    ]
+}

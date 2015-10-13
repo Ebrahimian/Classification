@@ -1,0 +1,8 @@
+{
+    "2003_cricket_world_cup": [
+        "fb:en.2003_cricket_world_cup"
+    ], 
+    "hosted": [
+        "!fb:cricket.cricket_tournament_event.host"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "danny_devito": [
+        "(lambda x (fb:award.award_nomination.award_nominee (var x)))", 
+        "fb:en.danny_devito"
+    ], 
+    "nominations": [
+        "!fb:award.award_nomination.award"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

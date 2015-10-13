@@ -1,0 +1,12 @@
+{
+    "jack_albertson": [
+        "(lambda x (fb:award.award_honor.award_winner (var x)))", 
+        "fb:en.jack_albertson"
+    ], 
+    "1968": [
+        "(lambda x (fb:award.award_honor.year (var x)))"
+    ], 
+    "award": [
+        "!fb:award.award_honor.award"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "christopher_adams": [
+        "(lambda x (fb:martial_arts.martial_arts_certification.person (var x)))", 
+        "fb:en.christopher_adams"
+    ], 
+    "black_belt": [
+        "(lambda x (fb:martial_arts.martial_arts_certification.qualification (var x)))", 
+        "fb:en.black_belt"
+    ], 
+    "martial_art": [
+        "!fb:martial_arts.martial_arts_certification.art"
+    ]
+}

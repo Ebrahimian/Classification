@@ -1,0 +1,16 @@
+{
+    "sporting_group": [
+        "(lambda x (fb:biology.breed_registration.breed_group (var x)))", 
+        "fb:en.sporting_group"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "american_kennel_club": [
+        "(lambda x (fb:biology.breed_registration.registry (var x)))", 
+        "fb:en.american_kennel_club"
+    ], 
+    "breeds": [
+        "!fb:biology.breed_registration.breed"
+    ]
+}

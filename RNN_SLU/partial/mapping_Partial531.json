@@ -1,0 +1,8 @@
+{
+    "textiles_are_made": [
+        "!fb:fashion.fiber.textiles_made_from_this_fiber"
+    ], 
+    "cotton": [
+        "fb:en.cotton"
+    ]
+}

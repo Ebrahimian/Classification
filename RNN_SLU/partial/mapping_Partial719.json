@@ -1,0 +1,11 @@
+{
+    "spanish": [
+        "fb:en.spanish"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "countries": [
+        "!fb:language.human_language.countries_spoken_in"
+    ]
+}

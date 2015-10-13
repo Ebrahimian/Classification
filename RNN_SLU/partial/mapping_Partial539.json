@@ -1,0 +1,8 @@
+{
+    "rna": [
+        "!fb:biology.gene_ontology_group.description"
+    ],
+    "binding": [
+        "fb:en.rna_binding"
+    ]
+}

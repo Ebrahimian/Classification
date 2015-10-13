@@ -1,0 +1,8 @@
+{
+    "rock_formations": [
+        "!fb:geology.rock_type.formations"
+    ], 
+    "quartzite": [
+        "fb:en.quartzite"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "industries": [
+        "!fb:business.business_operation.industry"
+    ], 
+    "home_depot": [
+        "fb:en.the_home_depot"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

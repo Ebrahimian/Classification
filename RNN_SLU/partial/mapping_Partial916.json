@@ -1,0 +1,13 @@
+{
+    "who": [
+        "!fb:business.employment_tenure.person"
+    ], 
+    "abc_6_news": [
+        "(lambda x (fb:business.employment_tenure.company (var x)))", 
+        "fb:en.abc_news_washington_dc"
+    ], 
+    "newscaster": [
+        "(lambda x (fb:business.employment_tenure.title (var x)))", 
+        "fb:en.news_presenter"
+    ]
+}

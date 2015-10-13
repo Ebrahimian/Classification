@@ -1,0 +1,8 @@
+{
+    "research_only": [
+        "fb:en.research_only"
+    ], 
+    "cancer": [
+        "!fb:medicine.cancer_center_type.centers_of_this_kind"
+    ]
+}

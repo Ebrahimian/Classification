@@ -1,0 +1,11 @@
+{
+    "mathematics": [
+        "fb:en.mathematics"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "conferences_about": [
+        "!fb:conferences.conference_subject.series_of_conferences_about_this"
+    ]
+}

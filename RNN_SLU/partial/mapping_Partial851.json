@@ -1,0 +1,12 @@
+{
+    "won": [
+        "!fb:award.award_honor.award_winner"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "nobel_peace_prize": [
+        "(lambda x (fb:award.award_honor.award (var x)))", 
+        "fb:en.nobel_peace_prize"
+    ]
+}

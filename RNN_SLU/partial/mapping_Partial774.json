@@ -1,0 +1,11 @@
+{
+    "cricket": [
+        "fb:cricket.cricket_bowler.technique"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "fast_bowling": [
+        "fb:en.fast_bowling"
+    ]
+}

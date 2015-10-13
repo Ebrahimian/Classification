@@ -1,0 +1,10 @@
+{
+    "mitchell_public_library": [
+              "!fb:location.mailing_address.street_address"  
+
+    ], 
+    "address": [
+"fb:m.0j9by57",
+        "(lambda x (!fb:library.public_library.address (var x)))"
+    ]
+}

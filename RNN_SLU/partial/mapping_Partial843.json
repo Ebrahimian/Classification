@@ -1,0 +1,17 @@
+{
+    "design_and_construction_of_the_plymouth_breakwater": [
+        "(lambda x (fb:projects.project_participation.project (var x)))", 
+        "fb:en.design_and_construction_of_the_plymouth_breakwater"
+    ], 
+    "how": [
+        "count"
+    ], 
+
+    "many": [
+        "!fb:projects.project_participation.participant"
+    ],
+    "engineers": [ 
+        "(lambda x (fb:projects.project_participation.role (var x)))", 
+        "fb:en.engineer"
+    ]
+}

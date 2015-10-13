@@ -1,0 +1,13 @@
+{
+    "how_many": [
+        "count"
+    ], 
+    "uefa": [        
+	"(lambda x (fb:sports.sports_league_participation.league (var x)))",
+        "fb:en.uefa"
+    ], 
+    "teams_participate": [
+        "!fb:sports.sports_league_participation.team"
+
+    ]
+}

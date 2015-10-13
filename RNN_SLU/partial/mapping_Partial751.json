@@ -1,0 +1,8 @@
+{
+    "amazing_spider-man": [
+        "fb:en.the_amazing_spider-man"
+    ], 
+    "published": [
+        "!fb:comic_books.comic_book_series.publisher"
+    ]
+}

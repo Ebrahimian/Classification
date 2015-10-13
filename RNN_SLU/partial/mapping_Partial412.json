@@ -1,0 +1,8 @@
+{
+    "parent_disease": [
+        "!fb:medicine.disease.parent_disease"
+    ], 
+    "stroke": [
+        "fb:en.stroke"
+    ]
+}

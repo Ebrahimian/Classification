@@ -1,0 +1,8 @@
+{
+    "destroyed": [
+        "!fb:fictional_universe.fictional_object.destroyed_by"
+    ], 
+    "one_ring": [
+        "fb:en.one_ring"
+    ]
+}

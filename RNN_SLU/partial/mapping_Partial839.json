@@ -1,0 +1,9 @@
+{
+    "cap'n_crunch": [
+        "(lambda x (fb:business.company_brand_relationship.brand (var x)))", 
+        "fb:en.capn_crunch"
+    ], 
+    "when": [
+        "!fb:business.company_brand_relationship.from_date"
+    ]
+}

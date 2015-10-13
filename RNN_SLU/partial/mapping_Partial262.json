@@ -1,0 +1,11 @@
+{
+    "branches": [
+        "!fb:library.public_library_system.branches"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "vancouver_public_library": [
+        "fb:en.vancouver_public_library"
+    ]
+}

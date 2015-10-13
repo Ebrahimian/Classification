@@ -1,0 +1,8 @@
+{
+    "founded": [
+        "!fb:organization.organization.date_founded"
+    ], 
+    "sigmod": [
+        "fb:en.sigmod"
+    ]
+}

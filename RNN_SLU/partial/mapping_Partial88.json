@@ -1,0 +1,9 @@
+{
+    "pilsner_urquell": [
+        "(lambda x (fb:food.beer_containment.beer (var x)))", 
+        "fb:en.pilsner_urquell"
+    ], 
+    "sizes": [
+        "!fb:food.beer_containment.size"
+    ]
+}

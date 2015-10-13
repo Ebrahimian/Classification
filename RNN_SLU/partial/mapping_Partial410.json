@@ -1,0 +1,13 @@
+{
+    "harry_potter_and_the_goblet_of_fire": [
+        "(lambda x (fb:award.award_honor.honored_for (var x)))", 
+        "fb:en.harry_potter_and_the_goblet_of_fire"
+    ], 
+    "hugo_award_for_best_novel": [
+        "(lambda x (fb:award.award_honor.award (var x)))", 
+        "fb:en.hugo_award_for_best_novel"
+    ], 
+    "year": [
+        "!fb:award.award_honor.year"
+    ]
+}

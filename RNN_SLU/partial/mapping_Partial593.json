@@ -1,0 +1,9 @@
+{
+    "silver_star_railway": [
+        "(lambda x (fb:rail.railway_operator_relationship.railway (var x)))", 
+        "fb:m.04rsv0"
+    ], 
+    "operates": [
+        "!fb:rail.railway_operator_relationship.operator"
+    ]
+}

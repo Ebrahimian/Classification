@@ -1,0 +1,9 @@
+{
+    "san_jose_sharks": [
+        "(lambda x (fb:ice_hockey.hockey_roster_position.team (var x)))", 
+        "fb:en.san_jose_sharks"
+    ], 
+    "plays": [
+        "!fb:ice_hockey.hockey_roster_position.player"
+    ]
+}

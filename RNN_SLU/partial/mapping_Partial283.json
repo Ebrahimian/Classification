@@ -1,0 +1,9 @@
+{
+    "oreo": [
+        "(lambda x (fb:business.company_brand_relationship.brand (var x)))", 
+        "fb:en.oreo"
+    ], 
+    "when": [
+        "!fb:business.company_brand_relationship.from_date"
+    ]
+}

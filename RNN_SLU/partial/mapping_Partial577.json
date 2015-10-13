@@ -1,0 +1,12 @@
+{
+    "hayden_panettiere": [
+        "(lambda x (fb:film.performance.actor (var x)))", 
+        "fb:en.hayden_panettiere"
+    ], 
+    "productions": [
+        "!fb:film.performance.film"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

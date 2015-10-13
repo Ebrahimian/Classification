@@ -1,0 +1,9 @@
+{
+    "net_profit": [
+        "!fb:measurement_unit.dated_money_value.amount"
+    ], 
+    "procter_&_gamble": [
+        "(lambda x (!fb:business.business_operation.net_profit (var x)))", 
+        "fb:en.procter_gamble"
+    ]
+}

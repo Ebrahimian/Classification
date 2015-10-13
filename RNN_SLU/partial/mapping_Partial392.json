@@ -1,0 +1,11 @@
+{
+    "how_many": [
+        "count"
+    ], 
+    "uk": [
+        "fb:en.uk"
+    ], 
+    "countries": [
+        "!fb:finance.currency.countries_used"
+    ]
+}

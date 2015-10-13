@@ -1,0 +1,8 @@
+{
+    "formats_supported": [
+        "!fb:computer.computing_platform.file_formats_supported"
+    ], 
+    "iphone": [
+        "fb:en.iphone"
+    ]
+}

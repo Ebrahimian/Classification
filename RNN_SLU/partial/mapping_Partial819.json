@@ -1,0 +1,11 @@
+{
+    "turbojet": [
+        "fb:en.turbojet"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "engines": [
+        "!fb:engineering.engine_category.engines"
+    ]
+}

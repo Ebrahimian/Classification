@@ -1,0 +1,8 @@
+{
+    "orbital_period": [
+        "!fb:astronomy.orbital_relationship.orbital_period"
+    ], 
+    "moon": [
+        "fb:en.moon"
+    ]
+}

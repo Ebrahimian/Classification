@@ -1,0 +1,9 @@
+{
+    "when": [
+        "!fb:business.company_brand_relationship.from_date"
+    ], 
+    "country_time": [
+        "(lambda x (fb:business.company_brand_relationship.brand (var x)))", 
+        "fb:en.country_time"
+    ]
+}

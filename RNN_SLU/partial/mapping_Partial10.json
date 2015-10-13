@@ -1,0 +1,9 @@
+{
+    "the_betty_ford_center": [
+        "(lambda x (fb:celebrities.rehab.rehab_facility (var x)))", 
+        "fb:en.betty_ford_center"
+    ], 
+    "celebrities": [
+        "!fb:celebrities.rehab.celebrity"
+    ]
+}

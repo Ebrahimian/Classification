@@ -1,0 +1,11 @@
+{
+    "how_many": [
+        "count"
+    ], 
+    "cancer_centers": [
+        "fb:medicine.cancer_center.comprehensive"
+    ],
+    "comprehensive": [
+        "true"
+    ]
+}

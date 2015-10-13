@@ -1,0 +1,8 @@
+{
+    "us_county": [
+        "fb:location.us_county"
+    ], 
+    "topics_are_equivalent": [
+        "!fb:freebase.type_profile.equivalent_topic"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "cretaceous": [
+        "fb:en.cretaceous"
+    ], 
+    "formed_during": [
+        "fb:geology.geological_formation.formed_during_period"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

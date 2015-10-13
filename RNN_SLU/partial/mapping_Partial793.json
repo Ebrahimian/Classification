@@ -1,0 +1,12 @@
+{
+    "viacom": [
+        "(lambda x (!fb:business.business_operation.revenue (var x)))", 
+        "fb:en.viacom"
+    ], 
+    "2009": [
+        "(lambda x (fb:measurement_unit.dated_money_value.valid_date (var x)))"
+    ], 
+    "revenue": [
+        "!fb:measurement_unit.dated_money_value.amount"
+    ]
+}

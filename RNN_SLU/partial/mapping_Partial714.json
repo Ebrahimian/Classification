@@ -1,0 +1,8 @@
+{
+    "armed_forces": [
+        "!fb:military.military_combatant.armed_forces"
+    ], 
+    "thailand": [
+        "fb:en.thailand"
+    ]
+}

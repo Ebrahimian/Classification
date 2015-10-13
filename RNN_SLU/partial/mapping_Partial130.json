@@ -1,0 +1,11 @@
+{
+    "city": [
+        "!fb:location.mailing_address.citytown"
+    ], 
+    "headquartered": [
+        "(lambda x (!fb:organization.organization.headquarters (var x)))"
+    ], 
+    "h_&_r_block": [
+        "fb:en.h_r_block"
+    ]
+}

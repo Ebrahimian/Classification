@@ -1,0 +1,8 @@
+{
+    "periodicals": [
+        "!fb:book.periodical_subject.periodicals"
+    ],
+    "computer_science": [ 
+        "fb:en.computer_science"
+    ]
+}

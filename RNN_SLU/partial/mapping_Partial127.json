@@ -1,0 +1,8 @@
+{
+    "ceratopsia": [
+        "fb:en.ceratopsia"
+    ], 
+    "diet": [
+        "!fb:base.dinosaur.dinosaur.diet"
+    ]
+}

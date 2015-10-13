@@ -1,0 +1,9 @@
+{
+    "network": [
+        "!fb:tv.tv_network_duration.network"
+    ], 
+    "sesame_street": [
+        "(lambda x (fb:tv.tv_network_duration.program (var x)))", 
+        "fb:en.sesame_street"
+    ]
+}

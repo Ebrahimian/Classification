@@ -1,0 +1,11 @@
+{
+    "cheeses": [
+        "!fb:food.cheese_milk_source.cheeses"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "cow": [
+        "fb:en.cattle"
+    ]
+}

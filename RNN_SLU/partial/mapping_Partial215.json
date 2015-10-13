@@ -1,0 +1,8 @@
+{
+    "symptoms": [
+        "!fb:medicine.disease.symptoms"
+    ], 
+    "prostate_cancer": [
+        "fb:en.prostate_cancer"
+    ]
+}

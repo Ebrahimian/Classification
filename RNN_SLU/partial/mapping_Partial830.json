@@ -1,0 +1,8 @@
+{
+    "spirits": [
+        "!fb:distilled_spirits.spirit_producing_region.distilleries"
+    ], 
+    "kentucky": [
+        "fb:en.kentucky"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "cocaine": [
+        "(lambda x (fb:celebrities.substance_abuse_problem.substance (var x)))", 
+        "fb:en.cocaine"
+    ], 
+    "robin_williams": [
+        "(lambda x (fb:celebrities.substance_abuse_problem.celebrity (var x)))", 
+        "fb:en.robin_williams"
+    ], 
+    "stop_abusing": [
+        "!fb:celebrities.substance_abuse_problem.end"
+    ]
+}

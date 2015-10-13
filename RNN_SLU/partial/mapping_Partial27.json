@@ -1,0 +1,9 @@
+{
+    "fulham_fc": [
+        "(lambda x (fb:soccer.football_team_management_tenure.team (var x)))", 
+        "fb:en.fulham_fc"
+    ], 
+    "manages": [
+        "!fb:soccer.football_team_management_tenure.manager"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "koertzen": [
+        "fb:en.rudi_koertzen"
+    ], 
+    "test_conferences": [
+        "!fb:cricket.cricket_umpire.test_matches_refereed"
+    ]
+}

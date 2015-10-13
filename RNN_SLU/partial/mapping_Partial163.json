@@ -1,0 +1,9 @@
+{
+    "game_of_the_century": [
+        "(lambda x (fb:chess.chess_game_participation.game (var x)))", 
+        "fb:en.the_game_of_the_century"
+    ], 
+    "played": [
+        "!fb:chess.chess_game_participation.player"
+    ]
+}

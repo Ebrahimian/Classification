@@ -1,0 +1,13 @@
+{
+    "awards": [
+        "!fb:award.award_honor.award"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+ 
+    "win": [
+        "(lambda x (fb:award.award_honor.honored_for (var x)))",
+		"fb:en.titanic_special_edition_dvd"
+    ]
+}

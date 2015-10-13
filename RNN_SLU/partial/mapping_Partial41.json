@@ -1,0 +1,11 @@
+{
+    "white_house": [
+        "fb:en.white_house"
+    ], 
+    "floors": [
+        "!fb:architecture.building.floors"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

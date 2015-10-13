@@ -1,0 +1,9 @@
+{
+    "robert_downey_jr": [
+        "(lambda x (fb:celebrities.substance_abuse_problem.celebrity (var x)))", 
+        "fb:en.robert_downey_jr"
+    ], 
+    "substancs": [
+        "!fb:celebrities.substance_abuse_problem.substance"
+    ]
+}

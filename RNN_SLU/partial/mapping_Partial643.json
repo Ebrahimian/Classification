@@ -1,0 +1,11 @@
+{
+    "south_america": [
+        "fb:en.south_america"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "countries": [
+        "fb:location.location.containedby"
+    ]
+}

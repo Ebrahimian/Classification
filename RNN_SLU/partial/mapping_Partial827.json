@@ -1,0 +1,8 @@
+{
+    "rechargable": [
+        "!fb:engineering.battery_cell_type.rechargeable"
+    ], 
+    "lithium_batteries": [
+        "fb:en.lithium_battery"
+    ]
+}

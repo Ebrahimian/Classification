@@ -1,0 +1,8 @@
+{
+    "who_coaches": [
+        "!fb:ice_hockey.hockey_team.coach"
+    ], 
+    "maple_leafs": [
+        "fb:en.toronto_maple_leafs"
+    ]
+}

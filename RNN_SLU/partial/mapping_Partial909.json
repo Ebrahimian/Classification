@@ -1,0 +1,8 @@
+{
+    "bipolar_disorder": [
+        "fb:en.bipolar_disorder"
+    ], 
+    "causes": [
+        "!fb:medicine.disease.causes"
+    ]
+}

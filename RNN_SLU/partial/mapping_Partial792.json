@@ -1,0 +1,11 @@
+{
+    "national_park_service": [
+        "fb:en.national_park_service"
+    ], 
+    "protected_sites": [
+        "!fb:protected_sites.governing_body_of_protected_sites.protected_sites_governed"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

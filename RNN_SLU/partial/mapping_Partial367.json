@@ -1,0 +1,8 @@
+{
+    "processor": [
+        "!fb:computer.computer.processor"
+    ], 
+    "apple_ii": [
+        "fb:en.apple_ii"
+    ]
+}

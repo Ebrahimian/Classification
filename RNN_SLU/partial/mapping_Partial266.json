@@ -1,0 +1,8 @@
+{
+    "kepler_spacecraft": [
+        "fb:en.kepler_mission"
+    ], 
+    "launched": [
+        "!fb:spaceflight.satellite.launch_site"
+    ]
+}

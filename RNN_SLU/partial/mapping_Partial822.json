@@ -1,0 +1,13 @@
+{
+    "empire_state_building": [
+        "(lambda x (fb:architecture.ownership.structure (var x)))", 
+        "fb:en.empire_state_building"
+    ], 
+    "when": [
+        "!fb:architecture.ownership.end_date"
+    ], 
+    "john_j._raskob": [
+        "(lambda x (fb:architecture.ownership.owner (var x)))", 
+        "fb:en.john_j_raskob"
+    ]
+}

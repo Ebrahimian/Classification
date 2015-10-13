@@ -1,0 +1,9 @@
+{
+    "belgium": [
+        "(lambda x (!fb:location.statistical_region.population (var x)))", 
+        "fb:en.belgium"
+    ], 
+    "population": [
+        "!fb:measurement_unit.dated_integer.number"
+    ]
+}

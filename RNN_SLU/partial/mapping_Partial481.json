@@ -1,0 +1,9 @@
+{
+    "articles": [
+        "!fb:book.contents.work"
+    ], 
+    "frontier_times": [
+        "(lambda x (fb:book.contents.publication (var x)))", 
+        "fb:en.frontier_times_1967_july"
+    ]
+}

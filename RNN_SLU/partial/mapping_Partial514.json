@@ -1,0 +1,13 @@
+{
+    "award_for_best_spoken_word_album": [
+        "(lambda x (fb:award.award_honor.award (var x)))", 
+        "fb:en.grammy_award_for_best_spoken_word_album"
+    ], 
+    "win": [
+        "!fb:award.award_honor.honored_for"
+    ], 
+    "barack_obama": [
+        "(lambda x (fb:award.award_honor.award_winner (var x)))", 
+        "fb:en.barack_obama"
+    ]
+}

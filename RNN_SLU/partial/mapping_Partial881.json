@@ -1,0 +1,8 @@
+{
+    "manhattan_bridge": [
+        "fb:en.manhattan_bridge"
+    ], 
+    "type_of_bridge": [
+        "!fb:transportation.bridge.bridge_type"
+    ]
+}

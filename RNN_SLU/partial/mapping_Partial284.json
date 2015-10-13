@@ -1,0 +1,13 @@
+{
+    "positon": [
+        "!fb:american_football.football_historical_roster_position.position_s"
+    ], 
+    "ray_lewis": [
+        "(lambda x (fb:american_football.football_historical_roster_position.player (var x)))", 
+        "fb:en.ray_lewis"
+    ], 
+    "baltimore_ravens": [
+        "(lambda x (fb:american_football.football_historical_roster_position.team (var x)))", 
+        "fb:en.baltimore_ravens"
+    ]
+}

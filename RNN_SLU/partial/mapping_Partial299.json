@@ -1,0 +1,14 @@
+{
+    "people": [
+        "!fb:measurement_unit.dated_integer.number"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "visit": [
+        "!fb:library.public_library_system.annual_visits"
+    ],
+    "new_york_public_library": [ 
+        "fb:en.new_york_public_library"
+    ]
+}

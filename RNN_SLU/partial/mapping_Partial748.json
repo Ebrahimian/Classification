@@ -1,0 +1,9 @@
+{
+    "richard_hamilton": [
+        "(lambda x (fb:basketball.basketball_roster_position.player (var x)))", 
+        "fb:en.richard_hamilton"
+    ], 
+    "team": [
+        "!fb:basketball.basketball_roster_position.team"
+    ]
+}

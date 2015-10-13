@@ -1,0 +1,12 @@
+{
+    "jim_thorpe": [
+        "(lambda x (fb:american_football.football_historical_roster_position.player (var x)))", 
+        "fb:en.jim_thorpe"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "teams": [
+        "!fb:american_football.football_historical_roster_position.team"
+    ]
+}

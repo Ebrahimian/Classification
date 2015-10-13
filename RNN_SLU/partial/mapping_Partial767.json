@@ -1,0 +1,12 @@
+{
+    "adobe_flash": [
+        "(lambda x (fb:computer.software_compatibility.software (var x)))", 
+        "fb:en.adobe_flash"
+    ], 
+    "operating_systems": [
+        "!fb:computer.software_compatibility.operating_system"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

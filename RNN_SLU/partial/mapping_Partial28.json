@@ -1,0 +1,8 @@
+{
+    "the_catcher_in_the_rye": [
+        "fb:en.the_catcher_in_the_rye"
+    ], 
+    "first_published": [
+        "!fb:book.written_work.date_of_first_publication"
+    ]
+}

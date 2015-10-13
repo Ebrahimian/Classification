@@ -1,0 +1,8 @@
+{
+    "runaways": [
+        "fb:en.runaways"
+    ], 
+    "created": [
+        "!fb:comic_books.comic_book_series.created_by"
+    ]
+}

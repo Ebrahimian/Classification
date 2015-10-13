@@ -1,0 +1,16 @@
+{
+    "joseph_haydn": [
+        "(lambda x (fb:media_common.dedication.dedicated_to (var x)))", 
+        "fb:en.joseph_haydn"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "dedicate": [
+        "!fb:media_common.dedication.work_dedicated"
+    ], 
+    "mozart": [
+        "(lambda x (fb:media_common.dedication.dedicated_by (var x)))", 
+        "fb:en.wolfgang_amadeus_mozart"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "national_parks": [
+        "!fb:protected_sites.park_system.member_parks"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "national_wildlife_refuge": [
+        "fb:en.national_wildlife_refuge"
+    ]
+}

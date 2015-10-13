@@ -1,0 +1,8 @@
+{
+    "old_st_paul_s_cathedral": [
+        "fb:en.old_st_pauls_cathedral"
+    ], 
+    "disaster": [
+        "!fb:event.disaster_affected_structure.destroyed_by_disaster"
+    ]
+}

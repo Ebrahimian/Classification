@@ -1,0 +1,8 @@
+{
+    "since_when": [
+        "!fb:language.language_writing_system.used_from"
+    ], 
+    "arabic_alphabet": [
+        "fb:en.arabic_alphabet"
+    ]
+}

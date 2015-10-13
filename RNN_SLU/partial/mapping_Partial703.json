@@ -1,0 +1,11 @@
+{
+    "actors": [
+        "!fb:freebase.list.entries"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "middle_name_or_initial": [
+        "fb:m.0599h7b"
+    ]
+}

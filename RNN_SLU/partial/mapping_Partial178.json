@@ -1,0 +1,8 @@
+{
+    "designed": [
+        "!fb:aviation.aircraft_model.designed_by"
+    ], 
+    "hawker_sea_hawk": [
+        "fb:en.hawker_sea_hawk"
+    ]
+}

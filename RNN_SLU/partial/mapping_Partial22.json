@@ -1,0 +1,8 @@
+{
+    "regions": [
+        "!fb:finance.stock_exchange.primary_regions"
+    ], 
+    "lse": [
+        "fb:en.london_stock_exchange"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "die_welt": [
+        "(lambda x (fb:business.employment_tenure.company (var x)))", 
+        "fb:en.die_welt"
+    ], 
+    "2000": [
+        "(lambda x (fb:business.employment_tenure.to (var x)))",
+	"date 2000 -1 -1"
+    ], 
+    "who": [
+        "!fb:business.employment_tenure.person"
+    ], 
+    "editor_in_chief": [
+        "(lambda x (fb:business.employment_tenure.title (var x)))", 
+        "fb:en.editor_in_chief"
+    ]
+}

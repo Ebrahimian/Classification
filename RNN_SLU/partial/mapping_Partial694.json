@@ -1,0 +1,11 @@
+{
+    "los_angeles_convention_center": [
+        "fb:en.los_angeles_convention_center"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "conferences": [
+        "!fb:conferences.conference_venue.conferences"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "europe": [
+        "fb:en.europe"
+    ], 
+    "area": [
+        "!fb:location.location.area"
+    ]
+}

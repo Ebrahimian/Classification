@@ -1,0 +1,8 @@
+{
+    "butane": [
+        "fb:en.butane"
+    ], 
+    "chemical_formula": [
+        "!fb:chemistry.chemical_compound.formula"
+    ]
+}

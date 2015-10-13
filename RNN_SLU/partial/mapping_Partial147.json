@@ -1,0 +1,8 @@
+{
+    "program": [
+        "!fb:radio.radio_program_episode.program"
+    ], 
+    "a_right_to_death": [
+        "fb:en.a_right_to_death"
+    ]
+}

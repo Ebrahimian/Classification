@@ -1,0 +1,8 @@
+{
+    "directed": [
+        "!fb:film.film.directed_by"
+    ], 
+    "charlie_s_angels": [
+        "fb:en.charlies_angels"
+    ]
+}

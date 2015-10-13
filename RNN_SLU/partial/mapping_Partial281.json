@@ -1,0 +1,9 @@
+{
+    "fuel_economy": [
+        "!fb:automotive.us_fuel_economy.highway_mpg"
+    ], 
+    "hyundai_accent_gls_sedan": [
+        "(lambda x (fb:automotive.us_fuel_economy.trim_level (var x)))", 
+        "fb:m.04nbpg5"
+    ]
+}

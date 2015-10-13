@@ -1,0 +1,11 @@
+{
+    "breast_cancer": [
+        "fb:en.breast_cancer"
+    ], 
+    "stages": [
+        "!fb:medicine.disease.stages"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

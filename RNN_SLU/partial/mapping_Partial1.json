@@ -1,0 +1,13 @@
+{
+    "professor": [
+        "(lambda x (fb:education.academic_post.position_or_title (var x)))", 
+        "fb:en.professor"
+    ], 
+    "institutions": [
+        "!fb:education.academic_post.institution"
+    ], 
+    "marshall_hall": [
+        "(lambda x (fb:education.academic_post.person (var x)))", 
+        "fb:en.marshall_hall"
+    ]
+}

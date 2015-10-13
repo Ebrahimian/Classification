@@ -1,0 +1,9 @@
+{
+    "motorola": [
+        "(lambda x (!fb:business.business_operation.revenue (var x)))", 
+        "fb:en.motorola"
+    ], 
+    "the_most_revenue": [
+        "!fb:measurement_unit.dated_money_value.valid_date"
+    ]
+}

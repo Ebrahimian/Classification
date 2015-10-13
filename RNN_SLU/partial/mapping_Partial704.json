@@ -1,0 +1,8 @@
+{
+    "fry_s_turkish_delight": [
+        "fb:en.frys_turkish_delight"
+    ], 
+    "sold": [
+        "!fb:food.candy_bar.sold_in"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "panasonic_dx3000": [
+        "fb:en.panasonic_dx3000"
+    ], 
+    "speeds": [
+        "!fb:bicycles.bicycle_model.speeds"
+    ]
+}

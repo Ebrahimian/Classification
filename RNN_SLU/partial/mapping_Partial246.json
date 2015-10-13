@@ -1,0 +1,11 @@
+{
+    "2007_honda_civic_hybrid": [
+        "fb:m.04nbbrp"
+    ], 
+    "fuel_economy": [
+        "(lambda x (fb:automotive.us_fuel_economy.trim_level (var x)))"
+    ], 
+    "highway": [
+        "!fb:automotive.us_fuel_economy.highway_mpg"
+    ]
+}

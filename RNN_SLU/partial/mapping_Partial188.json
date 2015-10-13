@@ -1,0 +1,8 @@
+{
+    "north_america": [
+        "fb:en.north_america"
+    ], 
+    "area": [
+        "!fb:location.location.area"
+    ]
+}

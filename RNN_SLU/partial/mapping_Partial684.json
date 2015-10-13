@@ -1,0 +1,11 @@
+{
+    "poisoning": [
+        "fb:en.poison"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "died": [
+        "fb:people.deceased_person.cause_of_death"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "james_bond": [
+        "(lambda x (fb:film.performance.character (var x)))", 
+        "fb:m.0clpml"
+    ], 
+    "portrayed": [
+        "!fb:film.performance.actor"
+    ]
+}

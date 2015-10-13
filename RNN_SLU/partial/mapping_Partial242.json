@@ -1,0 +1,8 @@
+{
+    "jerry_seinfeld": [
+        "fb:en.jerry_seinfeld"
+    ], 
+    "how_tall": [
+        "!fb:people.person.height_meters"
+    ]
+}

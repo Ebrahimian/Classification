@@ -1,0 +1,12 @@
+{
+    "winners": [
+        "!fb:award.award_honor.award_winner"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "peabody_award": [
+        "(lambda x (fb:award.award_honor.award (var x)))", 
+        "fb:en.peabody_award"
+    ]
+}

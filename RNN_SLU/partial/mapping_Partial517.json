@@ -1,0 +1,11 @@
+{
+    "indian_rupee": [
+        "fb:en.indian_rupee"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "countries_use": [
+        "!fb:finance.currency.countries_used"
+    ]
+}

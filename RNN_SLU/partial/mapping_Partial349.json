@@ -1,0 +1,8 @@
+{
+    "newspapers": [
+        "!fb:education.educational_institution.newspaper"
+    ], 
+    "carnegie_mellon": [
+        "fb:en.carnegie_mellon_university"
+    ]
+}

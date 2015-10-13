@@ -1,0 +1,8 @@
+{
+    "road_bike": [
+        "fb:en.road_bicycle"
+    ],
+    "examples": [
+        "!fb:bicycles.bicycle_type.bicycle_models_of_this_type"
+    ]
+}

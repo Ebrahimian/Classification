@@ -1,0 +1,13 @@
+{
+    "who": [
+        "!fb:american_football.football_roster_position.player"
+    ],
+    "linebackers": [ 
+        "(lambda x (fb:american_football.football_roster_position.position (var x)))", 
+        "fb:en.linebacker"
+    ], 
+    "the_chicago_bears": [
+        "(lambda x (fb:american_football.football_roster_position.team (var x)))", 
+        "fb:en.chicago_bears"
+    ]
+}

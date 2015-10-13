@@ -1,0 +1,8 @@
+{
+    "mount_fuji": [
+        "fb:en.mount_fuji"
+    ], 
+    "last_erupt": [
+        "!fb:geography.mountain.last_eruption"
+    ]
+}

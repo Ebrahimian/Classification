@@ -1,0 +1,11 @@
+{
+    "settlers_of_catan": [
+        "fb:en.settlers_of_catan"
+    ], 
+    "play": [
+        "!fb:games.game.number_of_players"
+    ], 
+    "how_many": [
+        "!fb:measurement_unit.integer_range.high_value"
+    ]
+}

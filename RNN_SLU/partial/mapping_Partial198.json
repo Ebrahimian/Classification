@@ -1,0 +1,16 @@
+{
+    "order_of_the_most_holy_annunciation": [
+        "(lambda x (fb:royalty.chivalric_order_position_tenure.order (var x)))", 
+        "fb:en.order_of_the_most_holy_annunciation"
+    ], 
+    "grand_master": [
+        "(lambda x (fb:royalty.chivalric_order_position_tenure.chivalric_office (var x)))", 
+        "fb:en.grand_master"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "title": [
+        "!fb:royalty.chivalric_order_position_tenure.officer"
+    ]
+}

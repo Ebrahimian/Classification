@@ -1,0 +1,8 @@
+{
+    "type_of_infection": [
+        "!fb:medicine.infectious_disease.infectious_agent_type"
+    ], 
+    "syphilis": [
+        "fb:en.syphillis"
+    ]
+}

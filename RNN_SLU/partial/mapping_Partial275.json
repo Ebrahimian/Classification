@@ -1,0 +1,8 @@
+{
+    "series": [
+        "!fb:book.author.series_written_or_contributed_to"
+    ], 
+    "tamora_pierce": [
+        "fb:en.tamora_pierce"
+    ]
+}

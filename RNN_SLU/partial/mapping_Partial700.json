@@ -1,0 +1,8 @@
+{
+    "vancouver": [
+        "fb:en.vancouver_british_columbia"
+    ], 
+    "hotels": [
+        "!fb:travel.travel_destination.accommodation"
+    ]
+}

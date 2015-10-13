@@ -1,0 +1,8 @@
+{
+    "max_speed": [
+        "!fb:boats.ship_class.max_speed_knots"
+    ], 
+    "collins_class_submarine": [
+        "fb:en.collins_class_submarine"
+    ]
+}

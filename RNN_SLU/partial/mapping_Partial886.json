@@ -1,0 +1,9 @@
+{
+    "babe_ruth": [
+        "(lambda x (fb:baseball.baseball_historical_roster_position.player (var x)))", 
+        "fb:en.babe_ruth"
+    ], 
+    "teams": [
+        "!fb:baseball.baseball_historical_roster_position.team"
+    ]
+}

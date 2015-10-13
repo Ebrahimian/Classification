@@ -1,0 +1,12 @@
+{
+    "how_many": [
+        "count"
+    ], 
+    "tv_shows": [
+        "!fb:tv.regular_tv_appearance.series"
+    ], 
+    "ron_glass": [
+        "(lambda x (fb:tv.regular_tv_appearance.actor (var x)))", 
+        "fb:en.ron_glass"
+    ]
+}

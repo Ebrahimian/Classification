@@ -1,0 +1,11 @@
+{
+    "australian_dollar": [
+        "fb:en.australian_dollar"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "countries_use": [
+        "!fb:finance.currency.countries_used"
+    ]
+}

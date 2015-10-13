@@ -1,0 +1,11 @@
+{
+    "passenger": [
+        "!fb:aviation.aircraft_model.passengers"
+    ], 
+    "cessna_citation_x": [
+        "fb:en.cessna_citation_x"
+    ], 
+    "capacity": [
+        "!fb:measurement_unit.integer_range.high_value"
+    ]
+}

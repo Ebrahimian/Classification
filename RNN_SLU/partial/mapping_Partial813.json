@@ -1,0 +1,13 @@
+{
+    "who": [
+        "!fb:american_football.football_historical_roster_position.player"
+    ], 
+    "green_bay_packers": [
+        "(lambda x (fb:american_football.football_historical_roster_position.team (var x)))", 
+        "fb:en.green_bay_packers"
+    ], 
+    "quarterback": [
+        "(lambda x (fb:american_football.football_historical_roster_position.position_s (var x)))", 
+        "fb:en.quarterback"
+    ]
+}

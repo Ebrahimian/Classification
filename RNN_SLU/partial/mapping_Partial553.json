@@ -1,0 +1,11 @@
+{
+    "soccer_players": [
+        "!fb:soccer.football_position.players"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "goalkeepers": [
+        "fb:en.goalkeeper_football"
+    ]
+}

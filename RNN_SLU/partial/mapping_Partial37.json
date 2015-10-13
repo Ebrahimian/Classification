@@ -1,0 +1,8 @@
+{
+    "stop_running": [
+        "!fb:tv.tv_program.air_date_of_final_episode"
+    ], 
+    "hey_arnold": [
+        "fb:en.hey_arnold"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "fuel": [
+        "!fb:engineering.engine.energy_source"
+    ], 
+    "internal_combustion_engine": [
+        "fb:en.internal_combustion_engine"
+    ]
+}

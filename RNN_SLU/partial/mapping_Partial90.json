@@ -1,0 +1,8 @@
+{
+    "airspeed_oxford": [
+        "fb:en.airspeed_oxford"
+    ], 
+    "first_flown": [
+        "!fb:aviation.aircraft_model.maiden_flight"
+    ]
+}

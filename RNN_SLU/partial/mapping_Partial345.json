@@ -1,0 +1,12 @@
+{
+    "design_and_construction_of_the_golden_gate_bridge": [
+        "(lambda x (fb:projects.project_participation.project (var x)))", 
+        "fb:en.design_and_construction_of_the_golden_gate_bridge"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "people": [
+        "!fb:projects.project_participation.participant"
+    ]
+}

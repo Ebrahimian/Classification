@@ -1,0 +1,12 @@
+{
+    "tv": [
+        "!fb:tv.regular_tv_appearance.series"
+    ], 
+    "jerry_seinfeld": [
+        "(lambda x (fb:tv.regular_tv_appearance.actor (var x)))", 
+        "fb:en.jerry_seinfeld"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

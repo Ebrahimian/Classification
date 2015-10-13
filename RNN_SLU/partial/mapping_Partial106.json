@@ -1,0 +1,11 @@
+{
+    "leonardo_da_vinci": [
+        "fb:en.leonardo_da_vinci"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "exhibitions": [
+        "!fb:exhibitions.exhibition_subject.exhibitions_created_about_this_subject"
+    ]
+}

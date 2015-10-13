@@ -1,0 +1,8 @@
+{
+    "ron_glass": [
+        "fb:en.ron_glass"
+    ], 
+    "birth": [
+        "!fb:people.person.place_of_birth"
+    ]
+}

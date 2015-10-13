@@ -1,0 +1,11 @@
+{
+    "games": [
+        "!fb:cvg.cvg_platform.games_on_this_platform"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "nintendo_ds": [
+        "fb:en.nintendo_ds"
+    ]
+}

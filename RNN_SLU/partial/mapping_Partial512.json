@@ -1,0 +1,9 @@
+{
+    "the_battle_of_the_champions": [
+        "(lambda x (fb:boxing.match_boxer_relationship.match (var x)))", 
+        "fb:en.the_battle_of_the_champions"
+    ], 
+    "who_fought": [
+        "!fb:boxing.match_boxer_relationship.boxer"
+    ]
+}

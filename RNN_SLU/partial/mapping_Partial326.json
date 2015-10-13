@@ -1,0 +1,13 @@
+{
+    "when": [
+        "!fb:fashion.designer_label_association.from_date"
+    ], 
+    "herm": [
+        "(lambda x (fb:fashion.designer_label_association.label (var x)))", 
+        "fb:m.06dr8q"
+    ], 
+    "martin_margiela": [
+        "(lambda x (fb:fashion.designer_label_association.designer (var x)))", 
+        "fb:en.martin_margiela"
+    ]
+}

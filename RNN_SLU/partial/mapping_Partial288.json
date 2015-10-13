@@ -1,0 +1,12 @@
+{
+    "2002": [
+        "(lambda x (fb:basketball.basketball_historical_coach_position.from (var x)))"
+    ], 
+    "rick_carlisle": [
+        "(lambda x (fb:basketball.basketball_historical_coach_position.coach (var x)))", 
+        "fb:en.rick_carlisle"
+    ], 
+    "team": [
+        "!fb:basketball.basketball_historical_coach_position.team"
+    ]
+}

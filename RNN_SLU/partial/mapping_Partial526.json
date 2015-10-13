@@ -1,0 +1,9 @@
+{
+    "rolling_stones_'_greatest_guitarist_of_all_time": [
+        "(lambda x (fb:award.ranking.list (var x)))", 
+        "fb:en.rolling_stones_100_greatest_guitarists_of_all_time"
+    ], 
+    "who": [
+        "!fb:award.ranking.item"
+    ]
+}

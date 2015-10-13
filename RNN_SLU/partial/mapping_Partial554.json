@@ -1,0 +1,8 @@
+{
+    "oracle": [
+        "fb:en.oracle_corporation"
+    ], 
+    "software": [
+        "!fb:computer.software_developer.software"
+    ]
+}

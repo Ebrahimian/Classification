@@ -1,0 +1,9 @@
+{
+    "koolaid": [
+        "(lambda x (fb:business.company_brand_relationship.brand (var x)))", 
+        "fb:en.kool-aid"
+    ], 
+    "invented": [
+        "!fb:business.company_brand_relationship.company"
+    ]
+}

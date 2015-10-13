@@ -1,0 +1,8 @@
+{
+    "lcd_screen_resolution": [
+        "!fb:digicams.digital_camera.lcd_pixels"
+    ], 
+    "nikon_d80": [
+        "fb:en.nikon_d80"
+    ]
+}

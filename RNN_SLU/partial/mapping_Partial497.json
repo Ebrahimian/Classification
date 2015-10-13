@@ -1,0 +1,9 @@
+{
+    "earth": [
+        "(lambda x (!fb:location.statistical_region.population (var x)))", 
+        "fb:en.earth"
+    ], 
+    "population": [
+        "!fb:measurement_unit.dated_integer.number"
+    ]
+}

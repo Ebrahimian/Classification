@@ -1,0 +1,13 @@
+{
+    "everything_is_illuminated": [
+        "(lambda x (fb:award.award_honor.honored_for (var x)))", 
+        "fb:en.everything_is_illuminated"
+    ], 
+    "when": [
+        "!fb:award.award_honor.year"
+    ], 
+    "guardian_first_book_award": [
+        "(lambda x (fb:award.award_honor.award (var x)))", 
+        "fb:en.guardian_first_book_award"
+    ]
+}

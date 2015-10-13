@@ -1,0 +1,9 @@
+{
+    "nominated_for": [
+        "!fb:award.award_nomination.nominated_for"
+    ], 
+    "favorite_comedy_movie": [
+        "(lambda x (fb:award.award_nomination.award (var x)))", 
+        "fb:en.peoples_choice_award_for_favorite_comedy_movie"
+    ]
+}

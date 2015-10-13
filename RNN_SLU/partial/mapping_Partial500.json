@@ -1,0 +1,9 @@
+{
+    "scope": [
+        "(lambda x (fb:business.company_brand_relationship.brand (var x)))", 
+        "fb:m.02r3cjp"
+    ], 
+    "when": [
+        "!fb:business.company_brand_relationship.from_date"
+    ]
+}
