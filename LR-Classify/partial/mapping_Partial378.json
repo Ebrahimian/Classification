@@ -1,0 +1,8 @@
+{
+    "car_talk": [
+        "fb:en.car_talk"
+    ], 
+    "hosts": [
+        "!fb:broadcast.content.artist"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "edward_scissorhands": [
+        "fb:en.edward_scissorhands",
+"(lambda x (!fb:film.film.estimated_budget (var x)))"
+    ], 
+    "budget": [
+        "!fb:measurement_unit.dated_money_value.amount"
+      ]
+}

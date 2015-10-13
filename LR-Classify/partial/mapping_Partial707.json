@@ -1,0 +1,11 @@
+{
+    "spanish_peseta": [
+        "fb:en.spanish_peseta"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "countries_use": [
+        "!fb:finance.currency.countries_used"
+    ]
+}

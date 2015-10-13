@@ -1,0 +1,8 @@
+{
+    "disneyland": [
+        "fb:en.disneyland"
+    ], 
+    "areas": [
+        "!fb:amusement_parks.park.areas"
+    ]
+}

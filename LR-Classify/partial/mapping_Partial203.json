@@ -1,0 +1,14 @@
+{
+    "how": [
+        "count"
+    ], 
+    "many": [
+        "!fb:measurement_unit.dated_integer.number"
+    ],
+    "detroit_public": [
+        "fb:en.detroit_public_library"
+    ],
+    "library": [
+        "!fb:library.public_library_system.collection_size"
+    ]
+}

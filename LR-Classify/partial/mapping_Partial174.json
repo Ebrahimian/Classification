@@ -1,0 +1,8 @@
+{
+    "die": [
+        "!fb:people.deceased_person.cause_of_death"
+    ], 
+    "samuel_beckett": [
+        "fb:en.samuel_beckett"
+    ]
+}

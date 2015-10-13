@@ -1,0 +1,8 @@
+{
+    "screenplay": [
+        "!fb:film.film.written_by"
+    ], 
+    "the_nutty_professor": [
+        "fb:en.the_nutty_professor_1996"
+    ]
+}

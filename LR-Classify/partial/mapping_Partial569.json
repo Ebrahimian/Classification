@@ -1,0 +1,8 @@
+{
+    "guardian": [
+        "fb:en.the_guardian"
+    ], 
+    "circulated": [
+        "!fb:book.newspaper.circulation_areas"
+    ]
+}

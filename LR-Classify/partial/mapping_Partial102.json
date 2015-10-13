@@ -1,0 +1,8 @@
+{
+    "die": [
+        "!fb:biology.deceased_organism.date_of_death"
+    ], 
+    "secretariat": [
+        "fb:en.secretariat"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "compatible": [
+        "!fb:computer.software.compatible_oses"
+    ], 
+    "mac": [
+        "!fb:computer.software_compatibility.operating_system"
+    ], 
+    "firefox": [
+        "fb:en.mozilla_firefox"
+    ]
+}

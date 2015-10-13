@@ -1,0 +1,13 @@
+{
+    "donovan_mcnabb": [
+        "(lambda x (fb:american_football.player_game_statistics.player (var x)))", 
+        "fb:en.donovan_mcnabb"
+    ], 
+    "games": [
+        "!fb:american_football.player_game_statistics.games"
+    ], 
+    "2008_season": [
+        "(lambda x (fb:american_football.player_game_statistics.season (var x)))", 
+        "fb:en.2008_nfl_season"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "hurricane_ivan": [
+        "fb:en.hurricane_ivan"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "areas": [
+        "!fb:meteorology.tropical_cyclone.affected_areas"
+    ]
+}

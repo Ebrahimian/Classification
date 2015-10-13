@@ -1,0 +1,12 @@
+{
+    "jerry_seinfeld": [
+        "(lambda x (fb:tv.tv_producer_term.producer (var x)))", 
+        "fb:en.jerry_seinfeld"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "tv_shows": [
+        "!fb:tv.tv_producer_term.program"
+    ]
+}

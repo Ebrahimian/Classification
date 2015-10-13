@@ -1,0 +1,8 @@
+{
+    "destroyed": [
+        "!fb:event.disaster.structures_destroyed"
+    ], 
+    "september_11th": [
+        "fb:en.september_11_2001_attacks"
+    ]
+}

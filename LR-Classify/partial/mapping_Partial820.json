@@ -1,0 +1,11 @@
+{
+    "inversions": [
+        "!fb:amusement_parks.ride.inversions"
+    ], 
+    "the_mind_eraser": [
+        "fb:en.the_mind_eraser"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

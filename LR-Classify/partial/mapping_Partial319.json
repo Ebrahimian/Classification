@@ -1,0 +1,9 @@
+{
+    "runtime": [
+        "!fb:film.film_cut.runtime"
+    ], 
+    "titanic": [
+        "(lambda x (fb:film.film_cut.film (var x)))", 
+        "fb:en.titanic_special_edition_dvd"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "dialects": [
+        "!fb:language.human_language.dialects"
+    ], 
+    "arabic": [
+        "fb:en.arabic_language"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

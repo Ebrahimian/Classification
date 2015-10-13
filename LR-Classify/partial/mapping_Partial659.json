@@ -1,0 +1,9 @@
+{
+    "ron_glass": [
+        "(lambda x (fb:award.award_nomination.award_nominee (var x)))", 
+        "fb:en.ron_glass"
+    ], 
+    "nominee": [
+        "!fb:award.award_nomination.year"
+    ]
+}

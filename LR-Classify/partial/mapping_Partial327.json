@@ -1,0 +1,8 @@
+{
+    "directed": [
+        "!fb:film.film.directed_by"
+    ], 
+    "2_fast_2_furious": [
+        "fb:en.2_fast_2_furious"
+    ]
+}

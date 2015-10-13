@@ -1,0 +1,13 @@
+{
+    "aa": [
+        "(lambda x (fb:engineering.battery_size_cell_variation.size (var x)))", 
+        "fb:en.aa_battery"
+    ], 
+    "alkaline_battery": [
+        "(lambda x (fb:engineering.battery_size_cell_variation.cell_type (var x)))", 
+        "fb:en.alkaline_battery"
+    ], 
+    "voltage": [
+        "!fb:engineering.battery_size_cell_variation.voltage"
+    ]
+}

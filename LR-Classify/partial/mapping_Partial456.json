@@ -1,0 +1,8 @@
+{
+    "art_deco": [
+        "fb:en.art_deco"
+    ], 
+    "books": [
+        "!fb:book.book_subject.works"
+    ]
+}

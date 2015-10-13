@@ -1,0 +1,14 @@
+{
+    "beds": [
+        "!fb:medicine.hospital.beds"
+    ], 
+    "mclean_hospital": [
+        "fb:en.mclean_hospital"
+    ], 
+    "how": [
+        "count"
+    ],
+    "many": [
+        "!fb:measurement_unit.dated_integer.number"
+    ]
+}

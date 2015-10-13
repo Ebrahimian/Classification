@@ -1,0 +1,8 @@
+{
+    "code": [
+        "!fb:finance.currency.currency_code"
+    ], 
+    "australian_dollar": [
+        "fb:en.australian_dollar"
+    ]
+}

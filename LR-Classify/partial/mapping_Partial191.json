@@ -1,0 +1,11 @@
+{
+    "schools": [
+        "!fb:education.fraternity_sorority.colleges_and_universities"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "sigma_phi_epsilon": [
+        "fb:en.sigma_phi_epsilon"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "symptoms": [
+        "!fb:medicine.disease.symptoms"
+    ], 
+    "motor_neuron_disease": [
+        "fb:en.motor_neuron_disease"
+    ]
+}

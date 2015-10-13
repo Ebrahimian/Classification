@@ -1,0 +1,12 @@
+{
+    "conflicts": [
+        "!fb:military.military_command.military_conflict"
+    ], 
+    "mussolini": [
+        "(lambda x (fb:military.military_command.military_commander (var x)))", 
+        "fb:en.benito_mussolini"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

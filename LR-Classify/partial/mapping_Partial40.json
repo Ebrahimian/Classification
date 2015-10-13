@@ -1,0 +1,14 @@
+{
+    "john_f_kennedy": [
+        "fb:en.john_f_kennedy"
+    ], 
+    "own": [
+        "(lambda x (fb:base.famouspets.pet_ownership.owner (var x)))"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "pets": [
+        "!fb:base.famouspets.pet_ownership.pet"
+    ]
+}

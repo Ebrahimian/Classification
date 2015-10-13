@@ -1,0 +1,13 @@
+{
+    "average_temperature": [
+        "!fb:travel.travel_destination_monthly_climate.average_max_temp_c"
+    ], 
+    "sydney": [
+        "(lambda x (fb:travel.travel_destination_monthly_climate.travel_destination (var x)))", 
+        "fb:en.sydney"
+    ], 
+    "august": [
+        "(lambda x (fb:travel.travel_destination_monthly_climate.month (var x)))", 
+        "fb:en.august"
+    ]
+}

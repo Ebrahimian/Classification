@@ -1,0 +1,11 @@
+{
+    "latitude": [
+        "!fb:location.location.geolocation"
+    ], 
+    "eiffel_tower": [
+        "fb:en.eiffel_tower"
+    ], 
+    "longitude": [
+        "!fb:location.geocode.longitude"
+    ]
+}

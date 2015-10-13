@@ -1,0 +1,11 @@
+{
+    "works": [
+        "!fb:media_common.cause_of_loss.works_lost_this_way"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "theft": [
+        "fb:en.theft"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "specialize": [
+        "!fb:medicine.medical_specialty.hospitals_with_this_specialty"
+    ], 
+    "cardiology": [
+        "fb:en.cardiology"
+    ]
+}

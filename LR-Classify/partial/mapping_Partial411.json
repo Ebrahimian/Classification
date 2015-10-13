@@ -1,0 +1,11 @@
+{
+    "dinosaur": [
+        "!fb:base.dinosaur.dinosaur_location.dinosaur_s"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "north_america": [
+        "fb:en.north_america"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "companies": [
+        "!fb:business.stock_ticker_symbol.ticker_symbol"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "traded": [
+        "!fb:finance.stock_exchange.companies_traded"
+    ], 
+    "nyse": [
+        "fb:en.new_york_stock_exchange_inc"
+    ]
+}

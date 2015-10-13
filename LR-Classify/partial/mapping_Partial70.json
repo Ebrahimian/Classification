@@ -1,0 +1,8 @@
+{
+    "uss_nautilus": [
+        "fb:en.uss_nautilus"
+    ], 
+    "built": [
+        "!fb:boats.ship.ship_builder"
+    ]
+}

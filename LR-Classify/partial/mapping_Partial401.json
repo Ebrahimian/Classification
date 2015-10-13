@@ -1,0 +1,8 @@
+{
+    "golden_gate_bridge": [
+        "fb:en.golden_gate_bridge"
+    ], 
+    "how_long": [
+        "!fb:transportation.bridge.total_length"
+    ]
+}

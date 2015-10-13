@@ -1,0 +1,8 @@
+{
+    "stratus": [
+        "fb:en.stratus"
+    ], 
+    "maximum_altitude": [
+        "!fb:meteorology.cloud.maximum_altitude_m"
+    ]
+}

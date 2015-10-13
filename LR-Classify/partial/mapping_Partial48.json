@@ -1,0 +1,12 @@
+{
+    "performances": [
+        "!fb:film.performance.film"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "beyonce": [
+        "(lambda x (fb:film.performance.actor (var x)))", 
+        "fb:en.beyonce"
+    ]
+}

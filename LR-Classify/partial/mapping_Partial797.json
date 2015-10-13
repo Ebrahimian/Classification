@@ -1,0 +1,9 @@
+{
+    "marketed": [
+        "!fb:business.company_brand_relationship.from_date"
+    ], 
+    "crystal_light": [
+        "(lambda x (fb:business.company_brand_relationship.brand (var x)))", 
+        "fb:en.crystal_light"
+    ]
+}

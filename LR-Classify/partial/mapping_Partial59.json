@@ -1,0 +1,8 @@
+{
+    "kirkstall_abbey": [
+        "fb:en.kirkstall_abbey"
+    ], 
+    "religious_order": [
+        "!fb:religion.monastery.religious_order"
+    ]
+}

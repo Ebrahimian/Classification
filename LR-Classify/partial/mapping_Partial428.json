@@ -1,0 +1,13 @@
+{
+    "president": [
+        "(lambda x (fb:business.employment_tenure.title (var x)))", 
+        "fb:en.president"
+    ], 
+    "who": [
+        "!fb:business.employment_tenure.person"
+    ], 
+    "gap_,_inc": [
+        "(lambda x (fb:business.employment_tenure.company (var x)))", 
+        "fb:en.gap_inc"
+    ]
+}

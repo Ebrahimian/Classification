@@ -1,0 +1,11 @@
+{
+    "how_much": [
+        "!fb:measurement_unit.money_value.amount"
+    ], 
+    "1904_toronto_fire": [
+        "fb:en.1904_toronto_fire"
+    ], 
+    "damages": [
+        "!fb:event.disaster.damage"
+    ]
+}

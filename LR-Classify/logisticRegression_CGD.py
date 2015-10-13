@@ -69,7 +69,7 @@ class LogisticRegression(object):
             raise NotImplementedError()
 
 
-def cg_optimization_mnist(n_epochs=500, free917LR='lex_free917LR.pkl'):
+def cg_optimization_mnist(n_epochs=500, free917LR='lex_free917LR.pkl'):#->->->->->->->->->->->->->Manula configuration
 
     #############
     # LOAD DATA #
@@ -79,13 +79,13 @@ def cg_optimization_mnist(n_epochs=500, free917LR='lex_free917LR.pkl'):
     train_set_x, train_set_y = datasets[0]
     valid_set_x, valid_set_y = datasets[1]
     test_set_x, test_set_y = datasets[2]
-    #lex:100, comp:10
+    #lex:100, comp:10                   #->->->->->->->->->->->->->->->->->->->->->->->->->->->->->Manula configuration
     batch_size = 100   # size of the minibatch
 
     n_train_batches = train_set_x.get_value(borrow=True).shape[0] / batch_size
     n_valid_batches = valid_set_x.get_value(borrow=True).shape[0] / batch_size
     n_test_batches = test_set_x.get_value(borrow=True).shape[0] / batch_size
-    #lex: 2035, 1718, comp:3579 , 175:
+    #lex: 2035, 1718, comp:3579 , 175:  #->->->->->->->->->->->->->->->->->->->->->->->->->->->->->Manula configuration
     n_in = 2035  # number of input units
     n_out = 1718  # number of output units
 
@@ -101,7 +101,7 @@ def cg_optimization_mnist(n_epochs=500, free917LR='lex_free917LR.pkl'):
                      # [int] labels
 
     # construct the logistic regression class
-    classifier = LogisticRegression(input=x, n_in=2035, n_out=1718)
+    classifier = LogisticRegression(input=x, n_in=2035, n_out=1718) #->->->->->->->->->->->->->->->Manula configuration
 
     # the cost we minimize during training is the negative log likelihood of
     # the model in symbolic format
@@ -240,7 +240,7 @@ def predict():
         outputs=classifier.y_pred)
 
     # We can test it on some examples from test test
-    dataset='lex_free917LR.pkl'
+    dataset='lex_free917LR.pkl'        #->->->->->->->->->->->->->->->->->->->->->->->->->->->->->Manula configuration
     datasets = load_data(dataset)
     test_set_x, test_set_y = datasets[2]
     test_set_x = test_set_x.get_value()

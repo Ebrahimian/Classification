@@ -1,0 +1,9 @@
+{
+    "when": [
+        "!fb:business.company_brand_relationship.from_date"
+    ], 
+    "chips_ahoy": [
+        "(lambda x (fb:business.company_brand_relationship.brand (var x)))", 
+        "fb:en.chips_ahoy"
+    ]
+}

@@ -42,9 +42,9 @@ if __name__ == '__main__':
         train_y + test_y + valid_y)))
 
     nsentences = len(train_lex)
-    print vocsize
-    print nclasses
-    print nsentences
+    print "voc size: ",vocsize
+    print "class size: ",nclasses
+    print "sentence size: ",nsentences
     # instanciate the model
     numpy.random.seed(s['seed'])
     random.seed(s['seed'])

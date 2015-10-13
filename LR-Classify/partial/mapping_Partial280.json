@@ -1,0 +1,9 @@
+{
+    "sponsors": [
+        "!fb:business.sponsorship.sponsored_recipient"
+    ], 
+    "gatorade": [
+        "(lambda x (fb:business.sponsorship.sponsored_by (var x)))", 
+        "fb:en.gatorade"
+    ]
+}

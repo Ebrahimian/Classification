@@ -1,0 +1,8 @@
+{
+    "six_flags_america": [
+        "fb:en.six_flags_america"
+    ], 
+    "rides": [
+        "!fb:amusement_parks.park.rides"
+    ]
+}

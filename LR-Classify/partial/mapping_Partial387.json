@@ -1,0 +1,13 @@
+{
+    "quinoa": [
+        "(lambda x (fb:food.nutrition_fact.food (var x)))", 
+        "fb:en.quinoa"
+    ], 
+    "how_much": [
+        "!fb:food.nutrition_fact.quantity"
+    ], 
+    "protein": [
+        "(lambda x (fb:food.nutrition_fact.nutrient (var x)))", 
+        "fb:en.protein"
+    ]
+}

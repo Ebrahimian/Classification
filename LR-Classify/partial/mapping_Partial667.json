@@ -1,0 +1,11 @@
+{
+    "automobile": [
+        "fb:en.automobile"
+    ], 
+    "industry": [
+        "fb:business.business_operation.industry"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

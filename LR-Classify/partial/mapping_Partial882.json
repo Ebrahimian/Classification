@@ -1,0 +1,13 @@
+{
+    "scott_anderson": [
+        "(lambda x (fb:olympics.olympic_athlete_affiliation.athlete (var x)))", 
+        "fb:m.04dnjr9"
+    ], 
+    "sport": [
+        "!fb:olympics.olympic_athlete_affiliation.sport"
+    ], 
+    "1992_summer_olympics": [
+        "(lambda x (fb:olympics.olympic_athlete_affiliation.olympics (var x)))", 
+        "fb:en.1992_summer_olympics"
+    ]
+}

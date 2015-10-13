@@ -1,0 +1,11 @@
+{
+    "lake_superior": [
+        "fb:en.lake_superior"
+    ], 
+    "islands": [
+        "!fb:geography.body_of_water.islands"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

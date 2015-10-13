@@ -1,0 +1,8 @@
+{
+    "jupiter": [
+        "fb:en.jupiter"
+    ], 
+    "moons": [
+        "!fb:astronomy.orbital_relationship.orbited_by"
+    ]
+}

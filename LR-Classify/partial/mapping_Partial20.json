@@ -1,0 +1,10 @@
+{
+    "league": [
+        "!fb:soccer.football_league_participation.league"
+    ], 
+    "real_madrid": [
+
+        "(lambda x (fb:soccer.football_league_participation.team (var x)))",
+        "fb:en.real_madrid"
+    ]
+}

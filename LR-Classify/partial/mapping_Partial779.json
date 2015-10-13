@@ -1,0 +1,15 @@
+{
+    "employees": [
+                "!fb:business.employer.employees"
+    ], 
+    "how": [
+        "count"
+    ], 
+
+    "many": [
+		"!fb:business.employment_tenure.person"
+    ],
+    "nintendo": [ 
+        "fb:en.nintendo"
+    ]
+}

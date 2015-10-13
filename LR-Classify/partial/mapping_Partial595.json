@@ -1,0 +1,9 @@
+{
+    "awards": [
+        "!fb:award.award_honor.award"
+    ], 
+    "lost": [
+        "(lambda x (fb:award.award_honor.honored_for (var x)))", 
+        "fb:en.lost"
+    ]
+}

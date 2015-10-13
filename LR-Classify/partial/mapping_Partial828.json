@@ -1,0 +1,11 @@
+{
+    "skiing_accident": [
+        "fb:en.skiing_accident"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "died_of": [
+        "fb:people.deceased_person.cause_of_death"
+    ]
+}

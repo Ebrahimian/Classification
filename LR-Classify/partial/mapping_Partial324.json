@@ -1,0 +1,12 @@
+{
+    "commanders": [
+        "!fb:military.military_command.military_commander"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "civil_war": [
+        "(lambda x (fb:military.military_command.military_conflict (var x)))", 
+        "fb:en.american_civil_war"
+    ]
+}

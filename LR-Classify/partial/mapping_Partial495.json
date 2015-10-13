@@ -1,0 +1,9 @@
+{
+    "smartphones": [
+        "(lambda x (fb:business.competitive_space_mediator.space (var x)))", 
+        "fb:en.smartphone"
+    ], 
+    "companies": [
+        "!fb:business.competitive_space_mediator.company"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "nominees": [
+        "!fb:award.award_nomination.award_nominee"
+    ], 
+    "1982": [
+        "(lambda x (fb:award.award_nomination.year (var x)))",
+"date 1982 -1 -1"
+    ], 
+    "award": [
+        "(lambda x (fb:award.award_nomination.award (var x)))"
+    ], 
+    "primetieme_emmy_award_for_comedy_series": [
+        "fb:en.primetime_emmy_award_for_outstanding_comedy_series"
+    ]
+}

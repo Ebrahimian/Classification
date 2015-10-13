@@ -1,0 +1,9 @@
+{
+    "the_far_side": [
+        "(lambda x (fb:comic_strips.comic_strip_creator_duration.comic_strip (var x)))", 
+        "fb:en.the_far_side"
+    ], 
+    "created": [
+        "!fb:comic_strips.comic_strip_creator_duration.creator_of_strip"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "subdisciplines": [
+        "!fb:education.field_of_study.subdisciplines"
+    ], 
+    "engineering": [
+        "fb:en.engineering"
+    ]
+}

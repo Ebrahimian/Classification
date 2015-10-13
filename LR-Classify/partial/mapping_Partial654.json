@@ -1,0 +1,9 @@
+{
+    "europe": [
+        "(lambda x (!fb:location.statistical_region.population (var x)))", 
+        "fb:en.europe"
+    ], 
+    "population": [
+        "!fb:measurement_unit.dated_integer.number"
+    ]
+}

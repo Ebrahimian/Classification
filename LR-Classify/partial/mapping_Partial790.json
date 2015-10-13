@@ -1,0 +1,12 @@
+{
+    "national_register_of_historic_places": [
+        "(lambda x (fb:protected_sites.natural_or_cultural_site_listing.designation (var x)))", 
+        "fb:en.national_register_of_historic_places"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "sites": [
+        "!fb:protected_sites.natural_or_cultural_site_listing.listed_site"
+    ]
+}

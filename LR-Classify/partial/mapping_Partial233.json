@@ -1,0 +1,8 @@
+{
+    "antarctica": [
+        "fb:en.antarctica"
+    ], 
+    "area": [
+        "!fb:location.location.area"
+    ]
+}

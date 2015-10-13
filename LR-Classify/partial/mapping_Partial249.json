@@ -1,0 +1,13 @@
+{
+    "joni_mitchell": [
+        "(lambda x (fb:award.hall_of_fame_induction.inductee (var x)))", 
+        "fb:en.joni_mitchell"
+    ], 
+    "when": [
+        "!fb:award.hall_of_fame_induction.date"
+    ], 
+    "rock_and_roll_hall_of_fame": [
+        "(lambda x (fb:award.hall_of_fame_induction.hall_of_fame (var x)))", 
+        "fb:en.rock_and_roll_hall_of_fame"
+    ]
+}

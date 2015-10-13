@@ -1,0 +1,8 @@
+{
+    "hub_for": [
+        "!fb:aviation.airport.hub_for"
+    ], 
+    "london_heathrow_airport": [
+        "fb:en.london_heathrow_airport"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "exhibit": [
+        "!fb:exhibitions.exhibition_run.opened_on"
+    ], 
+    "philadelphia_art_museum": [
+        "(lambda x (fb:exhibitions.exhibition_run.venue (var x)))", 
+        "fb:en.philadelphia_museum_of_art"
+    ], 
+    "frida_kahlo": [
+        "(lambda x (fb:exhibitions.exhibition_run.exhibition (var x)))", 
+        "fb:m.04d14h7"
+    ]
+}

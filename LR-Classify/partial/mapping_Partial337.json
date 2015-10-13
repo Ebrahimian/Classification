@@ -1,0 +1,8 @@
+{
+    "superman": [
+        "fb:en.superman"
+    ], 
+    "created": [
+        "!fb:comic_books.comic_book_character.created_by"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "celebrities": [
+        "!fb:celebrities.substance_abuse_problem.celebrity"
+    ], 
+    "cocaine": [
+        "(lambda x (fb:celebrities.substance_abuse_problem.substance (var x)))", 
+        "fb:en.cocaine"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

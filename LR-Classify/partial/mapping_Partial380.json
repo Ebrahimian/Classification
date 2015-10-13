@@ -1,0 +1,8 @@
+{
+    "manufactures": [
+        "!fb:aviation.aircraft_model.manufacturer"
+    ], 
+    "t-38_talon": [
+        "fb:en.t-38_talon"
+    ]
+}

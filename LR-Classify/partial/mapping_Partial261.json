@@ -1,0 +1,14 @@
+{
+    "curly_lambeau": [
+        "fb:en.curly_lambeau"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "coached": [
+        "(lambda x (fb:american_football.football_historical_coach_position.coach (var x)))"
+    ], 
+    "teams": [
+        "!fb:american_football.football_historical_coach_position.team"
+    ]
+}

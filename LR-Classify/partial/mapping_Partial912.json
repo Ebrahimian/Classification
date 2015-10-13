@@ -1,0 +1,8 @@
+{
+    "bicycle_models": [
+        "!fb:bicycles.bicycle_manufacturer.bicycle_models"
+    ], 
+    "raleigh_manufacture": [
+        "fb:en.raleigh_bicycle_company"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "beers": [
+        "!fb:food.beer_containment.beer"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "can": [
+        "(lambda x (fb:food.beer_containment.container_type (var x)))", 
+        "fb:en.beverage_can"
+    ]
+}

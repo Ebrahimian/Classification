@@ -1,0 +1,9 @@
+{
+    "julien_fournie": [
+        "(lambda x (fb:fashion.designer_label_association.designer (var x)))", 
+        "fb:en.julien_fournie"
+    ], 
+    "label": [
+        "!fb:fashion.designer_label_association.label"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "super_mario_bros": [
+        "(lambda x (fb:cvg.game_performance.game (var x)))", 
+        "fb:en.super_mario_bros"
+    ], 
+    "characters": [
+        "!fb:cvg.game_performance.character"
+    ]
+}

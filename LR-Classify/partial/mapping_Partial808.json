@@ -1,0 +1,8 @@
+{
+    "coaches": [
+        "!fb:cricket.cricket_team.coach"
+    ], 
+    "australian_cricket_team": [
+        "fb:en.australian_cricket_team"
+    ]
+}

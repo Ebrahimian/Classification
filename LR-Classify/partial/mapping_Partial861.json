@@ -1,0 +1,8 @@
+{
+    "pride_and_prejudice": [
+        "fb:en.pride_and_prejudice"
+    ], 
+    "published": [
+        "!fb:book.written_work.date_of_first_publication"
+    ]
+}

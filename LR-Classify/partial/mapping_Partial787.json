@@ -1,0 +1,8 @@
+{
+    "new_york_city": [
+        "fb:en.new_york_ny"
+    ], 
+    "neighborhoods": [
+        "!fb:location.place_with_neighborhoods.neighborhoods"
+    ]
+}

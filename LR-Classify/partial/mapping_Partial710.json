@@ -1,0 +1,8 @@
+{
+    "san_francisco_zoo": [
+        "fb:en.san_francisco_zoo"
+    ], 
+    "species": [
+        "!fb:zoos.zoo.num_species"
+    ]
+}

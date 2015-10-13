@@ -1,0 +1,9 @@
+{
+    "players_scored": [
+        "!fb:soccer.football_goal.scorer"
+    ], 
+    "2006_fifa_world_cup_final": [
+        "(lambda x (fb:soccer.football_goal.match (var x)))", 
+        "fb:en.2006_fifa_world_cup_final"
+    ]
+}

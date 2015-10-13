@@ -1,0 +1,9 @@
+{
+    "gilligan_s_island": [
+        "(lambda x (fb:tv.tv_network_duration.program (var x)))", 
+        "fb:en.gilligans_island"
+    ], 
+    "network": [
+        "!fb:tv.tv_network_duration.network"
+    ]
+}

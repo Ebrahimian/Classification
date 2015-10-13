@@ -1,0 +1,11 @@
+{
+    "games": [
+        "!fb:games.game_publisher.games_published"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "hasbro": [
+        "fb:en.hasbro"
+    ]
+}

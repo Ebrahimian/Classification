@@ -1,0 +1,13 @@
+{
+    "philadelphia_eagles": [
+        "(lambda x (fb:american_football.football_historical_roster_position.team (var x)))", 
+        "fb:en.philadelphia_eagles"
+    ], 
+    "what_number": [
+        "!fb:american_football.football_historical_roster_position.number"
+    ], 
+    "david_akers": [
+        "(lambda x (fb:american_football.football_historical_roster_position.player (var x)))", 
+        "fb:en.david_akers"
+    ]
+}

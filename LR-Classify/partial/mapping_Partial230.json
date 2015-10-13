@@ -1,0 +1,13 @@
+{
+    "june_2010": [
+        "(lambda x (fb:soccer.football_team_management_tenure.to (var x)))", 
+        "date 2004 -1 -1"
+    ], 
+    "managed": [
+        "!fb:soccer.football_team_management_tenure.manager"
+    ], 
+    "liverpool_fc": [
+        "(lambda x (fb:soccer.football_team_management_tenure.team (var x)))", 
+        "fb:en.liverpool_fc"
+    ]
+}

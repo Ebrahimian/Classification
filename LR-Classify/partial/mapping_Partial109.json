@@ -1,0 +1,17 @@
+{
+    "abbey_of_st._gall": [
+        "fb:en.abbey_of_st_gall"
+    ], 
+    "unesco": [
+        "(lambda x (fb:protected_sites.natural_or_cultural_site_listing.designation (var x)))"
+    ], 
+    "when": [
+        "!fb:protected_sites.natural_or_cultural_site_listing.date_listed"
+    ], 
+    "world_heritage_site": [
+        "fb:en.world_heritage_site"
+    ], 
+    "listed": [
+        "(lambda x (fb:protected_sites.natural_or_cultural_site_listing.listed_site (var x)))"
+    ]
+}

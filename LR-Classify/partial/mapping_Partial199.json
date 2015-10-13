@@ -1,0 +1,11 @@
+{
+    "own": [
+        "!fb:business.shopping_center_owner.shopping_centers_owned"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "oxford_properties": [
+        "fb:en.oxford_properties"
+    ]
+}

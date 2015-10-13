@@ -1,0 +1,11 @@
+{
+    "ipod": [
+        "fb:en.ipod"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "generations": [
+        "!fb:business.consumer_product.product_line"
+    ]
+}

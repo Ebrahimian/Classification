@@ -1,0 +1,11 @@
+{
+    "countries_are_within": [
+        "fb:location.location.containedby"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "north_america": [
+        "fb:en.north_america"
+    ]
+}

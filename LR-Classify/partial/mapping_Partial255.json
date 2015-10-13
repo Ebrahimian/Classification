@@ -1,0 +1,8 @@
+{
+    "polio_vaccine": [
+        "fb:en.polio_vaccine"
+    ], 
+    "developed": [
+        "!fb:medicine.vaccine.developed_by"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "comet_halley": [
+        "fb:en.comet_halley"
+    ], 
+    "meteor_showers": [
+        "!fb:astronomy.comet.meteor_shower_spawned"
+    ]
+}

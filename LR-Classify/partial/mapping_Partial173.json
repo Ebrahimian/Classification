@@ -1,0 +1,12 @@
+{
+    "how_many": [
+        "count"
+    ], 
+    "exhibits": [
+        "!fb:exhibitions.exhibition_run.exhibition"
+    ], 
+    "science_museum": [
+        "(lambda x (fb:exhibitions.exhibition_run.venue (var x)))", 
+        "fb:en.science_museum_great_britain"
+    ]
+}

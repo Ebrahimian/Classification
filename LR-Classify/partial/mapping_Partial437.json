@@ -1,0 +1,11 @@
+{
+    "visitors": [
+        "!fb:protected_sites.protected_site.annual_visitors"
+    ], 
+    "how_many": [
+        "!fb:measurement_unit.dated_integer.number"
+    ], 
+    "mammoth_cave_national_park": [
+        "fb:en.mammoth_cave_national_park"
+    ]
+}

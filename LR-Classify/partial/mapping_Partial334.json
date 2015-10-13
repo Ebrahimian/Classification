@@ -1,0 +1,8 @@
+{
+    "australia": [
+        "fb:en.australia"
+    ], 
+    "area": [
+        "!fb:location.location.area"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "models": [
+        "!fb:bicycles.bicycle_type.bicycle_models_of_this_type"
+    ], 
+    "mountain_bike": [
+        "fb:en.mountain_bike"
+    ]
+}

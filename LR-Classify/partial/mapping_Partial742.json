@@ -1,0 +1,8 @@
+{
+    "originate": [
+        "!fb:biology.animal_breed.place_of_origin"
+    ], 
+    "chow_chow": [
+        "fb:en.chow_chow"
+    ]
+}

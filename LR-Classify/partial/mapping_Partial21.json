@@ -1,0 +1,11 @@
+{
+    "canon_powershot_tx1": [
+        "fb:en.powershot_tx1"
+    ], 
+    "how_much": [
+        "!fb:measurement_unit.dated_money_value.amount"
+    ], 
+    "cost": [
+        "!fb:digicams.digital_camera.street_price"
+    ]
+}

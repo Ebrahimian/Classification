@@ -1,0 +1,16 @@
+{
+    "how_many": [
+        "count"
+    ], 
+    "james_walker": [
+        "(lambda x (fb:projects.project_participation.participant (var x)))", 
+        "fb:en.james_walker"
+    ], 
+    "projects": [
+        "!fb:projects.project_participation.project"
+    ], 
+    "design_engineer": [
+        "(lambda x (fb:projects.project_participation.role (var x)))", 
+        "fb:en.design_engineer"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "military_branches": [
+        "!fb:aviation.aircraft_ownership_count.aircraft_owner"
+    ], 
+    "f-5_freedom_fighter": [
+        "(lambda x (fb:aviation.aircraft_ownership_count.aircraft_model (var x)))", 
+        "fb:en.f-5_freedom_fighter"
+    ]
+}

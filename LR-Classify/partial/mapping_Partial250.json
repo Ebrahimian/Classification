@@ -1,0 +1,8 @@
+{
+    "born": [
+        "!fb:people.person.place_of_birth"
+    ], 
+    "william_shakespeare": [
+        "fb:en.william_shakespeare"
+    ]
+}

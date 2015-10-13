@@ -1,0 +1,12 @@
+{
+    "collect": [
+        "!fb:interests.collection.collector"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "automobiles": [
+        "(lambda x (fb:interests.collection.category (var x)))", 
+        "fb:en.automobile"
+    ]
+}

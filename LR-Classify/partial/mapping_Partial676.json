@@ -1,0 +1,8 @@
+{
+    "public_transportation": [
+        "!fb:travel.travel_destination.local_transportation"
+    ], 
+    "tokyo": [
+        "fb:en.tokyo"
+    ]
+}

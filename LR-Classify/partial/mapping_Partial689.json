@@ -1,0 +1,11 @@
+{
+    "reincarnation": [
+        "fb:en.reincarnation"
+    ], 
+    "religions_believe": [
+        "!fb:religion.belief.belief_of"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

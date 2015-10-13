@@ -1,0 +1,11 @@
+{
+    "oscar_shows": [
+        "!fb:base.academyawards.host_of_oscar_show.oscar_show_hosted"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "frank_sinatra": [
+        "fb:en.frank_sinatra"
+    ]
+}

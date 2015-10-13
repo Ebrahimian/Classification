@@ -1,0 +1,13 @@
+{
+    "toronto_maple_leafs": [
+        "(lambda x (fb:ice_hockey.hockey_roster_position.team (var x)))", 
+        "fb:en.toronto_maple_leafs"
+    ], 
+    "position": [
+        "!fb:ice_hockey.hockey_roster_position.position"
+    ], 
+    "colby_armstrong": [
+        "(lambda x (fb:ice_hockey.hockey_roster_position.player (var x)))", 
+        "fb:en.colby_armstrong"
+    ]
+}

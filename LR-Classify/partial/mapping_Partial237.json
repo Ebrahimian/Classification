@@ -1,0 +1,17 @@
+{
+    "fortune_500": [
+        "(lambda x (fb:award.ranking.list (var x)))", 
+        "fb:en.fortune_500"
+    ], 
+    "2010": [
+        "(lambda x (fb:award.ranking.year (var x)))", 
+        "date 2010 -1 -1"
+    ], 
+    "rank": [
+        "!fb:award.ranking.rank"
+    ], 
+    "target": [
+        "(lambda x (fb:award.ranking.item (var x)))", 
+        "fb:en.target_corporation"
+    ]
+}

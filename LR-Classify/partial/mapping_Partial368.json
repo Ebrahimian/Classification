@@ -1,0 +1,8 @@
+{
+    "birthday": [
+        "!fb:people.person.date_of_birth"
+    ], 
+    "jerry_seinfeld": [
+        "fb:en.jerry_seinfeld"
+    ]
+}

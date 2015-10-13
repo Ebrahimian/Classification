@@ -1,0 +1,9 @@
+{
+    "developed": [
+        "!fb:business.company_brand_relationship.company"
+    ], 
+    "capri_sun": [
+        "(lambda x (fb:business.company_brand_relationship.brand (var x)))", 
+        "fb:en.capri_sun"
+    ]
+}

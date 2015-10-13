@@ -1,0 +1,11 @@
+{
+    "parent_types": [
+        "!fb:geology.rock_type.parent_rock_type"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "igneous_rock": [
+        "fb:en.igneous_rock"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "gold_medal": [
+        "(lambda x (fb:olympics.olympic_medal_honor.medal (var x)))", 
+        "fb:en.gold_medal"
+    ], 
+    "athletes": [
+        "!fb:olympics.olympic_medal_honor.medalist"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

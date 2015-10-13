@@ -1,0 +1,12 @@
+{
+    "european_union": [
+        "(lambda x (fb:organization.organization_membership.organization (var x)))", 
+        "fb:en.european_union"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "countries": [
+        "!fb:organization.organization_membership.member"
+    ]
+}

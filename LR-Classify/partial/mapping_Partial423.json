@@ -1,0 +1,8 @@
+{
+    "engine": [
+        "!fb:automotive.trim_level.engine"
+    ], 
+    "2010_ferrari_california": [
+        "fb:m.0h33xbs"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "2004_summer_olympics": [
+        "(lambda x (fb:olympics.olympic_medal_honor.olympics (var x)))", 
+        "fb:en.2004_summer_olympics"
+    ], 
+    "graeme_brown": [
+        "(lambda x (fb:olympics.olympic_medal_honor.medalist (var x)))", 
+        "fb:en.graeme_brown"
+    ], 
+    "medal": [
+        "!fb:olympics.olympic_medal_honor.medal"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "industry": [
+        "!fb:business.business_operation.industry"
+    ], 
+    "target": [
+        "fb:en.target_corporation"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "publishes": [
+        "!fb:book.periodical_publisher_period.publisher"
+    ], 
+    "journal_of_abnormal_psychology": [
+        "(lambda x (fb:book.periodical_publisher_period.periodical (var x)))", 
+        "fb:en.journal_of_abnormal_psychology"
+    ]
+}

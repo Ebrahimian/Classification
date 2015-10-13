@@ -1,0 +1,8 @@
+{
+    "divisions": [
+        "!fb:ice_hockey.hockey_conference.divisions"
+    ], 
+    "western_conference": [
+        "fb:en.western_conference"
+    ]
+}

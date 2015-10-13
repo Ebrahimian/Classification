@@ -1,0 +1,11 @@
+{
+    "karl_marx": [
+        "fb:en.karl_marx"
+    ], 
+    "influenced": [
+        "!fb:influence.influence_node.influenced_by"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

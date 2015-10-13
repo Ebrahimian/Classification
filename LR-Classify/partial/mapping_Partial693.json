@@ -1,0 +1,8 @@
+{
+    "ursa_minor": [
+        "fb:en.ursa_minor"
+    ], 
+    "what_starts": [
+        "!fb:astronomy.constellation.contains"
+    ]
+}

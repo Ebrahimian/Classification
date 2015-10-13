@@ -1,0 +1,8 @@
+{
+    "type_of_rock": [
+        "!fb:geology.geological_formation.type_of_rock"
+    ], 
+    "marcellus_formation": [
+        "fb:en.marcellus_formation"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "metamorphic_rock": [
+        "fb:en.metamorphic_rock"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "sub_types": [
+        "!fb:geology.rock_type.sub_types"
+    ]
+}

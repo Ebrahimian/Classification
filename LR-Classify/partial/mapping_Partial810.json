@@ -1,0 +1,8 @@
+{
+    "8_mile": [
+        "fb:en.8_mile"
+    ], 
+    "directed_by": [
+        "!fb:film.film.directed_by"
+    ]
+}

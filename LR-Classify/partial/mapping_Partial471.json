@@ -1,0 +1,9 @@
+{
+    "operating_income": [
+        "!fb:measurement_unit.dated_money_value.amount"
+    ], 
+    "jcpenney": [
+        "(lambda x (!fb:business.business_operation.operating_income (var x)))", 
+        "fb:en.j_c_penney"
+    ]
+}

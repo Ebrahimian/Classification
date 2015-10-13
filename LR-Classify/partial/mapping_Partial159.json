@@ -1,0 +1,11 @@
+{
+    "boston_herald": [
+        "fb:en.boston_herald"
+    ], 
+    "first": [
+        "!fb:book.periodical.first_issue_date"
+    ], 
+    "published": [
+        "!fb:book.periodical_publication_date.date"
+    ]
+}

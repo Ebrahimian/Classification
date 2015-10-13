@@ -1,0 +1,8 @@
+{
+    "london_zoo": [
+        "fb:en.london_zoo"
+    ], 
+    "animals": [
+        "!fb:zoos.zoo.num_animals"
+    ]
+}

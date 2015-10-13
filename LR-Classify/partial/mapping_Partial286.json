@@ -1,0 +1,8 @@
+{
+    "transmitted": [
+        "!fb:medicine.infectious_disease.transmission"
+    ], 
+    "syphilis": [
+        "fb:en.syphillis"
+    ]
+}

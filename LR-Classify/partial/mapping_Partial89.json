@@ -1,0 +1,12 @@
+{
+    "jack_albertson": [
+        "(lambda x (fb:tv.regular_tv_appearance.actor (var x)))", 
+        "fb:en.jack_albertson"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "starring": [
+        "!fb:tv.regular_tv_appearance.character"
+    ]
+}

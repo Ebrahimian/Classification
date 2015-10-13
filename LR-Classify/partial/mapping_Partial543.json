@@ -1,0 +1,14 @@
+{
+    "produced": [
+        "!fb:business.company_product_relationship.consumer_product"
+    ], 
+    "products": [
+        "!fb:business.consumer_company.products"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "mattel": [
+        "fb:en.mattel"
+    ]
+}

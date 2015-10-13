@@ -1,0 +1,8 @@
+{
+    "type": [
+        "!fb:food.beer.beer_style"
+    ], 
+    "miller_lite": [
+        "fb:en.miller_lite"
+    ]
+}

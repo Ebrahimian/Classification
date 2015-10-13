@@ -1,0 +1,8 @@
+{
+    "people_died": [
+        "!fb:event.disaster.fatalities"
+    ], 
+    "boston_molasses_disaster": [
+        "fb:en.boston_molasses_disaster"
+    ]
+}

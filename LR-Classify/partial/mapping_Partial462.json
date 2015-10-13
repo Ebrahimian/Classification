@@ -1,0 +1,8 @@
+{
+    "digital_cameras": [
+        "!fb:digicams.camera_storage_type.compatible_cameras"
+    ], 
+    "sdhc_card": [
+        "fb:en.sdhc_card"
+    ]
+}

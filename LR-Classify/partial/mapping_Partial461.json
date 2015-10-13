@@ -1,0 +1,8 @@
+{
+    "configuration": [
+        "!fb:engineering.piston_engine.piston_configuration"
+    ], 
+    "ford_model_t_engine": [
+        "fb:en.ford_model_t_engine"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "die": [
+        "!fb:people.deceased_person.date_of_death"
+    ], 
+    "john_f_kennedy": [
+        "fb:en.john_f_kennedy"
+    ]
+}

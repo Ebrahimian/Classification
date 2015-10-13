@@ -1,0 +1,9 @@
+{
+    "who_lived": [
+        "!fb:architecture.occupancy.occupant"
+    ], 
+    "fallingwater": [
+        "(lambda x (fb:architecture.occupancy.building (var x)))", 
+        "fb:en.fallingwater"
+    ]
+}

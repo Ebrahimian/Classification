@@ -1,0 +1,9 @@
+{
+    "prostate_cancer": [
+        "(lambda x (!fb:medicine.disease.survival_rates (var x)))", 
+        "fb:en.prostate_cancer"
+    ], 
+    "survival_rates": [
+        "!fb:medicine.survival_rate.rate"
+    ]
+}

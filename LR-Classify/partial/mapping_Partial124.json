@@ -1,0 +1,8 @@
+{
+    "gato_class": [
+        "!fb:boats.ship_class.ships_in_class"
+    ],
+    "submarines": [
+        "fb:en.gato_class_submarine"
+    ]
+}

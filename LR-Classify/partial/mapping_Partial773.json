@@ -1,0 +1,12 @@
+{
+    "joe_torre": [
+        "(lambda x (fb:baseball.baseball_historical_managerial_position.manager (var x)))", 
+        "fb:en.joe_torre"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "teams": [
+        "!fb:baseball.baseball_historical_managerial_position.team"
+    ]
+}

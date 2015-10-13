@@ -1,0 +1,13 @@
+{
+    "jack_albertson": [ 
+        "(lambda x (fb:film.performance.actor (var x)))", 
+        "fb:en.jack_albertson"
+    ], 
+    "how_many": [
+        "count"
+    ],
+
+    "film_performances": [
+        "!fb:film.performance.film"
+    ]
+}

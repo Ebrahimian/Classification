@@ -1,0 +1,11 @@
+{
+    "danny_devito": [
+        "fb:en.danny_devito"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "children": [
+        "!fb:people.person.children"
+    ]
+}

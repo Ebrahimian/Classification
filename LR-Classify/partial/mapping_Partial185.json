@@ -1,0 +1,12 @@
+{
+    "judges": [
+        "!fb:law.judicial_tenure.judge"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "high_court_of_justice": [
+        "(lambda x (fb:law.judicial_tenure.court (var x)))", 
+        "fb:en.high_court_of_justice"
+    ]
+}

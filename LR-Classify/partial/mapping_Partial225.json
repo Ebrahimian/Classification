@@ -1,0 +1,13 @@
+{
+    "charlie_sheen": [
+        "(lambda x (fb:celebrities.rehab.celebrity (var x)))", 
+        "fb:en.charlie_sheen"
+    ], 
+    "the_thousand_oaks": [
+        "(lambda x (fb:celebrities.rehab.rehab_facility (var x)))", 
+        "fb:m.04fz39z"
+    ], 
+    "enter": [
+        "!fb:celebrities.rehab.entered"
+    ]
+}

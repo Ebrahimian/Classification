@@ -1,0 +1,8 @@
+{
+    "causes": [
+        "!fb:medicine.disease.causes"
+    ], 
+    "heart_attack": [
+        "fb:en.heart_failure"
+    ]
+}

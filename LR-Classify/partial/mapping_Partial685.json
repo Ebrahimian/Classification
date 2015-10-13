@@ -1,0 +1,8 @@
+{
+    "canadian_national_parks": [
+        "fb:en.canadian_national_parks"
+    ], 
+    "parks": [
+        "!fb:protected_sites.park_system.member_parks"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "robert_oppenheimer": [
+        "(lambda x (fb:projects.project_participation.participant (var x)))", 
+        "fb:en.robert_oppenheimer"
+    ], 
+    "role": [
+        "!fb:projects.project_participation.role"
+    ], 
+    "manhattan_project": [
+        "(lambda x (fb:projects.project_participation.project (var x)))", 
+        "fb:en.manhattan_project"
+    ]
+}

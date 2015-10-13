@@ -1,0 +1,11 @@
+{
+    "bath_iron_works": [
+        "fb:en.bath_iron_works"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "built": [
+        "!fb:boats.ship_builder.ships_built"
+    ]
+}

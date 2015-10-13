@@ -1,0 +1,12 @@
+{
+    "awards": [
+        "!fb:award.award_honor.award"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "8_mile": [
+        "(lambda x (fb:award.award_honor.honored_for (var x)))", 
+        "fb:en.8_mile"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "color": [
+        "!fb:chess.chess_game_participation.color"
+    ], 
+    "immortal_game": [
+        "(lambda x (fb:chess.chess_game_participation.game (var x)))", 
+        "fb:en.immortal_game"
+    ], 
+    "adolf_anderssen": [
+        "(lambda x (fb:chess.chess_game_participation.player (var x)))", 
+        "fb:en.adolf_anderssen"
+    ]
+}

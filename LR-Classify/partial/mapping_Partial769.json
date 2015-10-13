@@ -1,0 +1,11 @@
+{
+    "tennis": [
+        "fb:m.07bs0"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "events": [
+        "!fb:olympics.olympic_sport.events"
+    ]
+}

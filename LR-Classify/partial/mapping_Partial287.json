@@ -1,0 +1,13 @@
+{
+    "soprano": [
+        "(lambda x (fb:opera.opera_character_voice.voice (var x)))", 
+        "fb:en.crystal_clear_soprano"
+    ], 
+    "tristan_and_isolde": [
+        "(lambda x (fb:opera.opera_character_voice.opera (var x)))", 
+        "fb:en.tristan_und_isolde"
+    ], 
+    "characters": [
+        "!fb:opera.opera_character_voice.character"
+    ]
+}

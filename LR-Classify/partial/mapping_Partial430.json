@@ -1,0 +1,11 @@
+{
+    "works": [
+        "!fb:fictional_universe.fictional_setting.works_set_here"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "moon": [
+        "fb:en.moon"
+    ]
+}

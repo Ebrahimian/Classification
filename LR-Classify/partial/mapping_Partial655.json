@@ -1,0 +1,8 @@
+{
+    "weight_class": [
+        "!fb:boxing.boxing_match.weight_class"
+    ], 
+    "fight_of_the_century": [
+        "fb:en.fight_of_the_century"
+    ]
+}

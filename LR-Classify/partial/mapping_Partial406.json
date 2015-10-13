@@ -1,0 +1,9 @@
+{
+    "party": [
+        "!fb:government.political_party_tenure.party"
+    ], 
+    "grover_cleveland": [
+        "(lambda x (fb:government.political_party_tenure.politician (var x)))", 
+        "fb:en.grover_cleveland"
+    ]
+}

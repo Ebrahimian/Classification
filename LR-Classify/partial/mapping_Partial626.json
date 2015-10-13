@@ -1,0 +1,11 @@
+{
+    "units": [
+        "!fb:military.armed_force.units"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "us_army": [
+        "fb:en.u_army"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "ryan_callahan": [
+        "(lambda x (fb:ice_hockey.hockey_roster_position.player (var x)))", 
+        "fb:en.ryan_callahan"
+    ], 
+    "new_york_rangers": [
+        "(lambda x (fb:ice_hockey.hockey_roster_position.team (var x)))", 
+        "fb:en.new_york_rangers"
+    ], 
+    "number": [
+        "!fb:ice_hockey.hockey_roster_position.number"
+    ]
+}

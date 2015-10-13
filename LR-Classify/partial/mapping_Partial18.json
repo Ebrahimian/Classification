@@ -1,0 +1,8 @@
+{
+    "type_of_tea": [
+        "!fb:food.tea.tea_type"
+    ], 
+    "gunpowder_tea": [
+        "fb:en.gunpowder_tea"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "how_much": [
+        "!fb:measurement_unit.dated_money_value.amount"
+    ], 
+    "cost": [
+        "!fb:projects.project.actual_cost"
+    ], 
+    "construction_of_the_taj": [
+        "fb:en.initial_design_and_construction_of_taj_mahal"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "hubble_space_telescope": [
+        "fb:en.hubble_space_telescope"
+    ], 
+    "dry_mass": [
+        "!fb:spaceflight.satellite.dry_mass_kg"
+    ]
+}

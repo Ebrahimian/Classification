@@ -1,0 +1,11 @@
+{
+    "teams": [
+        "!fb:ice_hockey.hockey_division.teams"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "atlantic_division": [
+        "fb:en.atlantic_division"
+    ]
+}

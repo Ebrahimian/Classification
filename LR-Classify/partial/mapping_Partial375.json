@@ -1,0 +1,8 @@
+{
+    "mexican_peso": [
+        "fb:en.mexican_peso"
+    ], 
+    "currency_code": [
+        "!fb:finance.currency.currency_code"
+    ]
+}

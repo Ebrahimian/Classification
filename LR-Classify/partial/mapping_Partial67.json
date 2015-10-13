@@ -1,0 +1,22 @@
+{
+    "voice": [
+        "(lambda x (fb:cvg.game_performance.performance_type (var x)))",
+        "fb:m.02nsjvf"
+    ],
+
+     "halo_reach": [
+        "(lambda x (fb:cvg.game_performance.game (var x)))", 
+        "fb:en.halo_reach" 
+
+    ],
+    "nathan_fillion": [
+        "(lambda x (fb:cvg.game_performance.voice_actor (var x)))", 
+        "fb:en.nathan_fillion"
+    ],
+
+
+ 
+    "who": [
+        "!fb:cvg.game_performance.character"
+    ]
+}

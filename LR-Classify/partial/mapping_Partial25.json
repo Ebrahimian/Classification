@@ -1,0 +1,17 @@
+{
+    "how_many": [
+        "count"
+    ], 
+    "28_days_later": [
+        "(lambda x (fb:film.film_crew_gig.film (var x)))", 
+        "fb:en.28_weeks_later"
+    ], 
+    "makeup_artists": [
+		"fb:en.prosthetic_makeup_artist", 
+        "(lambda x (fb:film.film_crew_gig.film_crew_role (var x)))"
+    ],
+
+    "prosthetic": [
+        "!fb:film.film_crew_gig.crewmember"
+    ]
+}

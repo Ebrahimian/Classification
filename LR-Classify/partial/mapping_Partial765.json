@@ -1,0 +1,11 @@
+{
+    "1979_cricket_world_cup": [
+        "fb:en.1979_cricket_world_cup"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "teams": [
+        "!fb:cricket.cricket_tournament_event.teams"
+    ]
+}

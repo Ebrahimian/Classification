@@ -1,0 +1,8 @@
+{
+    "release_date": [
+        "!fb:film.film.initial_release_date"
+    ], 
+    "titanic": [
+        "fb:en.titanic_special_edition_dvd"
+    ]
+}

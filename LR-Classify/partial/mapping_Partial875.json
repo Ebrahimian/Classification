@@ -1,0 +1,11 @@
+{
+    "nittany_mall": [
+        "fb:en.nittany_mall"
+    ], 
+    "stores": [
+        "!fb:business.shopping_center.store"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

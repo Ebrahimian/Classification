@@ -1,0 +1,14 @@
+{
+    "employ": [
+        "!fb:business.employer.employees"
+    ], 
+    "borders": [
+        "fb:en.borders_group"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "people": [
+        "!fb:business.employment_tenure.person"
+    ]
+}

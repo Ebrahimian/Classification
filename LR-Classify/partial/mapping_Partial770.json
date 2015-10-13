@@ -1,0 +1,11 @@
+{
+    "how_many": [
+        "count"
+    ], 
+    "glycine": [
+        "fb:en.glycine"
+    ], 
+    "rna_codons": [
+        "!fb:biology.amino_acid.rna_codons"
+    ]
+}

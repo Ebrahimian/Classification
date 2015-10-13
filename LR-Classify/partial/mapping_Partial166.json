@@ -1,0 +1,9 @@
+{
+    "awards": [
+        "!fb:award.award_honor.award"
+    ], 
+    "english_patient": [
+        "(lambda x (fb:award.award_honor.honored_for (var x)))", 
+        "fb:en.the_english_patient"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "1966_chateau_latour": [
+        "(lambda x (fb:wine.grape_variety_composition.wine (var x)))", 
+        "fb:en.1966_chateau_latour"
+    ], 
+    "percentage": [
+        "!fb:wine.grape_variety_composition.percentage"
+    ], 
+    "merlot": [
+        "(lambda x (fb:wine.grape_variety_composition.grape_variety (var x)))", 
+        "fb:en.merlot"
+    ]
+}

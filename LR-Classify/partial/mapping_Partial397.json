@@ -1,0 +1,11 @@
+{
+    "industries": [
+        "!fb:business.business_operation.industry"
+    ], 
+    "walmart": [
+        "fb:en.wal-mart"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

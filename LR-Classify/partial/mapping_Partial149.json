@@ -1,0 +1,11 @@
+{
+    "god": [
+        "fb:en.god"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "worship": [
+        "!fb:religion.deity.deity_of"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "awards": [
+        "!fb:award.award_honor.award"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "jack_albertson": [
+        "(lambda x (fb:award.award_honor.award_winner (var x)))", 
+        "fb:en.jack_albertson"
+    ]
+}

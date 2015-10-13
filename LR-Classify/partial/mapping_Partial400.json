@@ -1,0 +1,8 @@
+{
+    "subclasses": [
+        "!fb:physics.particle_family.subclasses"
+    ], 
+    "boson": [
+        "fb:en.boson"
+    ]
+}

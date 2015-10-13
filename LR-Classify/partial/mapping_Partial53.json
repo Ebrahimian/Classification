@@ -1,0 +1,11 @@
+{
+    "what": [
+        "!fb:measurement_unit.dated_money_value.amount"
+    ], 
+    "net_worth": [
+        "!fb:celebrities.celebrity.net_worth"
+    ], 
+    "angelina_jolie": [
+        "fb:en.angelina_jolie"
+    ]
+}

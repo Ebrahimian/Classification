@@ -1,0 +1,16 @@
+{
+    "philadelphia_eagles": [
+        "(lambda x (fb:sports.sports_team_season_record.team (var x)))", 
+        "fb:en.philadelphia_eagles"
+    ], 
+    "wins": [
+        "!fb:sports.sports_team_season_record.wins"
+    ], 
+    "2008_nfl_season": [
+        "(lambda x (fb:sports.sports_team_season_record.season (var x)))", 
+        "fb:en.2008_nfl_season"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

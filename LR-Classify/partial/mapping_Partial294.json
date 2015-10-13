@@ -1,0 +1,16 @@
+{
+    "cars": [
+        "!fb:interests.collection.items"
+    ], 
+    "car_collection": [
+        "(lambda x (fb:interests.collection.category (var x)))", 
+        "fb:en.automobile"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "jay_leno": [
+        "(lambda x (fb:interests.collection.collector (var x)))", 
+        "fb:en.jay_leno"
+    ]
+}

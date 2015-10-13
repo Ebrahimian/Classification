@@ -1,0 +1,17 @@
+{
+    "cohost": [
+        "(lambda x (fb:tv.tv_regular_personal_appearance.appearance_type (var x)))", 
+        "fb:en.co_host"
+    ], 
+    "who": [
+        "!fb:tv.tv_regular_personal_appearance.person"
+    ], 
+    "1993": [
+        "(lambda x (fb:tv.tv_regular_personal_appearance.from (var x)))",
+"date 1993 -1 -1"
+    ], 
+    "cbs_evening_news": [
+        "(lambda x (fb:tv.tv_regular_personal_appearance.program (var x)))", 
+        "fb:en.cbs_evening_news"
+    ]
+}

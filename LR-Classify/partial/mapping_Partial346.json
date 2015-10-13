@@ -1,0 +1,11 @@
+{
+    "doom": [
+        "fb:en.doom"
+    ], 
+    "multiplayer": [
+        "fb:en.multiplayer_game"
+    ], 
+    "mode": [
+        "fb:cvg.computer_videogame.gameplay_modes"
+    ]
+}

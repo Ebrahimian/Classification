@@ -1,0 +1,8 @@
+{
+    "ship_class": [
+        "!fb:boats.ship.ship_class"
+    ], 
+    "uss_cobia": [
+        "fb:en.uss_cobia"
+    ]
+}

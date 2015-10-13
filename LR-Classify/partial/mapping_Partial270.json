@@ -1,0 +1,8 @@
+{
+    "max_speed": [
+        "!fb:aviation.aircraft_model.maximum_speed_km_h"
+    ], 
+    "gloster_meteor": [
+        "fb:en.gloster_meteor"
+    ]
+}

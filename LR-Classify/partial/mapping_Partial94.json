@@ -1,0 +1,8 @@
+{
+    "located": [
+        "!fb:location.location.containedby"
+    ], 
+    "tempelhof_international_airport": [
+        "fb:en.tempelhof_international_airport"
+    ]
+}

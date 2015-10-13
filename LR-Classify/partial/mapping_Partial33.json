@@ -1,0 +1,8 @@
+{
+    "jurisdiction": [
+        "!fb:law.court.jurisdiction"
+    ], 
+    "court_of_chancery": [
+        "fb:en.court_of_chancery"
+    ]
+}

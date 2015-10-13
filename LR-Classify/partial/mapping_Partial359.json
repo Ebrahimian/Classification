@@ -1,0 +1,12 @@
+{
+    "brands": [
+        "!fb:business.company_brand_relationship.brand"
+    ], 
+    "sara_lee": [
+        "(lambda x (fb:business.company_brand_relationship.company (var x)))", 
+        "fb:en.sara_lee"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

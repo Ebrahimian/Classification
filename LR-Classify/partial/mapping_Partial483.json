@@ -1,0 +1,16 @@
+{ 
+    "knights_of_the_garter": [
+        "(lambda x (fb:royalty.chivalric_order_membership.title (var x)))", 
+        "fb:en.knight_of_the_garter"
+    ], 
+    "how": [
+        "count"
+    ], 
+    "many": [
+        "!fb:royalty.chivalric_order_membership.recipient"
+    ],
+    "order_of_the_garter": [
+        "(lambda x (fb:royalty.chivalric_order_membership.order (var x)))", 
+        "fb:en.order_of_the_garter"
+    ]
+}

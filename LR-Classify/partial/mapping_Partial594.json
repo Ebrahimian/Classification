@@ -1,0 +1,9 @@
+{
+    "sarah_jessica_parker": [
+        "(lambda x (fb:base.popstra.fashion_choice.fashion_wearer (var x)))", 
+        "fb:en.sarah_jessica_parker"
+    ], 
+    "what_labels": [
+        "!fb:base.popstra.fashion_choice.designer"
+    ]
+}

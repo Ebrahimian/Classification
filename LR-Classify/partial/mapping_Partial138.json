@@ -1,0 +1,11 @@
+{
+    "products": [
+        "!fb:business.brand.products"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "gsusa": [
+        "fb:en.girl_scouts_of_the_usa"
+    ]
+}

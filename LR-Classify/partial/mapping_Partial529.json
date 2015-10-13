@@ -1,0 +1,9 @@
+{
+    "characters": [
+        "!fb:cvg.game_performance.character"
+    ], 
+    "sonic_rush": [
+        "(lambda x (fb:cvg.game_performance.game (var x)))", 
+        "fb:en.sonic_rush"
+    ]
+}

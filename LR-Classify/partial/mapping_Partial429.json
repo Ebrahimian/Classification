@@ -1,0 +1,8 @@
+{
+    "tungsten": [
+        "fb:en.tungsten"
+    ], 
+    "chemical_series": [
+        "!fb:chemistry.chemical_element.chemical_series"
+    ]
+}

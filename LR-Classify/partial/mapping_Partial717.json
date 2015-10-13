@@ -1,0 +1,9 @@
+{
+    "sgt_._pepper_'s_lonely_hearts_club_band": [
+        "(lambda x (fb:award.award_honor.honored_for (var x)))", 
+        "fb:en.sgt_peppers_lonely_hearts_club_band"
+    ], 
+    "year": [
+        "!fb:award.award_honor.year"
+    ]
+}

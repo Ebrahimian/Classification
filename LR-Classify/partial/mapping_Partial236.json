@@ -1,0 +1,13 @@
+{
+    "how_many": [
+        "count"
+    ], 
+    "euro": [
+        "fb:en.euro"
+    ],
+    "countries": [
+        "!fb:finance.currency.countries_used"
+    ]
+}
+
+

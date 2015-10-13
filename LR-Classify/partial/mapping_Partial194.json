@@ -1,0 +1,11 @@
+{
+    "canon": [
+        "fb:en.canon"
+    ], 
+    "digital_cameras": [
+        "!fb:digicams.digital_camera_manufacturer.cameras"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

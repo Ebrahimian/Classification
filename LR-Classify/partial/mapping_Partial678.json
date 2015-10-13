@@ -1,0 +1,12 @@
+{
+    "players": [
+        "!fb:baseball.baseball_roster_position.player"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "new_york_mets": [
+        "(lambda x (fb:baseball.baseball_roster_position.team (var x)))", 
+        "fb:en.new_york_mets"
+    ]
+}

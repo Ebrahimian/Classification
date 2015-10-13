@@ -1,0 +1,11 @@
+{
+    "the_washington_post": [
+        "fb:en.the_washington_post"
+    ], 
+    "how": [
+"!fb:book.periodical.frequency_or_issues_per_year"
+    ],
+    "often": [
+        "!fb:book.periodical_frequency.issues_per_year"
+    ]
+}

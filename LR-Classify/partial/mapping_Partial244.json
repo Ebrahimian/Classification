@@ -1,0 +1,11 @@
+{
+    "games": [
+        "!fb:cvg.game_series.games_in_series"
+    ], 
+    "final_fantasy": [
+        "fb:en.final_fantasy"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

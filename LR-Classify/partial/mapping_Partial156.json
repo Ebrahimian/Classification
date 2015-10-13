@@ -1,0 +1,11 @@
+{
+    "influenced": [
+        "!fb:influence.influence_node.influenced"
+    ], 
+    "socrates": [
+        "fb:en.socrates"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "breed_group": [
+        "!fb:biology.breed_registration.breed_group"
+    ], 
+    "shar_pei": [
+        "(lambda x (fb:biology.breed_registration.breed (var x)))", 
+        "fb:en.shar_pei"
+    ], 
+    "american_kennel_club": [
+        "(lambda x (fb:biology.breed_registration.registry (var x)))", 
+        "fb:en.american_kennel_club"
+    ]
+}

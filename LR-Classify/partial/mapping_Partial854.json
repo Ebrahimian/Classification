@@ -1,0 +1,9 @@
+{
+    "exports": [
+        "!fb:location.imports_exports_by_industry.industry"
+    ], 
+    "madagascar": [
+        "(lambda x (!fb:location.statistical_region.major_exports (var x)))", 
+        "fb:en.madagascar"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "awards": [
+        "!fb:award.award_honor.award"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "big_daddy": [
+        "(lambda x (fb:award.award_honor.honored_for (var x)))", 
+        "fb:en.big_daddy"
+    ]
+}

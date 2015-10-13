@@ -1,0 +1,12 @@
+{
+    "people_played": [
+        "!fb:soccer.football_player_match_participation.player"
+    ], 
+    "2010_fifa_world_cup_final": [
+        "(lambda x (fb:soccer.football_player_match_participation.match (var x)))", 
+        "fb:en.2010_fifa_world_cup_final"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

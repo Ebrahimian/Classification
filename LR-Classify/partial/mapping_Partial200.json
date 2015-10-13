@@ -1,0 +1,13 @@
+{
+    "seishindo_kenpo": [
+        "(lambda x (fb:martial_arts.martial_arts_certification.art (var x)))", 
+        "fb:en.seishindo_kenpo"
+    ], 
+    "woody_strode": [
+        "(lambda x (fb:martial_arts.martial_arts_certification.person (var x)))", 
+        "fb:en.woody_strode"
+    ], 
+    "qualification": [
+        "!fb:martial_arts.martial_arts_certification.qualification"
+    ]
+}

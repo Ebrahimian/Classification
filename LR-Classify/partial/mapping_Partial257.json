@@ -1,0 +1,12 @@
+{
+    "collections": [
+        "!fb:interests.collection.category"
+    ], 
+    "barry_halper": [
+        "(lambda x (fb:interests.collection.collector (var x)))", 
+        "fb:en.barry_halper"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "manufactures": [
+        "!fb:bicycles.bicycle_model.manufacturer"
+    ], 
+    "stumpjumper": [
+        "fb:en.stumpjumper"
+    ]
+}

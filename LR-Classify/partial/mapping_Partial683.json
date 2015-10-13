@@ -1,0 +1,8 @@
+{
+    "bridges": [
+        "!fb:geography.body_of_water.bridges"
+    ], 
+    "san_francisco_bay": [
+        "fb:en.san_francisco_bay"
+    ]
+}

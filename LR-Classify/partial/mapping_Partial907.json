@@ -1,0 +1,8 @@
+{
+    "wired_s_gadget_lab_podcast": [
+        "fb:en.wireds_gadget_lab_podcast_podcast_feed"
+    ], 
+    "how_long": [
+        "!fb:broadcast.podcast_feed.average_media_length"
+    ]
+}

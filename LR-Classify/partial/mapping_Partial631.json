@@ -1,0 +1,9 @@
+{
+    "lamarcus_aldridge": [
+        "(lambda x (fb:basketball.basketball_roster_position.player (var x)))", 
+        "fb:en.lamarcus_aldridge"
+    ], 
+    "number": [
+        "!fb:basketball.basketball_roster_position.number"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "university": [
+        "!fb:education.educational_institution.school_type"
+    ], 
+    "lima": [
+        "fb:en.university_of_lima"
+    ]
+}

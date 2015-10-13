@@ -1,0 +1,12 @@
+{
+    "guitar_hero_:_aerosmith": [
+        "(lambda x (fb:cvg.musical_game_song_relationship.game (var x)))", 
+        "fb:en.guitar_hero_aerosmith"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "songs": [
+        "!fb:cvg.musical_game_song_relationship.song"
+    ]
+}

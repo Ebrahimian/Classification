@@ -1,0 +1,8 @@
+{
+    "makes": [
+        "!fb:automotive.company.make_s"
+    ], 
+    "ford": [
+        "fb:en.ford_motor_company"
+    ]
+}

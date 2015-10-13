@@ -1,0 +1,9 @@
+{
+    "dennis_bergkamp": [
+        "(lambda x (fb:soccer.football_roster_position.player (var x)))", 
+        "fb:en.dennis_bergkamp"
+    ], 
+    "team": [
+        "!fb:soccer.football_roster_position.team"
+    ]
+}

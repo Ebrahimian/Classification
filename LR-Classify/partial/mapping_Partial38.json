@@ -1,0 +1,13 @@
+{
+    "montreal_canadiens": [
+        "(lambda x (fb:ice_hockey.hockey_previous_roster_position.team (var x)))", 
+        "fb:en.montreal_canadiens"
+    ], 
+    "christopher_higgins": [
+        "(lambda x (fb:ice_hockey.hockey_previous_roster_position.player (var x)))", 
+        "fb:en.christopher_higgins"
+    ], 
+    "stop_playing": [
+        "!fb:ice_hockey.hockey_previous_roster_position.to"
+    ]
+}

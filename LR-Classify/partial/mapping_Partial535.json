@@ -1,0 +1,12 @@
+{
+    "how_many": [
+        "count"
+    ], 
+    "charlie_s_angels": [
+        "(lambda x (fb:film.performance.film (var x)))", 
+        "fb:en.charlies_angels"
+    ], 
+    "characters": [
+        "!fb:film.performance.character"
+    ]
+}

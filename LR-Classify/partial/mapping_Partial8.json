@@ -1,0 +1,11 @@
+{
+    "people_survived": [
+        "!fb:event.disaster.survivors"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "sinking_of_the_titanic": [
+        "fb:en.sinking_of_the_titanic"
+    ]
+}

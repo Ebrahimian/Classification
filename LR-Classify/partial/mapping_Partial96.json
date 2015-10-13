@@ -1,0 +1,9 @@
+{
+    "works": [
+        "!fb:media_common.completion_of_unfinished_work.unfinished_work"
+    ], 
+    "anthony_payne": [
+        "(lambda x (fb:media_common.completion_of_unfinished_work.finisher (var x)))", 
+        "fb:en.anthony_payne"
+    ]
+}

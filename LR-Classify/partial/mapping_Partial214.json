@@ -1,0 +1,13 @@
+{
+    "number": [
+        "!fb:sports.sports_team_roster.number"
+    ], 
+    "boston_red_sox": [
+        "(lambda x (fb:sports.sports_team_roster.team (var x)))", 
+        "fb:en.boston_red_sox"
+    ], 
+    "kevin_youkilis": [
+        "(lambda x (fb:sports.sports_team_roster.player (var x)))", 
+        "fb:en.kevin_youkilis"
+    ]
+}

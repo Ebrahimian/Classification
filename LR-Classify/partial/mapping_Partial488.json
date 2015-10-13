@@ -1,0 +1,9 @@
+{
+    "collect": [
+        "!fb:interests.collection.category"
+    ], 
+    "elizabeth_ii": [
+        "(lambda x (fb:interests.collection.collector (var x)))", 
+        "fb:en.elizabeth_ii_of_the_united_kingdom"
+    ]
+}

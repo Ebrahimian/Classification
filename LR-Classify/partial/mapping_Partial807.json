@@ -1,0 +1,12 @@
+{
+    "danny_devito": [
+        "(lambda x (fb:award.award_honor.award_winner (var x)))", 
+        "fb:en.danny_devito"
+    ], 
+    "win": [
+        "!fb:award.award_honor.honored_for"
+    ], 
+    "1981": [
+        "(lambda x (fb:award.award_honor.year (var x)))"
+    ]
+}

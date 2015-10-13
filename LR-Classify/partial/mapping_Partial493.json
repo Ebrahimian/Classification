@@ -1,0 +1,11 @@
+{
+    "2012_jeep": [
+        "!fb:automotive.trim_level.msrp"
+    ], 
+    "wrangler_sport": [
+        "fb:m.0hgwnr4"
+    ],
+    "what_is_the_price": [
+        "!fb:measurement_unit.money_value.amount"
+    ]
+}

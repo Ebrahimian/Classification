@@ -1,0 +1,11 @@
+{
+    "cumulus_clouds": [
+        "fb:m.0csh5"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "types": [
+        "!fb:meteorology.cloud.varieties"
+    ]
+}

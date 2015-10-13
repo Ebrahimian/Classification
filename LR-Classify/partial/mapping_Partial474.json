@@ -1,0 +1,8 @@
+{
+    "uss_constitution": [
+        "fb:en.uss_constitution"
+    ], 
+    "built": [
+        "!fb:boats.ship.place_built"
+    ]
+}

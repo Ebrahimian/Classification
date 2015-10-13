@@ -1,0 +1,8 @@
+{
+    "supplier": [
+        "!fb:business.customer.supplier"
+    ], 
+    "wells_fargo": [
+        "fb:en.wells_fargo"
+    ]
+}

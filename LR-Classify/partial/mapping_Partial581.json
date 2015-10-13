@@ -1,0 +1,11 @@
+{
+    "city/town/village": [
+        "fb:location.citytown"
+    ], 
+    "equivalent": [
+        "!fb:freebase.type_profile.equivalent_topic"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

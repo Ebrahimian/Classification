@@ -1,0 +1,11 @@
+{
+    "apple_inc": [
+        "fb:en.apple_inc"
+    ], 
+    "headquarters": [
+        "(lambda x (!fb:organization.organization.headquarters (var x)))"
+    ], 
+    "address": [
+        "!fb:location.mailing_address.citytown"
+    ]
+}

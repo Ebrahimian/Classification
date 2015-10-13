@@ -1,0 +1,11 @@
+{
+    "what": [
+        "!fb:measurement_unit.money_value.amount"
+    ],
+    "cover_price": [
+        "!fb:comic_books.comic_book_issue.cover_price"
+    ], 
+    "the_x-men_issue_1": [
+        "fb:en.the_x_men_1"
+    ]
+}

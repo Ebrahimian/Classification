@@ -1,0 +1,12 @@
+{
+    "boats": [
+        "!fb:boats.ship_ownership.ship"
+    ], 
+    "royal_navy": [
+        "(lambda x (fb:boats.ship_ownership.owner (var x)))", 
+        "fb:en.navy_dept"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

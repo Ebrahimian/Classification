@@ -1,0 +1,11 @@
+{
+    "wagner": [
+        "fb:en.richardwagner"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "libretti": [
+        "!fb:opera.librettist.libretti"
+    ]
+}

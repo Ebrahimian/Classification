@@ -1,0 +1,8 @@
+{
+    "treatments": [
+        "!fb:medicine.disease.treatments"
+    ], 
+    "leukemia": [
+        "fb:en.leukemia"
+    ]
+}

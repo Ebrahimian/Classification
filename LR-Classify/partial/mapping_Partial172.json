@@ -1,0 +1,12 @@
+{
+    "hayden_panettiere": [
+        "(lambda x (fb:tv.regular_tv_appearance.actor (var x)))", 
+        "fb:en.hayden_panettiere"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "shows": [
+        "!fb:tv.regular_tv_appearance.character"
+    ]
+}

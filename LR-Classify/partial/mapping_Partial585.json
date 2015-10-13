@@ -1,0 +1,8 @@
+{
+    "2005_atlantic_hurricane_season": [
+        "fb:en.2005_atlantic_hurricane_season"
+    ], 
+    "how_many_storms": [
+        "!fb:meteorology.tropical_cyclone_season.total_storms"
+    ]
+}

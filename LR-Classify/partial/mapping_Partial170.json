@@ -1,0 +1,8 @@
+{
+    "locomotive": [
+        "!fb:rail.locomotive_class.locomotives_of_this_class"
+    ], 
+    "class_52_trains": [
+        "fb:en.british_rail_class_52"
+    ]
+}

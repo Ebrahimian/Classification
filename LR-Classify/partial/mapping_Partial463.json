@@ -1,0 +1,8 @@
+{
+    "uss_alabama": [
+        "fb:m.019zhn"
+    ], 
+    "where": [
+        "!fb:location.location.containedby"
+    ]
+}

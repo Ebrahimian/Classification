@@ -1,0 +1,11 @@
+{
+    "students": [
+        "!fb:education.educational_institution.total_enrollment"
+    ], 
+    "university_of_iceland": [
+        "fb:en.university_of_iceland"
+    ], 
+    "how_many": [
+        "!fb:measurement_unit.dated_integer.number"
+    ]
+}

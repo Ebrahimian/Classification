@@ -1,0 +1,12 @@
+{
+    "speeches": [
+        "!fb:event.speech_or_presentation.presented_work"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "winston_churchill": [
+        "(lambda x (fb:event.speech_or_presentation.speaker_s (var x)))", 
+        "fb:en.winston_churchill"
+    ]
+}

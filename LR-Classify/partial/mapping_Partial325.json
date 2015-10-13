@@ -1,0 +1,13 @@
+{
+    "puerta_de_san_vicente": [
+        "(lambda x (fb:projects.project_participation.project (var x)))", 
+        "fb:m.0gk9x46"
+    ], 
+    "when": [
+        "!fb:projects.project_participation.from_date"
+    ], 
+    "francesco_sabatini": [
+        "(lambda x (fb:projects.project_participation.participant (var x)))", 
+        "fb:en.francesco_sabatini"
+    ]
+}

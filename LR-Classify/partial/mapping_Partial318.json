@@ -1,0 +1,8 @@
+{
+    "canon_powershot_a75": [
+        "fb:en.canon_powershot_a75"
+    ], 
+    "orientation_sensor": [
+        "!fb:digicams.digital_camera.orientation_sensor"
+    ]
+}

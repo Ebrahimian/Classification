@@ -1,0 +1,8 @@
+{
+    "prostate": [
+        "fb:en.prostate_cancer"
+    ], 
+    "treatments": [
+        "!fb:medicine.disease.treatments"
+    ]
+}

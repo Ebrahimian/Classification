@@ -1,0 +1,9 @@
+{
+    "wba_world_champion": [
+        "(lambda x (fb:boxing.boxing_title_tenure.title (var x)))", 
+        "fb:m.0chgh2j"
+    ], 
+    "title": [
+        "!fb:boxing.boxing_title_tenure.champion"
+    ]
+}

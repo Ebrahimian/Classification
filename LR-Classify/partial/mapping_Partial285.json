@@ -1,0 +1,9 @@
+{
+    "dedicated": [
+        "!fb:media_common.dedication.dedicated_to"
+    ], 
+    "invisible_man": [
+        "(lambda x (fb:media_common.dedication.work_dedicated (var x)))", 
+        "fb:en.invisible_man"
+    ]
+}

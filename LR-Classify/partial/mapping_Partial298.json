@@ -1,0 +1,12 @@
+{
+    "lindsey_lohan": [
+        "(lambda x (fb:celebrities.legal_entanglement.celebrity (var x)))", 
+        "fb:en.lindsay_lohan"
+    ], 
+    "legal_offences": [
+        "!fb:celebrities.legal_entanglement.location"
+    ], 
+    "how_many": [
+        "count"
+    ]
+}

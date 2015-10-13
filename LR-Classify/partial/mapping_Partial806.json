@@ -1,0 +1,13 @@
+{
+    "cost_money": [
+        "!fb:exhibitions.exhibition_run.admission_fee"
+    ], 
+    "big_bang_exhibit": [
+        "(lambda x (fb:exhibitions.exhibition_run.exhibition (var x)))", 
+        "fb:m.046chwc"
+    ], 
+    "science_museum": [
+        "(lambda x (fb:exhibitions.exhibition_run.venue (var x)))", 
+        "fb:en.science_museum_great_britain"
+    ]
+}

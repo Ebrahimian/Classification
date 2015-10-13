@@ -1,0 +1,11 @@
+{
+    "comic_stories": [
+        "!fb:comic_books.comic_book_colorist.comic_stories_colored"
+    ], 
+    "how_many": [
+        "count"
+    ], 
+    "adrienne_roy": [
+        "fb:en.adrienne_roy"
+    ]
+}

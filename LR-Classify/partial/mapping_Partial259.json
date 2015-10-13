@@ -1,0 +1,9 @@
+{
+    "hillary_clinton": [
+        "(lambda x (fb:base.politicalconventions.convention_speech.speaker (var x)))", 
+        "fb:en.hillary_rodham_clinton"
+    ], 
+    "conventions": [
+        "!fb:base.politicalconventions.convention_speech.venue"
+    ]
+}

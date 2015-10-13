@@ -1,0 +1,9 @@
+{
+    "gettysburg_address": [
+        "(lambda x (fb:event.speech_or_presentation.presented_work (var x)))", 
+        "fb:en.gettysburg_address"
+    ], 
+    "presented": [
+        "!fb:event.speech_or_presentation.speaker_s"
+    ]
+}

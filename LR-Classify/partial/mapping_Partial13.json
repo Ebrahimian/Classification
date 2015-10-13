@@ -1,0 +1,8 @@
+{
+    "the_first_amendment": [
+        "fb:en.first_amendment_to_the_united_states_constitution"
+    ], 
+    "ratified": [
+        "!fb:law.constitutional_amendment.ratification_completed_on"
+    ]
+}

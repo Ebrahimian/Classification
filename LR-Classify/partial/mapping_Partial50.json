@@ -1,0 +1,8 @@
+{
+    "types_of_fuel": [
+        "!fb:automotive.engine.fuels_used"
+    ], 
+    "4_cylinder_engine": [
+        "fb:en.4_cylinder"
+    ]
+}
